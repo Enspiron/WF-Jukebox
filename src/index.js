@@ -7,8 +7,16 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <div className="navbar">
+      <div className="logo">
+        <h1>World Flipper Song Player</h1>
+      </div>
+      
+
+    </div>
     <App />
   </React.StrictMode>
+
 );
 
 // If you want to start measuring performance in your app, pass a function
