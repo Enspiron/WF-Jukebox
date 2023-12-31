@@ -7,7 +7,8 @@ class MP3Player extends React.Component {
         super(props);
         // Add constructor logic here
         this.state = {
-            currentMP3Name: '' // Initialize current MP3 name
+            currentMP3Name: '', // Initialize current MP3 name
+            song: ''
         };
     }
 
@@ -27,8 +28,8 @@ class MP3Player extends React.Component {
         
         return (
             <div className="mp3-player">
-                <audio controls onLoadedMetadata={this.handleLoadedMetadata}>
-                    <source src={this.props.source} type="audio/mp3" />
+                <audio key={this.state.song} controls onLoadedMetadata={this.handleLoadedMetadata}>
+                    <source src={this.state.song} type="audio/mp3" />
                     Your browser does not support the audio element.
                 </audio>
                 <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -37,6 +38,10 @@ class MP3Player extends React.Component {
                 </div>
             </div>
         );
+    }
+
+    nameToSource(name) {
+        return "https://github.com/Enspiron/WorldFlipperPlayer/raw/main/character_unique/" + name + "/" + name +  ".mp3";
     }
 
     handleLoadedMetadata = (event) => {
@@ -49,10 +54,10 @@ class MP3Player extends React.Component {
         
             // Reload the object or perform any necessary actions
             console.log('Storage changed ' + JSON.parse(localStorage.getItem('clickedUnit')).DevNicknames);
-            this.setState({ currentMP3Name: JSON.parse(localStorage.getItem('clickedUnit')).DevNicknames });            
+            this.setState({ currentMP3Name: JSON.parse(localStorage.getItem('clickedUnit')).DevNicknames });
+            this.setState({ song: this.nameToSource(JSON.parse(localStorage.getItem('clickedUnit')).DevNicknames) });            
         
     }
 }
 
 export default MP3Player;
-

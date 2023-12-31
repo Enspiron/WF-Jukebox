@@ -99,11 +99,8 @@ function App() {
   useEffect(() => {
     const handleStorage = () => {
       setClickedUnit((localStorage.getItem('clickedUnit')));
-      console.log(clickedUnit)
-      setAudio(nameToURL(clickedUnit.DevNicknames, clickedUnit.DevNicknames));
-      console.log(audio);
+      console.log(JSON.parse(clickedUnit))
 
-      console.log('loaded')
     }
 
     const handleSiteLoad = () => {
@@ -268,7 +265,7 @@ function App() {
   </div>
 
        
-        <MP3Player source={JSON.parse(localStorage.getItem('clickedUnit'))} />
+        <MP3Player  />
         </div>
 
 
