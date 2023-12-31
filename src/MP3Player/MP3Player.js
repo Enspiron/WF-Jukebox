@@ -8,7 +8,8 @@ class MP3Player extends React.Component {
         // Add constructor logic here
         this.state = {
             currentMP3Name: '', // Initialize current MP3 name
-            song: ''
+            song: '',
+            isPlaying: false // Track if the audio player is playing or not
         };
     }
 
@@ -17,6 +18,8 @@ class MP3Player extends React.Component {
     componentDidMount() {
         // Add event listener for 'storage' event when the component mounts
         window.addEventListener('storage', this.handleStorageChange);
+        document.title = "MP3 Player";
+
     }
 
     componentWillUnmount() {
@@ -28,7 +31,7 @@ class MP3Player extends React.Component {
         
         return (
             <div className="mp3-player">
-                <audio key={this.state.song} controls onLoadedMetadata={this.handleLoadedMetadata}>
+                <audio key={this.state.song} controls onLoadedMetadata={this.handleLoadedMetadata} onPlay={this.handlePlayPause} onPause={this.handlePlayPause}>
                     <source src={this.state.song} type="audio/mp3" />
                     Your browser does not support the audio element.
                 </audio>
@@ -48,16 +51,33 @@ class MP3Player extends React.Component {
         const audioElement = event.target;
         const currentMP3Name = audioElement.currentSrc.split('/').pop().replace('.mp3', '');
         this.setState({ currentMP3Name });
+        document.title = "MP3 Player";
+    }
+
+    handlePlayPause = (event) => {
+        document.title = "MP3 Player";
+        const audioElement = event.target;
+        const isPlaying = !audioElement.paused;
+        this.setState({ isPlaying });
+        if (isPlaying) {
+            const currentMP3Name = audioElement.currentSrc.split('/').pop().replace('.mp3', '');
+            document.title = "Now Playing: " + currentMP3Name;
+        } else {
+            document.title = "MP3 Player";
+        }
     }
 
     handleStorageChange = (event) => {
         
-            // Reload the object or perform any necessary actions
-            console.log('Storage changed ' + JSON.parse(localStorage.getItem('clickedUnit')).DevNicknames);
-            this.setState({ currentMP3Name: JSON.parse(localStorage.getItem('clickedUnit')).DevNicknames });
-            this.setState({ song: this.nameToSource(JSON.parse(localStorage.getItem('clickedUnit')).DevNicknames) });            
+        // Reload the object or perform any necessary actions
+        console.log('Storage changed ' + JSON.parse(localStorage.getItem('clickedUnit')).DevNicknames);
+        this.setState({ currentMP3Name: JSON.parse(localStorage.getItem('clickedUnit')).DevNicknames });
+        this.setState({ song: this.nameToSource(JSON.parse(localStorage.getItem('clickedUnit')).DevNicknames) }); 
+        document.title = "MP3 Player";
+           
         
     }
 }
-
 export default MP3Player;
+
+

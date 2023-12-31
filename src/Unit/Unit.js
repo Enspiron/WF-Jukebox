@@ -16,6 +16,7 @@ class Unit extends React.Component {
     }
 
     handleClick = () => {
+        document.title = "MP3 Player";
         localStorage.setItem('clickedUnit', JSON.stringify(this.props.char));
         console.log(JSON.parse(localStorage.getItem('clickedUnit')));
         window.dispatchEvent(new Event('storage'));
