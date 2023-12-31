@@ -5,12 +5,7 @@ class Unit extends React.Component {
         showTooltip: false
     };
 
-    handleClick = () => {
-        localStorage.setItem('clickedUnit', JSON.stringify(this.props.char));
-        //console.log(JSON.parse(localStorage.getItem('clickedUnit')));
-        window.dispatchEvent(new Event('storage'));
 
-    }
     handleMouseEnter = () => {
         this.setState({ showTooltip: true });
         
@@ -18,6 +13,25 @@ class Unit extends React.Component {
 
     handleMouseLeave = () => {
         this.setState({ showTooltip: false });
+    }
+
+    handleClick = () => {
+        localStorage.setItem('clickedUnit', JSON.stringify(this.props.char));
+        console.log(JSON.parse(localStorage.getItem('clickedUnit')));
+        window.dispatchEvent(new Event('storage'));
+
+    }
+
+    adjustTooltipPosition = () => {
+        const tooltip = document.getElementById('tooltip');
+        if (tooltip && !this.state.showTooltip) {
+            tooltip.style.display = 'block';
+            tooltip.style.top = 'calc(100% + 5px)';
+            tooltip.style.left = '50%';
+            tooltip.style.transform = 'translateX(-50%)';
+            tooltip.style.zIndex = 1;
+            tooltip.style.whiteSpace = 'nowrap';
+        }
     }
 
     render() {
@@ -30,7 +44,7 @@ class Unit extends React.Component {
         const noSong = {
             backgroundColor: 'red',
             margin: '5px',
-
+            
         }
 
         const imgStyle = {
@@ -43,7 +57,7 @@ class Unit extends React.Component {
 
         const tooltipStyle = {
             position: 'absolute',
-            top: '100%',
+            top: 'calc(100% + 5px)', // Adjusted for slight offset
             left: '50%',
             transform: 'translateX(-50%)',
             backgroundColor: 'lightblue',
@@ -51,9 +65,9 @@ class Unit extends React.Component {
             padding: '5px',
             borderRadius: '5px',
             display: this.state.showTooltip ? 'block' : 'none',
-            zIndex: 1, // Add this line to make the tooltip appear on top
-            whiteSpace: 'nowrap' // Add this line to make the tooltip text always one line
-        };
+            zIndex: 1, // Ensure tooltip appears on top
+            whiteSpace: 'nowrap', // Prevent text wrapping
+          };
 
         return (
             <div
@@ -63,7 +77,7 @@ class Unit extends React.Component {
                 style={this.props.char.songs != null ? divStyle : { ...divStyle, ...noSong }}
             >
                 <img src={"https://eliya-bot.herokuapp.com/img/assets/chars/" + this.props.name + "/square_0.png"} style={imgStyle} />
-                <div style={tooltipStyle}>
+                <div id="tooltip" style={tooltipStyle}>
                     {this.props.char.ENName}
                 </div>
             </div>

@@ -113,8 +113,7 @@ function App() {
       //setAudio(nameToURL(JSON.parse(clickedUnit).DevNicknames, JSON.parse(clickedUnit).DevNicknames));
       setFilteredChars(characters.chars);
 
-      console.log(clickedUnit);
-      console.log('Site loaded');
+      console.log(clickedUnit + '');
     }
 
     window.addEventListener('storage', handleStorage);
@@ -129,33 +128,36 @@ function App() {
   const audiosource = "https://github.com/Enspiron/WorldFlipperPlayer/raw/main/character_unique/black_wolf_knight_wt23/black_wolf_knight_wt23.mp3";
   //setAudio('https://github.com/Enspiron/WorldFlipperPlayer/raw/main/character_unique/amulet_bosslady/amulet_bosslady.mp3');
   
-  function handleClick() {
-    const clickedUnitId = this; // Access the ID of the clicked component
-    console.log(`Unit with ID: ${clickedUnitId} was clicked`);
-  
-    // Display the clicked unit ID in a suitable way (e.g., alert, modal, state update):
-    alert(`You clicked Unit ${clickedUnitId}`);
+  function handleClick(clicked) {
+    console.log(`Unit with ID: ${clicked} was clicked`);
+    setClickedUnit(prevClickedUnit => {
+      if (prevClickedUnit === clicked) {
+        return null; // Deselect the unit if it's already selected
+      }
+      return clicked; // Set the clicked unit
+    });
   }
-
+  
+  
   
 
   return (
     <div className="App">
       <header className="App-header">
-        <div id="result" style={{ width: '50%', float:"left", maxHeight: '100vh', overflowY: 'auto' }}>
-          {filteredChars.map((obj) => (
-            filters.length === 0 || filters.includes(obj.Rarity)  ? (
-              <Unit name={obj.DevNicknames} char={obj} onClick={handleClick}/>
-            ) && (attribute.length === 0 || attribute.includes(obj.Attribute) ? (
-              <Unit name={obj.DevNicknames} char={obj} onClick={handleClick}/>
-            ) : null) : null
-          ))}
-        </div>
+      <div id="result" style={{ width: '50%', float:"left", height: '90vh', overflowY: 'auto' }}>
+        {filteredChars.map((obj) => (
+          (filters.length === 0 || filters.includes(obj.Rarity)) &&
+          (attribute.length === 0 || attribute.includes(obj.Attribute)) && (
+            <Unit key={obj.id} name={obj.DevNicknames} char={obj} onClick={() => handleClick(obj)} style={{ cursor: 'pointer' }} />
+          )
+        ))}
+      </div>
+
 
         <div id="filter" style={{ width: '50%', float:"left" }}>
         <div id="searchBox" style={{ marginBottom: '20px' }}>
           <input
-            type="text"
+            type="search"
             id="searchInput"
             placeholder="Search for a unit"
             style={{
@@ -265,8 +267,8 @@ function App() {
 
   </div>
 
-        {console.log(JSON.parse(localStorage.getItem('clickedUnit')))}
-        <MP3Player source={audio} />
+       
+        <MP3Player source={JSON.parse(localStorage.getItem('clickedUnit'))} />
         </div>
 
 

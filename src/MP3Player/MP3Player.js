@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Unit from '../Unit/Unit';
 
 class MP3Player extends React.Component {
-    constructor() {
-        super();
+
+    constructor(props) {
+        super(props);
         // Add constructor logic here
         this.state = {
             currentMP3Name: '' // Initialize current MP3 name
@@ -12,9 +13,18 @@ class MP3Player extends React.Component {
 
     // Add methods here
 
+    componentDidMount() {
+        // Add event listener for 'storage' event when the component mounts
+        window.addEventListener('storage', this.handleStorageChange);
+    }
 
+    componentWillUnmount() {
+        // Remove event listener when the component unmounts to prevent memory leaks
+        window.removeEventListener('storage', this.handleStorageChange);
+    }
 
     render() {
+        
         return (
             <div className="mp3-player">
                 <audio controls onLoadedMetadata={this.handleLoadedMetadata}>
@@ -36,10 +46,11 @@ class MP3Player extends React.Component {
     }
 
     handleStorageChange = (event) => {
-        if (event.key === 'clickedUnit') {
+        
             // Reload the object or perform any necessary actions
-            
-        }
+            console.log('Storage changed ' + JSON.parse(localStorage.getItem('clickedUnit')).DevNicknames);
+            this.setState({ currentMP3Name: JSON.parse(localStorage.getItem('clickedUnit')).DevNicknames });            
+        
     }
 }
 
