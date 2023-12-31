@@ -17,10 +17,17 @@ class Unit extends React.Component {
 
     handleClick = () => {
         document.title = "MP3 Player";
-        localStorage.setItem('clickedUnit', JSON.stringify(this.props.char));
-        console.log(JSON.parse(localStorage.getItem('clickedUnit')));
+        try {
+            localStorage.setItem('clickedUnit', JSON.stringify(this.props.char));
+            const clickedUnit = localStorage.getItem('clickedUnit');
+            if (clickedUnit) {
+                const parsedUnit = JSON.parse(clickedUnit);
+                console.log(parsedUnit);
+            }
+        } catch (error) {
+            console.error('Error handling JSON:', error);
+        }
         window.dispatchEvent(new Event('storage'));
-
     }
 
     adjustTooltipPosition = () => {

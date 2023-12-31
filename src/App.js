@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 //import './App.css';
 import Unit from './Unit/Unit.js';
 import MP3Player from './MP3Player/MP3Player.js';
@@ -6,9 +5,6 @@ import MP3Player from './MP3Player/MP3Player.js';
 import characters from './characters.json';
 import React, { useEffect, useState } from 'react';
 
-function nameToURL(DevName, fileName) { 
-  return 'https://github.com/Enspiron/WorldFlipperPlayer/raw/main/character_unique/' + DevName + '/' + fileName + '.mp3';
-}
 
 
 
@@ -18,7 +14,6 @@ function App() {
   //new filter for Attribute
   const [attribute, setAttribute] = React.useState([]); // State to store the filter conditions
   //var for audio
-  const [audio, setAudio] = React.useState([]); // State to store the filter conditions
   const [clickedUnit, setClickedUnit] = React.useState([]);
   const [filteredChars, setFilteredChars] = React.useState([]); // State to store the filter conditions
   const [searchTerm, setSearchTerm] = useState('');
@@ -98,19 +93,29 @@ function App() {
 
   useEffect(() => {
     const handleStorage = () => {
-      setClickedUnit((localStorage.getItem('clickedUnit')));
-      console.log(JSON.parse(clickedUnit))
+      try {
+        const storedUnit = localStorage.getItem('clickedUnit');
+        if (storedUnit) {
+          setClickedUnit(JSON.parse(storedUnit));
+          console.log(JSON.parse(storedUnit));
+        }
+      } catch (error) {
+        console.error('Error handling storage:', error);
+      }
 
     }
 
     const handleSiteLoad = () => {
-      // Place for code to be executed when the site loads
-      setClickedUnit(JSON.parse(localStorage.getItem('clickedUnit')));
-      //console.log(JSON.parse(clickedUnit).DevNicknames);
-      //setAudio(nameToURL(JSON.parse(clickedUnit).DevNicknames, JSON.parse(clickedUnit).DevNicknames));
-      setFilteredChars(characters.chars);
-
-      console.log(clickedUnit + '');
+      try {
+        const storedUnit = localStorage.getItem('clickedUnit');
+        if (storedUnit) {
+          setClickedUnit(JSON.parse(storedUnit));
+          setFilteredChars(characters.chars);
+          console.log(storedUnit + '');
+        }
+      } catch (error) {
+        console.error('Error on site load:', error);
+      }
     }
 
     window.addEventListener('storage', handleStorage);
