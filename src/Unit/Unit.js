@@ -1,4 +1,5 @@
 import React from 'react';
+const unitsImages = require.context('./chars', true);
 
 class Unit extends React.Component {
     state = {
@@ -40,6 +41,18 @@ class Unit extends React.Component {
             tooltip.style.zIndex = 1;
             tooltip.style.whiteSpace = 'nowrap';
         }
+    }
+
+    imageSource(name) {
+        const importAll = (r) => {
+            return r.keys().map(r);
+          };
+
+          const images = importAll(require.context('./chars/', false, /\.(png)$/));
+
+        //const unitImage = require.context('./chars/' + name + "/square_0.png");
+        //return(unitImage)
+        return("https://eliya-bot.herokuapp.com/img/assets/chars/" + name + "/square_0.png")
     }
 
     render() {
@@ -84,7 +97,8 @@ class Unit extends React.Component {
                 onMouseLeave={this.handleMouseLeave}
                 style={this.props.char.songs != null ? divStyle : { ...divStyle, ...noSong }}
             >
-                <img src={"https://eliya-bot.herokuapp.com/img/assets/chars/" + this.props.name + "/square_0.png"} style={imgStyle} />
+                
+                <img src={this.imageSource(this.props.name)} style={imgStyle} />
                 <div id="tooltip" style={tooltipStyle}>
                     {this.props.char.ENName}
                 </div>
