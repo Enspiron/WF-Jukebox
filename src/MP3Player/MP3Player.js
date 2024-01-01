@@ -11,7 +11,7 @@ class MP3Player extends React.Component {
             song: '',
             isPlaying: false, // Track if the audio player is playing or not
             favoriteSongs: JSON.parse(localStorage.getItem('favoriteSongs')) || [], // Initialize favorite songs
-            loopAudio: false // Initialize loop audio toggle
+            songList: []
         };
     }
 
@@ -52,14 +52,26 @@ class MP3Player extends React.Component {
         return (
             <div className="mp3-player">
 
-                <div style={{backgroundColor: '#f2f2f2', padding: '10px', borderRadius: '5px', gap: '10px', border: '2px solid #ccc', margin: '10px', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-                    <p style={{ display: 'inline-block', marginRight: '10px' }}>Current Song: {this.state.currentMP3Name}</p>
-                    <img src={"https://eliya-bot.herokuapp.com/img/assets/chars/" + this.state.currentMP3Name + "/square_0.png"} style={{ width: '50px', height: '50px' }} />
-                    <img onClick={this.addToFavorites} src={isFavorite ? "https://pngfre.com/wp-content/uploads/star-png-image-pngfre-31.png" : "https://pngfre.com/wp-content/uploads/star-png-image-pngfre-30.png"} style={{ width: '20px', height: '20px', marginLeft: '10px', cursor: 'pointer' }} />
-                    <audio loop key={this.state.song} controls onLoadedMetadata={this.handleLoadedMetadata} onPlay={this.handlePlayPause} onPause={this.handlePlayPause} loop={loopAudio}>
-                    <source src={this.state.song} type="audio/mp3" />
-                    Your browser does not support the audio element.
-                </audio>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', padding: '10px' }}>
+                    <div style={{ backgroundColor: '#f2f2f2', borderRadius: '5px', border: '2px solid #ccc', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                        <h3>Character Songs:</h3>
+                        {this.state.songList.map((song) => (
+                            <div songId={song}>
+                                <li>{song}</li>
+                            </div>
+                        ))}
+                    </div>
+
+                    <div style={{ backgroundColor: '#f2f2f2', borderRadius: '5px', border: '2px solid #ccc', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                        <p style={{ display: 'inline-block', marginRight: '10px' }}>Current Song: {this.state.currentMP3Name}</p>
+                        <img src={"https://eliya-bot.herokuapp.com/img/assets/chars/" + this.state.currentMP3Name + "/square_0.png"} style={{ width: '50px', height: '50px' }} />
+                        <img onClick={this.addToFavorites} src={isFavorite ? "https://pngfre.com/wp-content/uploads/star-png-image-pngfre-31.png" : "https://pngfre.com/wp-content/uploads/star-png-image-pngfre-30.png"} style={{ width: '20px', height: '20px', marginLeft: '10px', cursor: 'pointer' }} />
+                        <audio loop key={this.state.song} controls onLoadedMetadata={this.handleLoadedMetadata} onPlay={this.handlePlayPause} onPause={this.handlePlayPause} >
+                            <source src={this.state.song} type="audio/mp3" />
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+
                 </div>
                 <div id = "favorite">
                     <FavoriteSongs favoriteSongs={favoriteSongs} removeFromFavorites={removeFromFavorites}   />
@@ -117,6 +129,7 @@ class MP3Player extends React.Component {
         console.log('Storage changed ' + JSON.parse(localStorage.getItem('clickedUnit')).DevNicknames);
         this.setState({ currentMP3Name: JSON.parse(localStorage.getItem('clickedUnit')).DevNicknames });
         this.setState({ song: this.nameToSource(JSON.parse(localStorage.getItem('clickedUnit')).DevNicknames) }); 
+        this.setState({songList: JSON.parse(localStorage.getItem('clickedUnit')).songs})
         document.title = "MP3 Player";
            
         

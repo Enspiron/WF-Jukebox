@@ -1,13 +1,10 @@
 //import './App.css';
 import Unit from './Unit/Unit.js';
 import MP3Player from './MP3Player/MP3Player.js';
-
+import InfoPopup from './InfoPopup/InfoPopup.js';
 import characters from './characters.json';
+import { useMediaQuery } from 'react-responsive';
 import React, { useEffect, useState } from 'react';
-
-
-
-
 
 function App() {
   const [filters, setFilters] = React.useState([]); // State to store the filter conditions
@@ -17,6 +14,9 @@ function App() {
   const [clickedUnit, setClickedUnit] = React.useState([]);
   const [filteredChars, setFilteredChars] = React.useState([]); // State to store the filter conditions
   const [searchTerm, setSearchTerm] = useState('');
+
+  const isMobile = useMediaQuery({ maxWidth: 768 }); // Adjust breakpoint as needed
+
 
   const toggleFilter = (filter) => {
     if (filter === null) {
@@ -80,6 +80,7 @@ function App() {
   const isFilterSelected = (filter) => {
     return filters.includes(filter);
   };
+
 
   const isAttributeSelected = (filter) => {
     return attribute.includes(filter);
@@ -146,6 +147,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <InfoPopup />
       <div id="result" style={{ width: '50%', float:"left", height: '90vh', overflowY: 'auto' }}>
         {filteredChars.map((obj) => (
           (filters.length === 0 || filters.includes(obj.Rarity)) &&
@@ -153,6 +155,7 @@ function App() {
             <Unit key={obj.id} name={obj.DevNicknames} char={obj} onClick={() => handleClick(obj)} style={{ cursor: 'pointer' }} />
           )
         ))}
+
       </div>
 
 
