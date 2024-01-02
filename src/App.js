@@ -189,6 +189,7 @@ function App() {
   <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 
   <div id="raritySelector">
+    <Divider>
     <ToggleButtonGroup >
     <Stack direction="row" spacing={3}>
         <Button
@@ -237,25 +238,31 @@ function App() {
         ))}
         </Stack>
         </ToggleButtonGroup>
+        </Divider>
   </div>
-        <Divider orientation="vertical" >-</Divider>
-        
+        <Divider orientation="vertical" >    </Divider>
+
+  <Divider>      
   <div id="attributeSelector" >
   <ToggleButtonGroup >
-  <button
+  <Button
+  color="primary"
+  variant="outlined"
+  size="small"
     onClick={() => toggleAttribute(null)}
   style={{
               backgroundColor: isFilterSelected(null) ? 'green' : 'white',
               width: 'fit-content', /* Ensure buttons are sized based on content */
               padding: '8px 12px', /* Add standard padding for consistency */
-              margin: '0 4px', /* Add spacing between buttons */
+              margin: '0 2px', /* Add spacing between buttons */
+              leftmargin: '10px',
               border: '1px solid #ccc', /* Add a border for visual separation */
               borderRadius: '4px', /* Rounded corners for visual appeal */
               cursor: 'pointer', /* Indicate interactivity */
             }}
   >
     All Attributes
-  </button>
+  </Button>
   {[
     { attribute: 'Water', value: 'blue' },
     { attribute: 'Fire', value: 'red' },
@@ -289,6 +296,7 @@ function App() {
   ))}
   </ToggleButtonGroup>
   </div>
+  </Divider>
 
   </div>
 
