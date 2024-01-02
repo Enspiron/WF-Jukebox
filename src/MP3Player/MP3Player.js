@@ -80,8 +80,22 @@ class MP3Player extends React.Component {
                 </div>
             );
         } catch (error) {
-            console.error(error);
-            return null;
+            //console.error(error);
+            return (
+                <div className="mp3-player">
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', padding: '10px' }}>
+                        <div style={{ backgroundColor: '#f2f2f2', borderRadius: '5px', border: '2px solid #ccc', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                            <h3>Character Songs:</h3>
+                            No songs supported!
+                        </div>
+
+                        <div style={{ backgroundColor: '#f2f2f2', borderRadius: '5px', border: '2px solid #ccc', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                            <p style={{ display: 'inline-block', marginRight: '10px' }}>Current Song: {this.state.currentMP3Name}</p>
+                            <img src={"https://eliya-bot.herokuapp.com/img/assets/chars/" + this.state.currentMP3Name + "/square_0.png"} style={{ width: '50px', height: '50px', margin: '10px' }} />
+                        </div>
+                    </div>
+                </div>
+            );
         }
     }
 

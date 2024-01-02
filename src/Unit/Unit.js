@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Tooltip from '@mui/material/Tooltip';
+import Alert from '@mui/material/Alert';
 
 const unitsImages = require.context('./chars', true);
 
 class Unit extends React.Component {
+    
     state = {
-        showTooltip: false
+        showTooltip: false,
+        showError: false
     };
 
 
@@ -41,10 +44,13 @@ class Unit extends React.Component {
                 const parsedUnit = JSON.parse(clickedUnit);
                 console.log(parsedUnit);
             }
+            window.dispatchEvent(new Event('storage'));
         } catch (error) {
+            const alertElement = document.createElement('div');
+            alertElement.innerHTML = `<div class="alert alert-danger" role="alert">Error handling JSON: ${error}</div>`;
+            document.body.appendChild(<Alert severity="error">Error handling JSON: ${error}</Alert>);
             console.error('Error handling JSON:', error);
         }
-        window.dispatchEvent(new Event('storage'));
     }
 
 
@@ -57,32 +63,6 @@ class Unit extends React.Component {
         window.removeEventListener('resize', this.adjustTooltipPosition);
       }
 
-    position_tooltip(){
-        // Get .ktooltiptext sibling
-        var tooltip = this.parentNode.querySelector("tooltip");
-        
-        // Get calculated ktooltip coordinates and size
-        var ktooltip_rect = this.getBoundingClientRect();
-      
-        var tipX = ktooltip_rect.width + 5; // 5px on the right of the ktooltip
-        var tipY = -40;                     // 40px on the top of the ktooltip
-        // Position tooltip
-        tooltip.style.top = tipY + 'px';
-        tooltip.style.left = tipX + 'px';
-      
-        // Get calculated tooltip coordinates and size
-        var tooltip_rect = tooltip.getBoundingClientRect();
-        // Corrections if out of window
-        if ((tooltip_rect.x + tooltip_rect.width) > window.innerWidth) // Out on the right
-          tipX = -tooltip_rect.width - 5;  // Simulate a "right: tipX" position
-        if (tooltip_rect.y < 0)            // Out on the top
-          tipY = tipY - tooltip_rect.y;    // Align on the top
-      
-        // Apply corrected position
-        tooltip.style.top = tipY + 'px';
-        tooltip.style.left = tipX + 'px';
-      }
-    
 
     imageSource(name) {
         const importAll = (r) => {
@@ -97,6 +77,8 @@ class Unit extends React.Component {
     }
 
     render() {
+        // eslint-disable-next-line react-hooks/rules-of-hooks
+
         const divStyle = {
             display: 'inline-block',
             padding: '5px',
@@ -116,21 +98,6 @@ class Unit extends React.Component {
             cursor: 'pointer',
 
         };
-
-        const tooltipStyle = {
-            position: 'absolute',
-            top: 'calc(100% + 5px)', // Adjusted for slight offset
-            left: '90%',
-            transform: 'translateX(-50%)',
-            backgroundColor: 'lightblue',
-            color: 'black',
-            padding: '5px',
-            borderRadius: '5px',
-            display: this.state.showTooltip ? 'inline-block' : 'none',
-            zIndex: 1, // Ensure tooltip appears on top
-            whiteSpace: 'nowrap', // Prevent text wrapping
-            visibility: 'visible',
-          };
 
         return (
             <div
