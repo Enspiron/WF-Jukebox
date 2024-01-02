@@ -5,6 +5,9 @@ import InfoPopup from './InfoPopup/InfoPopup.js';
 import characters from './characters.json';
 import { useMediaQuery } from 'react-responsive';
 import React, { useEffect, useState } from 'react';
+import Grid from '@mui/material/Unstable_Grid2';
+import { styled } from '@mui/material/styles';
+import Box from '@mui/material/Box';
 
 function App() {
   const [filters, setFilters] = React.useState([]); // State to store the filter conditions
@@ -148,7 +151,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <InfoPopup />
-      <div id="result" style={{ width: '50%', float:"left", height: '90vh', overflowY: 'auto' }}>
+      <Box sx={{ width: '100%' }}>
+      <Grid id="result" style={{ width: '50%', float:"left", height: '90vh', overflowY: 'auto' }}>
         {filteredChars.map((obj) => (
           (filters.length === 0 || filters.includes(obj.Rarity)) &&
           (attribute.length === 0 || attribute.includes(obj.Attribute)) && (
@@ -156,8 +160,8 @@ function App() {
           )
         ))}
 
-      </div>
-
+      </Grid>
+      </Box>
 
         <div id="filter" style={{ width: '50%', float:"left" }}>
         <div id="searchBox" style={{ marginBottom: '20px' }}>

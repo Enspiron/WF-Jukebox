@@ -94,6 +94,10 @@ class MP3Player extends React.Component {
                             <img src={"https://eliya-bot.herokuapp.com/img/assets/chars/" + this.state.currentMP3Name + "/square_0.png"} style={{ width: '50px', height: '50px', margin: '10px' }} />
                         </div>
                     </div>
+                    <div id="favorite" onClick={() => { 
+                        html2canvas(document.querySelector("#favorite")).then(canvas => canvas.toDataURL("image/png", 1.0)) }}>
+                        <FavoriteSongs favoriteSongs={favoriteSongs} removeFromFavorites={removeFromFavorites} />
+                    </div>
                 </div>
             );
         }

@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import { styled } from '@mui/material/styles';
 import Tooltip from '@mui/material/Tooltip';
 import Alert from '@mui/material/Alert';
+import Grid from '@mui/material/Unstable_Grid2';
+import Paper from '@mui/material/Paper';
+import Box from '@mui/material/Box';
 
 const unitsImages = require.context('./chars', true);
 
@@ -10,6 +14,8 @@ class Unit extends React.Component {
         showTooltip: false,
         showError: false
     };
+
+
 
 
     handleMouseEnter = () => {
@@ -99,19 +105,29 @@ class Unit extends React.Component {
 
         };
 
+        const Item = styled(Paper)(({ theme }) => ({
+            backgroundColor: this.props.char.songs != null ? '#fff' : 'red',
+            ...theme.typography.body2,
+            padding: theme.spacing(1),
+            textAlign: 'center',
+            color: theme.palette.text.secondary,
+          }));
+
         return (
             <div
                 onClick={this.handleClick}
                 onMouseEnter={this.handleMouseEnter}
                 onMouseLeave={this.handleMouseLeave}
 
-                style={this.props.char.songs != null ? divStyle : { ...divStyle, ...noSong }}
-            >
+                style={this.props.char.songs != null ? divStyle : { ...divStyle}}
+            >            
+                <Item>
                 
-                <Tooltip title={this.props.char.ENName} arrow>
+            <Tooltip title={this.props.char.ENName} arrow>
                 <img src={this.imageSource(this.props.name)} style={imgStyle} />
+            </Tooltip>
                   
-                </Tooltip>
+                </Item>
             </div>
         );
     }
