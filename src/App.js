@@ -8,6 +8,12 @@ import React, { useEffect, useState } from 'react';
 import Grid from '@mui/material/Unstable_Grid2';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
+import ToggleButton from '@mui/material/ToggleButton';
+import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
+import Divider from '@mui/material/Divider';
+
 
 function App() {
   const [filters, setFilters] = React.useState([]); // State to store the filter conditions
@@ -183,22 +189,27 @@ function App() {
   <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 
   <div id="raritySelector">
-        <button
+    <ToggleButtonGroup >
+    <Stack direction="row" spacing={3}>
+        <Button
+          color="primary"
+          variant="outlined"
+          size="small"
           onClick={() => toggleFilter(null)}
-          style={{
-            backgroundColor: isFilterSelected(null) ? 'green' : 'white',
-            padding: '8px 12px',
-            margin: '0 4px',
-            border: '1px solid #ccc',
-            borderRadius: '4px',
-            cursor: 'pointer',
-            height: '32px', /* Set a specific height for all buttons */
-          }}
+          // style={{
+          //   backgroundColor: isFilterSelected(null) ? 'green' : 'white',
+          //   padding: '8px 12px',
+          //   margin: '0 4px',
+          //   border: '1px solid #ccc',
+          //   borderRadius: '4px',
+          //   cursor: 'pointer',
+          //   height: '32px', /* Set a specific height for all buttons */
+          // }}
         >
           All
-        </button>
+        </Button>
         {[1, 2, 3, 4, 5].map((rarity) => (
-          <button
+          <ToggleButton 
             key={rarity}
             onClick={() => toggleFilter(rarity)}
             style={{
@@ -218,15 +229,19 @@ function App() {
         alt={`Rarity ${rarity}`}
         style={{
           height: 'auto', /* Allow inherent image height for stars */
-          width: '80px', /* Set fixed width for stars */
+          width: '72px', /* Set fixed width for stars */
           objectFit: 'contain', /* Scale to fit within width while maintaining aspect ratio */
         }}
       />  
-          </button>
+          </ToggleButton >
         ))}
+        </Stack>
+        </ToggleButtonGroup>
   </div>
-
+        <Divider orientation="vertical" >-</Divider>
+        
   <div id="attributeSelector" >
+  <ToggleButtonGroup >
   <button
     onClick={() => toggleAttribute(null)}
   style={{
@@ -249,7 +264,7 @@ function App() {
     { attribute: 'Light', value: 'white' },
     { attribute: 'Dark', value: 'black' },
   ].map(({ attribute, value }) => (
-    <button
+    <ToggleButton
       key={attribute}
       onClick={() => toggleAttribute(attribute)}
       style={{
@@ -270,8 +285,9 @@ function App() {
           objectFit: 'contain', /* Scale image to fit within height */
         }}
       />
-    </button>
+    </ToggleButton>
   ))}
+  </ToggleButtonGroup>
   </div>
 
   </div>
