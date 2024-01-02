@@ -10,6 +10,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div className="navbar">
+    <link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+/>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <div className="logo">
         <h1>World Flipper Song Player</h1>

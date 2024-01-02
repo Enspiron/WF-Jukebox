@@ -1,4 +1,6 @@
 import React from 'react';
+import Tooltip from '@mui/material/Tooltip';
+
 const unitsImages = require.context('./chars', true);
 
 class Unit extends React.Component {
@@ -9,6 +11,20 @@ class Unit extends React.Component {
 
     handleMouseEnter = () => {
         this.setState({ showTooltip: true });
+        const tooltip = document.querySelector('#tooltip');
+        if (tooltip) {
+          const tooltipRect = tooltip.getBoundingClientRect();
+          const windowWidth = window.innerWidth;
+          const windowHeight = window.innerHeight;
+    
+          // Check for collisions with window edges
+          if (tooltipRect.right > windowWidth) {
+            tooltip.style.left = windowWidth - tooltipRect.width - 50 + 'px'; // Align to the right edge
+          }
+          if (tooltipRect.bottom > windowHeight) {
+            tooltip.style.top = windowHeight - tooltipRect.height - 5 + 'px'; // Align to the bottom edge
+          }
+        }
         
     }
 
@@ -31,17 +47,42 @@ class Unit extends React.Component {
         window.dispatchEvent(new Event('storage'));
     }
 
-    adjustTooltipPosition = () => {
-        const tooltip = document.getElementById('tooltip');
-        if (tooltip && !this.state.showTooltip) {
-            tooltip.style.display = 'block';
-            tooltip.style.top = 'calc(100% + 5px)';
-            tooltip.style.left = '50%';
-            tooltip.style.transform = 'translateX(-50%)';
-            tooltip.style.zIndex = 1;
-            tooltip.style.whiteSpace = 'nowrap';
-        }
-    }
+
+
+    componentDidMount() {
+        window.addEventListener('resize', this.adjustTooltipPosition); // Adjust position on window resize
+      }
+    
+      componentWillUnmount() {
+        window.removeEventListener('resize', this.adjustTooltipPosition);
+      }
+
+    position_tooltip(){
+        // Get .ktooltiptext sibling
+        var tooltip = this.parentNode.querySelector("tooltip");
+        
+        // Get calculated ktooltip coordinates and size
+        var ktooltip_rect = this.getBoundingClientRect();
+      
+        var tipX = ktooltip_rect.width + 5; // 5px on the right of the ktooltip
+        var tipY = -40;                     // 40px on the top of the ktooltip
+        // Position tooltip
+        tooltip.style.top = tipY + 'px';
+        tooltip.style.left = tipX + 'px';
+      
+        // Get calculated tooltip coordinates and size
+        var tooltip_rect = tooltip.getBoundingClientRect();
+        // Corrections if out of window
+        if ((tooltip_rect.x + tooltip_rect.width) > window.innerWidth) // Out on the right
+          tipX = -tooltip_rect.width - 5;  // Simulate a "right: tipX" position
+        if (tooltip_rect.y < 0)            // Out on the top
+          tipY = tipY - tooltip_rect.y;    // Align on the top
+      
+        // Apply corrected position
+        tooltip.style.top = tipY + 'px';
+        tooltip.style.left = tipX + 'px';
+      }
+    
 
     imageSource(name) {
         const importAll = (r) => {
@@ -79,15 +120,16 @@ class Unit extends React.Component {
         const tooltipStyle = {
             position: 'absolute',
             top: 'calc(100% + 5px)', // Adjusted for slight offset
-            left: '50%',
+            left: '90%',
             transform: 'translateX(-50%)',
             backgroundColor: 'lightblue',
             color: 'black',
             padding: '5px',
             borderRadius: '5px',
-            display: this.state.showTooltip ? 'block' : 'none',
+            display: this.state.showTooltip ? 'inline-block' : 'none',
             zIndex: 1, // Ensure tooltip appears on top
             whiteSpace: 'nowrap', // Prevent text wrapping
+            visibility: 'visible',
           };
 
         return (
@@ -95,13 +137,14 @@ class Unit extends React.Component {
                 onClick={this.handleClick}
                 onMouseEnter={this.handleMouseEnter}
                 onMouseLeave={this.handleMouseLeave}
+
                 style={this.props.char.songs != null ? divStyle : { ...divStyle, ...noSong }}
             >
                 
+                <Tooltip title={this.props.char.ENName} arrow>
                 <img src={this.imageSource(this.props.name)} style={imgStyle} />
-                <div id="tooltip" style={tooltipStyle}>
-                    {this.props.char.ENName}
-                </div>
+                  
+                </Tooltip>
             </div>
         );
     }
