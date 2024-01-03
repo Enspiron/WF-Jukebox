@@ -61,8 +61,8 @@ class MP3Player extends React.Component {
                         <div style={{ backgroundColor: '#f2f2f2', borderRadius: '5px', border: '2px solid #ccc', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
                             <h3>Character Songs:</h3>
                             {this.state.songList.map((song) => (
-                                <div key={song}>
-                                    {this.state.song === song ? <li songId={song} style={{ textDecoration: 'underline' }}>{song}</li> : <li songId={song}>{song}</li>}
+                                <div key={song} >
+                                    {this.state.song === song ? <li songId={song} style={{ textDecoration: 'underline' }} onclick={console.log(song)}>{song}</li> : <li songId={song} onclick={console.log(song)}>{song}</li>}
                                 </div>
                             ))}
                         </div>

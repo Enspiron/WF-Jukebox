@@ -123,7 +123,7 @@ class Unit extends React.Component {
             >            
                 <Item>
                 
-            <Tooltip title={this.props.char.ENName} arrow>
+            <Tooltip title={this.props.char.ENName} arrow size='lg'>
                 <img src={this.imageSource(this.props.name)} style={imgStyle} />
             </Tooltip>
                   

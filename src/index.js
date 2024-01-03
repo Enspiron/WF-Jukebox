@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
 localStorage.setItem('popupShown', false);
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
+  
   <React.StrictMode>
     <div className="navbar">
     <link
@@ -18,6 +22,9 @@ root.render(
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <div className="logo">
         <h1>World Flipper Song Player</h1>
+        <Tab >
+
+        </Tab>
       </div>
       
 
