@@ -13,6 +13,8 @@ import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
+import TextField from '@mui/material/TextField';
+
 
 
 function App() {
@@ -170,19 +172,13 @@ function App() {
       </Box>
 
         <div id="filter" style={{ width: '50%', float:"left" }}>
-        <div id="searchBox" style={{ marginBottom: '20px' }}>
-          <input
-            type="search"
+        <div id="searchBox" style={{ marginBottom: '20px', marginRight: '20px' }}>
+          <TextField 
+          fullWidth sx={{ m: 1 }}
+          variant="outlined"
             id="searchInput"
             placeholder="Search for a unit"
-            style={{
-              padding: '8px',
-              border: '1px solid #ccc',
-              borderRadius: '4px',
-              width: '100%',
-              boxSizing: 'border-box',
-              fontSize: '16px',
-            }}
+
           />
   
         </div>
