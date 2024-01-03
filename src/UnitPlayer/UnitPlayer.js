@@ -1,8 +1,8 @@
 //import './App.css';
-import Unit from './Unit/Unit.js';
-import MP3Player from './MP3Player/MP3Player.js';
-import InfoPopup from './InfoPopup/InfoPopup.js';
-import characters from './characters.json';
+import Unit from '../Unit/Unit.js';
+import MP3Player from '../MP3Player/MP3Player.js';
+import InfoPopup from '../InfoPopup/InfoPopup.js';
+import characters from '../characters.json';
 import { useMediaQuery } from 'react-responsive';
 import React, { useEffect, useState } from 'react';
 import Grid from '@mui/material/Unstable_Grid2';

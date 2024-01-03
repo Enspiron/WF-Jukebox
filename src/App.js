@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import {Router, Route, Routes, BrowserRouter} from 'react-router-dom'
-import UnitPlayer from './UnitPlayer.js';
+import UnitPlayer from './UnitPlayer/UnitPlayer.js';
 
 import Header from './Header/Header.js';
 
