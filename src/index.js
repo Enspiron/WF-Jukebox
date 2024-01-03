@@ -6,6 +6,9 @@ import reportWebVitals from './reportWebVitals';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import { StyledEngineProvider, CssVarsProvider } from '@mui/styled-engine';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
+
+
 
 localStorage.setItem('popupShown', false);
 
@@ -15,20 +18,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
   <React.StrictMode>
-    <div className="navbar">
-    <link
-  rel="stylesheet"
-  href="https://fonts.googleapis.com/icon?family=Material+Icons"
-/>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     <StyledEngineProvider injectFirst>
+      <BrowserRouter>
         <App />
+      </BrowserRouter>
     </StyledEngineProvider>
-
-      
-
-    </div>
   </React.StrictMode>
 
 );
