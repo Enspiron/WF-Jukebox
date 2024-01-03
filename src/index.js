@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
+import { StyledEngineProvider, CssVarsProvider } from '@mui/styled-engine';
+
 localStorage.setItem('popupShown', false);
 
 
@@ -20,16 +22,13 @@ root.render(
 />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-      <div className="logo">
-        <h1>World Flipper Song Player</h1>
-        <Tab >
+    <StyledEngineProvider injectFirst>
+        <App />
+    </StyledEngineProvider>
 
-        </Tab>
-      </div>
       
 
     </div>
-    <App />
   </React.StrictMode>
 
 );
