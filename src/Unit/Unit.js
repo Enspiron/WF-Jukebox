@@ -93,7 +93,7 @@ class Unit extends React.Component {
 
         const noSong = {
             backgroundColor: 'red',
-            margin: '5px',
+            margin: '0px',
             
         }
 
@@ -108,7 +108,7 @@ class Unit extends React.Component {
         const Item = styled(Paper)(({ theme }) => ({
             backgroundColor: this.props.char.songs != null ? '#fff' : 'red',
             ...theme.typography.body2,
-            padding: theme.spacing(1),
+            padding: theme.spacing(0.5),
             textAlign: 'center',
             color: theme.palette.text.secondary,
           }));
