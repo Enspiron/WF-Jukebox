@@ -22,25 +22,18 @@ function App() {
 
   return (
     <div className="App"  >
-      <header className="App-header">
-
-
+      <BrowserRouter basename="/">
         <div className="App">
-          <Header/>
+          <Header updateViewingPage={null}/>
           <Routes>
             <Route exact path="/" element={<UnitPlayer/>}/>
             <Route path="/test" element={<div>test</div>}/>
             <Route path="*" element={<div>404</div>}/>
 
           </Routes>
-
-
         </div>
+      </BrowserRouter>
 
-          
-
-      </header>
-      
     </div>
   );
 }
