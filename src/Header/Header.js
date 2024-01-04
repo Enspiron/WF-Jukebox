@@ -20,7 +20,7 @@ export const Header = () => {
         <div style={{ display: 'flex' }}>
   
         <h1>World Flipper Song Player</h1>
-        <div style={{  right: '50px', marginLeft: '70%' }}>
+        <div style={{marginLeft: '65%' }}>
           Days Till EOS:
           <Clock region="JP" deadline="February, 20, 2024" />
           <Clock region="EN" deadline="July, 25, 2024" />

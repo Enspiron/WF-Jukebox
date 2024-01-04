@@ -19,7 +19,7 @@ root.render(
   
   <React.StrictMode>
     <StyledEngineProvider injectFirst>
-      <BrowserRouter>
+      <BrowserRouter basedname="/">
         <App />
       </BrowserRouter>
     </StyledEngineProvider>
