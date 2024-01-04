@@ -14,6 +14,7 @@ export const Header = () => {
       padding: 0,
     };
 
+    const [type, setType] = React.useState('disc');
 
     return(
         <header className="App-header">
@@ -36,8 +37,8 @@ export const Header = () => {
                 <ListItemButton
                   role="menuitem"
                   component="a"
-                  to='/#home'
-                  aria-label="#"
+                  to='#home'
+                  aria-label="/"
                 >
                   Home
                 </ListItemButton>
@@ -47,8 +48,8 @@ export const Header = () => {
                 <ListItemButton
                   role="menuitem"
                   component="a"
-                  to='/#test'
-                  aria-label="#"
+                  to='#test'
+                  aria-label="Home"
                 >
                   Test
                 </ListItemButton>

@@ -26,8 +26,8 @@ function App() {
         <div className="App">
           <Header updateViewingPage={null}/>
           <Routes>
-            <Route path='home' element={<UnitPlayer/>}/>
-            <Route path="test" element={<div>test</div>}/>
+            <Route path='/home' element={<UnitPlayer/>}/>
+            <Route path="/test" element={<div>test</div>}/>
             <Route path="*" element={<div>404</div>}/>
 
           </Routes>

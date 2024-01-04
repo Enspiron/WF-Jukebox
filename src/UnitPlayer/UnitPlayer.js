@@ -28,6 +28,12 @@ function UnitPlayer() {
 
   const isMobile = useMediaQuery({ maxWidth: 768 }); // Adjust breakpoint as needed
 
+  const [seed, setSeed] = useState(1);
+  const reset = () => {
+       setSeed(Math.random());
+       window.location.reload();
+
+ }
 
   const toggleFilter = (filter) => {
     if (filter === null) {
@@ -173,6 +179,8 @@ function UnitPlayer() {
 
         <div id="filter" style={{ width: '50%', float:"left" }}>
         <div id="searchBox" style={{ marginBottom: '20px', marginRight: '20px' }}>
+        <Button onClick={reset}>Load Units</Button>
+
           <TextField 
           fullWidth sx={{ m: 1 }}
           variant="outlined"
@@ -296,7 +304,7 @@ function UnitPlayer() {
 
   </div>
 
-       
+
         <MP3Player  />
         </div>
 
