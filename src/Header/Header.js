@@ -36,7 +36,7 @@ export const Header = () => {
                 <ListItemButton
                   role="menuitem"
                   component="a"
-                  href="/"
+                  href="#/"
                   aria-label="/"
                 >
                   Home
@@ -47,7 +47,7 @@ export const Header = () => {
                 <ListItemButton
                   role="menuitem"
                   component="a"
-                  href="/test"
+                  href="#/test"
                   aria-label="Home"
                 >
                   Test
