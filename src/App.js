@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {Router, Route, Routes, BrowserRouter, createHashRouter} from 'react-router-dom'
+import {Router, Route, Routes, BrowserRouter, createHashRouter, HashRouter } from 'react-router-dom'
 import UnitPlayer from './UnitPlayer/UnitPlayer.js';
 
 import Header from './Header/Header.js';
@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App"  >
-      <BrowserRouter basename="/">
+      <HashRouter  basename="/">
         <div className="App">
           <Header updateViewingPage={null}/>
           <Routes>
@@ -32,7 +32,7 @@ function App() {
 
           </Routes>
         </div>
-      </BrowserRouter>
+      </HashRouter >
 
     </div>
   );
