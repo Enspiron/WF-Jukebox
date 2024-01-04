@@ -6,6 +6,8 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import Box from '@mui/material/Box';
 import Clock from '../Clock.js';
+import Tooltip from '@mui/material/Tooltip';
+
 
 export const Header = () => {
     const flexContainer = {
@@ -16,16 +18,28 @@ export const Header = () => {
 
     const [type, setType] = React.useState('disc');
 
+    const customCursorStyle = {
+      cursor: 'default', // Set the cursor style to default
+    };
+
     return(
         <header className="App-header">
         <div style={{ display: 'flex' }}>
   
         <h1>World Flipper Song Player</h1>
-        <div style={{marginLeft: '65%' }}>
+        <div style={{marginLeft: '65%' }} >
           Days Till EOS:
+          <Tooltip title="February 20th, 2024" followCursor><div style={customCursorStyle}>
           <Clock region="JP" deadline="February, 20, 2024" />
+          </div></Tooltip>
+
+          <Tooltip title="July 25th, 2024" followCursor><div style={customCursorStyle}>
           <Clock region="EN" deadline="July, 25, 2024" />
+          </div></Tooltip>
+
+          <Tooltip title="May 24th, 2024" followCursor><div style={customCursorStyle}>
           <Clock region="TW" deadline="May, 24, 2024" />
+          </div></Tooltip>
   
         </div>
         </div>
