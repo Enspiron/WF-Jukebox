@@ -25,7 +25,6 @@ export const Header = () => {
     return(
         <header className="App-header">
         <div style={{ display: 'flex' }}>
-  
         <h1>World Flipper Song Player</h1>
         <div style={{marginLeft: '65%' }} >
           Days Till EOS:

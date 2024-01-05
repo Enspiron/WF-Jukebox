@@ -28,12 +28,18 @@ function UnitPlayer() {
 
   const isMobile = useMediaQuery({ maxWidth: 768 }); // Adjust breakpoint as needed
 
+  const [, updateState] = React.useState();
+  const forceUpdate = React.useCallback(() => updateState({}), []);
+
   const [seed, setSeed] = useState(1);
   const reset = () => {
-       setSeed(Math.random());
-       window.location.reload();
+    setSeed(Math.random());
+    setFilters([]);
+    setAttribute([]);
+    setSearchTerm('');
+    setFilteredChars(characters.chars);
 
- }
+  };
 
   const toggleFilter = (filter) => {
     if (filter === null) {
@@ -179,7 +185,7 @@ function UnitPlayer() {
 
         <div id="filter" style={{ width: '50%', float:"left" }}>
         <div id="searchBox" style={{ marginBottom: '20px', marginRight: '20px' }}>
-        <Button onClick={reset}>Load Units</Button>
+        <Button onClick={reset}>Load Units/Reset Filters</Button>
 
           <TextField 
           fullWidth sx={{ m: 1 }}
