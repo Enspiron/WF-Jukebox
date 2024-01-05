@@ -1,0 +1,1758 @@
+[
+    {
+        "ENName": "[The Hell-Fire Dragon King]\nWagner",
+        "DevNicknames": "fire_dragon",
+        "Artist": "",
+        "songs": [
+            "wagner_2.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Pirate Captain Who Crosses the Stars]\nMarina",
+        "DevNicknames": "pirates_girl",
+        "Artist": "",
+        "songs": [
+            "marina_1.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Incomplete Alchemist]\nClarisse",
+        "DevNicknames": "clarisse",
+        "Artist": "",
+        "songs": [
+            "clarisse.mp3"
+        ]
+    },
+    {
+        "ENName": "[Dressy Maid]\nMarianne (Christmas)",
+        "DevNicknames": "battle_maid_xm19",
+        "Artist": "",
+        "songs": [
+            "christmas_battle_maid.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Wandering Courtesan]\nKikuno",
+        "DevNicknames": "compliment_oiran",
+        "Artist": "",
+        "songs": [
+            "compliment_oiran.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Mouse Kingdom's Idol]\nNoene (New Year)",
+        "DevNicknames": "heavenly_one",
+        "Artist": "",
+        "songs": [
+            "heavenly_one.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Black Wolf Knight]\nRolf",
+        "DevNicknames": "black_wolf_knight",
+        "Artist": "",
+        "songs": [
+            "black_wolf_knight.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Summertime Fired-up Treasure Hunting Tiger Girl]\nMia (Summer)",
+        "DevNicknames": "tiger_treasure_hunter_smr20",
+        "Artist": "",
+        "songs": [
+            "tiger_treasure_hunter_smr20.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Starry Firework Ninja]\nHanabi (Anniversary)",
+        "DevNicknames": "kunoichi_1anv",
+        "Artist": "",
+        "songs": [
+            "kunoichi_1anv.mp3"
+        ]
+    },
+    {
+        "ENName": "[Glamorous Santa Claus]\nBianca (Christmas)",
+        "DevNicknames": "lady_summoner_xm20",
+        "Artist": "",
+        "songs": [
+            "lady_summoner_xm20.mp3"
+        ]
+    },
+    {
+        "ENName": "[Princess with Superhuman Strength]\nToria",
+        "DevNicknames": "halberd_princess",
+        "Artist": "",
+        "songs": [
+            "halberd_princess.mp3"
+        ]
+    },
+    {
+        "ENName": "[Animal-Eared Ship Doctor]\nLiao",
+        "DevNicknames": "doctor_pirate",
+        "Artist": "",
+        "songs": [
+            "doctor_pirate.mp3"
+        ]
+    },
+    {
+        "ENName": "[Onmyouji Filled With Longing] \nSuizen (White Day)",
+        "DevNicknames": "onmyoji_boy_wt21",
+        "Artist": "",
+        "songs": [
+            "onmyoji_boy_wt21.mp3"
+        ]
+    },
+    {
+        "ENName": "[Crimson Piercing Light]\nZeta",
+        "DevNicknames": "zeta",
+        "Artist": "",
+        "songs": [
+            "zeta.mp3",
+            "zeta_arrange.mp3"
+        ]
+    },
+    {
+        "ENName": "[Bullet of the Felder Clan]\nLeticia",
+        "DevNicknames": "tsundere_bountyhunter",
+        "Artist": "",
+        "songs": [
+            "tsundere_bountyhunter.mp3"
+        ]
+    },
+    {
+        "ENName": "[Passionate Platinum]\nEcrire / \u00c9crire (Summer)",
+        "DevNicknames": "bodysuit_trooper_smr21",
+        "Artist": "",
+        "songs": [
+            "bodysuit_trooper_smr21.mp3"
+        ]
+    },
+    {
+        "ENName": "[Avenger of the Magic Gun]\nRyunon",
+        "DevNicknames": "shadow_redhood",
+        "Artist": "",
+        "songs": [
+            "shadow_redhood.mp3"
+        ]
+    },
+    {
+        "ENName": "[Captain of the Stars]\nMarina (Anniversary)",
+        "DevNicknames": "pirates_girl_2anv",
+        "Artist": "",
+        "songs": [
+            "pirates_girl_2anv.mp3"
+        ]
+    },
+    {
+        "ENName": "[Professional Prankster]\nMisogi",
+        "DevNicknames": "misogi",
+        "Artist": "",
+        "songs": [
+            "misogi.mp3"
+        ]
+    },
+    {
+        "ENName": "[Valentine's Bullet]\nLeticia (Valentine)",
+        "DevNicknames": "tsundere_bountyhunter_vt22",
+        "Artist": "",
+        "songs": [
+            "tsundere_bountyhunter_vt22.mp3"
+        ]
+    },
+    {
+        "ENName": "[Bloodstained Wolf]\nWaif",
+        "DevNicknames": "anger_investigator",
+        "Artist": "",
+        "songs": [
+            "anger_investigator.mp3"
+        ]
+    },
+    {
+        "ENName": "[Foreign Student Princess With Superhuman Strength]\nToria (Half Anniversary)",
+        "DevNicknames": "halberd_princess_2halfanv",
+        "Artist": "",
+        "songs": [
+            "halberd_princess_2halfanv.mp3"
+        ]
+    },
+    {
+        "ENName": "[Prancing Golden Wrecker Girl]\r\nGold Ship",
+        "DevNicknames": "gold_ship",
+        "Artist": "",
+        "songs": [
+            "gold_ship.mp3"
+        ]
+    },
+    {
+        "ENName": "[Obsessed with Explosion Magic]\nMegumin (KonoSuba Collab)",
+        "DevNicknames": "megumin",
+        "Artist": "",
+        "songs": [
+            "megumin.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Summer Sea Monster Chef]\nParfait (Summer)",
+        "DevNicknames": "monster_cook_smr22",
+        "Artist": "",
+        "songs": [
+            "monster_cook_smr22.mp3"
+        ]
+    },
+    {
+        "ENName": "[Lion of Anguish] Magnos",
+        "DevNicknames": "lion_swordman_playable",
+        "Artist": "",
+        "songs": [
+            "lion_swordman_playable.mp3"
+        ]
+    },
+    {
+        "ENName": "[Golem Club's President]\r\nDaedalia",
+        "DevNicknames": "golemclub_captain",
+        "Artist": "",
+        "songs": [
+            "golemclub_captain.mp3"
+        ]
+    },
+    {
+        "ENName": "[Treasure Santa]\nMia (Christmas)",
+        "DevNicknames": "tiger_treasure_hunter_xm22",
+        "Artist": "",
+        "songs": [
+            "tiger_treasure_hunter_xm22.mp3"
+        ]
+    },
+    {
+        "ENName": "[I Bless You]\nStinel (Ballot)",
+        "DevNicknames": "still_obstinator_ballot23",
+        "Artist": "",
+        "songs": [
+            "still_obstinator_ballot23.mp3"
+        ]
+    },
+    {
+        "ENName": "[Newbie Adventurer of Fire]\r\nRunetta",
+        "DevNicknames": "flame_blessgirl",
+        "Artist": "",
+        "songs": [
+            "flame_blessgirl.mp3"
+        ]
+    },
+    {
+        "ENName": "[Pure and Lovely Kitten]\r\nPenerone",
+        "DevNicknames": "catbaby_psychicer",
+        "Artist": "",
+        "songs": [
+            "catbaby_psychicer.mp3"
+        ]
+    },
+    {
+        "ENName": "[Guardian of Flame]\nLilith (Meteor)",
+        "DevNicknames": "resistance_princess_3halfanv",
+        "Artist": "",
+        "songs": [
+            "resistance_princess_3halfanv.mp3"
+        ]
+    },
+    {
+        "ENName": "[One Who Opened the Gate of Summer]\r\nCouette",
+        "DevNicknames": "summoner_little_smr23",
+        "Artist": "",
+        "songs": [
+            "summoner_little_smr23.mp3"
+        ]
+    },
+    {
+        "ENName": "[Passionate Proposal Suit]\r\nWilfred",
+        "DevNicknames": "wirfled_playable",
+        "Artist": "",
+        "songs": [
+            "wirfled_playable.mp3"
+        ]
+    },
+    {
+        "ENName": "[Flame Dragon King]\nWagner (Zenith)",
+        "DevNicknames": "fire_dragon_zenith",
+        "Artist": "",
+        "songs": [
+            "fire_dragon_zenith.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Dancing Water's Splendor]\nSonya",
+        "DevNicknames": "brown_fighter",
+        "Artist": "",
+        "songs": [
+            "sonya_1.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Bountiful Water Hagoita Girl]\nEliya (New Year)",
+        "DevNicknames": "lightbullet_wiz_ny20",
+        "Artist": "",
+        "songs": [
+            "lightbullet_wiz_ny20.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Ice Witch]\nCypher",
+        "DevNicknames": "ice_witch",
+        "Artist": "",
+        "songs": [
+            "ice_witch.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Iron Wolf]\nSirene",
+        "DevNicknames": "commander",
+        "Artist": "",
+        "songs": [
+            "commander.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Dragon's Keeper]\nRimnis",
+        "DevNicknames": "lakeside_guardian",
+        "Artist": "",
+        "songs": [
+            "lakeside_guardian.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Borderlands' Guide]\nLaquisha / Lakisha",
+        "DevNicknames": "drawing_witch",
+        "Artist": "",
+        "songs": [
+            "drawing_witch.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Wave-Riding Prince]\nLazeret (Summer)",
+        "DevNicknames": "prince_zero_smr20",
+        "Artist": "",
+        "songs": [
+            "prince_zero_smr20.mp3"
+        ]
+    },
+    {
+        "ENName": "[Eyes of Freezing]\nRaylas",
+        "DevNicknames": "freeze_eye",
+        "Artist": "",
+        "songs": [
+            "freeze_eye.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Monstrous Martial Arts Genius]\nSheyron / Shuilong",
+        "DevNicknames": "waterdragon_kunfu",
+        "Artist": "",
+        "songs": [
+            "waterdragon_kunfu.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Kingdom's Great General] \nHalidal",
+        "DevNicknames": "desert_commander",
+        "Artist": "",
+        "songs": [
+            "desert_commander.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Charming Mermaid Pirate]\nAmelia (Half Anniversary)",
+        "DevNicknames": "mermaid_1halfanv",
+        "Artist": "",
+        "songs": [
+            "mermaid_1halfanv.mp3"
+        ]
+    },
+    {
+        "ENName": "[Motherly Savior]\nMamnalia",
+        "DevNicknames": "holy_mother",
+        "Artist": "",
+        "songs": [
+            "holy_mother.mp3"
+        ]
+    },
+    {
+        "ENName": "[Beastly Warrior]\nSheyron / Shuilong (Beast)",
+        "DevNicknames": "waterdragon_kunfu_proud",
+        "Artist": "",
+        "songs": [
+            "waterdragon_kunfu_proud.mp3"
+        ]
+    },
+    {
+        "ENName": "[Psychic of Boundaries]\nMishima Yuki",
+        "DevNicknames": "psychic_yuki",
+        "Artist": "",
+        "songs": [
+            "psychic_yuki.mp3"
+        ]
+    },
+    {
+        "ENName": "[Indominable Warship]\nFraxis",
+        "DevNicknames": "navy_officer",
+        "Artist": "",
+        "songs": [
+            "navy_officer.mp3"
+        ]
+    },
+    {
+        "ENName": "[Great Witch of Frost]\nCypher (Anniversary)",
+        "DevNicknames": "ice_witch_2anv",
+        "Artist": "",
+        "songs": [
+            "ice_witch_2anv.mp3"
+        ]
+    },
+    {
+        "ENName": "[Saint of Snow]\nRaylas (Christmas)",
+        "DevNicknames": "freeze_eye_xm21",
+        "Artist": "",
+        "songs": [
+            "freeze_eye_xm21.mp3"
+        ]
+    },
+    {
+        "ENName": "[CIPO Investigator]\nToraetty (New Year)",
+        "DevNicknames": "heavenly_three",
+        "Artist": "",
+        "songs": [
+            "heavenly_three.mp3"
+        ]
+    },
+    {
+        "ENName": "[Young Elf Honor Student]\nKyouka",
+        "DevNicknames": "kyouka",
+        "Artist": "",
+        "songs": [
+            "kyouka.mp3"
+        ]
+    },
+    {
+        "ENName": "[Frostfang Dragon Songstress of Freedom]\nAnbach",
+        "DevNicknames": "ice_dragon",
+        "Artist": "",
+        "songs": [
+            "ice_dragon.mp3"
+        ]
+    },
+    {
+        "ENName": "[Enforcer of Wishes]\nJusty",
+        "DevNicknames": "justice_lady",
+        "Artist": "",
+        "songs": [
+            "justice_lady.mp3"
+        ]
+    },
+    {
+        "ENName": "[Metal Diva of the Deep]\nDia (Half Anniversary)",
+        "DevNicknames": "sing_android_2halfanv",
+        "Artist": "",
+        "songs": [
+            "sing_android_2halfanv.mp3"
+        ]
+    },
+    {
+        "ENName": "[Goddess of the Axis Order]\nAqua (KonoSuba Collab)",
+        "DevNicknames": "aqua",
+        "Artist": "",
+        "songs": [
+            "aqua.mp3"
+        ]
+    },
+    {
+        "ENName": "[Psychic at Sea] \nLuca",
+        "DevNicknames": "luca_playable",
+        "Artist": "",
+        "songs": [
+            "luca_playable.mp3"
+        ]
+    },
+    {
+        "ENName": "[Raging Whale Pirate Captain]\nZelimir",
+        "DevNicknames": "pirates_of_fear",
+        "Artist": "",
+        "songs": [
+            "pirates_of_fear.mp3"
+        ]
+    },
+    {
+        "ENName": "[Lord of Thirdia]\nCiel",
+        "DevNicknames": "wind_spbro_3anv",
+        "Artist": "",
+        "songs": [
+            "wind_spbro_3anv.mp3"
+        ]
+    },
+    {
+        "ENName": "[Flower of Spring]\nMishima Yuki (New Year)",
+        "DevNicknames": "psychic_yuki_ny23",
+        "Artist": "",
+        "songs": [
+            "psychic_yuki_ny23.mp3"
+        ]
+    },
+    {
+        "ENName": "[Golden Dawn]\nSotieth (Meteor)",
+        "DevNicknames": "ruin_lady_meteor23",
+        "Artist": "",
+        "songs": [
+            "ruin_lady_meteor23.mp3"
+        ]
+    },
+    {
+        "ENName": "[Adventurer of Empathetic Horns]\r\nNisues",
+        "DevNicknames": "vesta_caster",
+        "Artist": "",
+        "songs": [
+            "vesta_caster.mp3"
+        ]
+    },
+    {
+        "ENName": "[Kowloon Gangster]\r\nRanmei",
+        "DevNicknames": "amulet_bosslady",
+        "Artist": "",
+        "songs": [
+            "amulet_bosslady.mp3"
+        ]
+    },
+    {
+        "ENName": "[Dragon Shadow On Summer Days]\r\nKageoka Ryuichi",
+        "DevNicknames": "psychic_projection_smr23",
+        "Artist": "",
+        "songs": [
+            "psychic_projection_smr23.mp3"
+        ]
+    },
+    {
+        "ENName": "[Bride of Possibilities]\r\nSouvi",
+        "DevNicknames": "psycho_reaper_meteor23",
+        "Artist": "",
+        "songs": [
+            "psycho_reaper_meteor23.mp3"
+        ]
+    },
+    {
+        "ENName": "[Canopy Bearer]\r\nPu Lilie",
+        "DevNicknames": "guild_front_girl_playable",
+        "Artist": "",
+        "songs": [
+            "guild_front_girl_playable.mp3"
+        ]
+    },
+    {
+        "ENName": "[Spirit of Blessing]\nChalua (Halloween)",
+        "DevNicknames": "dryad_hw23",
+        "Artist": "",
+        "songs": [
+            "dryad_hw23.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Founding Alchemist]\nCagliostro",
+        "DevNicknames": "cagliostro",
+        "Artist": "",
+        "songs": [
+            "cagliostro.mp3"
+        ]
+    },
+    {
+        "ENName": "[Holy Night Samurai]\nSoushiro (Christmas)",
+        "DevNicknames": "samurai_xm19",
+        "Artist": "",
+        "songs": [
+            "christmas_samurai.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Wild Merrymaking Thunder Bow User]\nMetis",
+        "DevNicknames": "thunder_archer",
+        "Artist": "",
+        "songs": [
+            "thunder_archer.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Thunderclap Boxing King]\nBarak",
+        "DevNicknames": "mighty_striker",
+        "Artist": "",
+        "songs": [
+            "mighty_striker.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Loyal Iron Striker]\nSera",
+        "DevNicknames": "machine_police_girl",
+        "Artist": "",
+        "songs": [
+            "machine_police_girl.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Efficient Fireworks Master]\nBotan",
+        "DevNicknames": "big_gunner",
+        "Artist": "",
+        "songs": [
+            "big_gunner.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Midsummer Magician]\nIllumi (Summer)",
+        "DevNicknames": "illusionist_smr20",
+        "Artist": "",
+        "songs": [
+            "illusionist_smr20.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Abyss's Lady]\nBercetia (Summer)",
+        "DevNicknames": "dimension_witch_smr20",
+        "Artist": "",
+        "songs": [
+            "dimension_witch_smr20.mp3"
+        ]
+    },
+    {
+        "ENName": "[The White-Flowered Mecha]\nRegis (Anniversary)",
+        "DevNicknames": "rec_android_1anv",
+        "Artist": "",
+        "songs": [
+            "rec_android_1anv.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Ox Kingdom's Idol]\nBeaucy (New Year)",
+        "DevNicknames": "heavenly_two",
+        "Artist": "",
+        "songs": [
+            "heavenly_two.mp3"
+        ]
+    },
+    {
+        "ENName": "[Monster and Young Girl]\nRhode",
+        "DevNicknames": "girl_and_mecha",
+        "Artist": "",
+        "songs": [
+            "girl_and_mecha.mp3"
+        ]
+    },
+    {
+        "ENName": "[Capable Manager Rocketing Forward]\nTwink",
+        "DevNicknames": "general_toyakiren",
+        "Artist": "",
+        "songs": [
+            "general_toyakiren.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Ninja Samurai Arrives]\nZantetsu",
+        "DevNicknames": "samurai_robot",
+        "Artist": "",
+        "songs": [
+            "samurai_robot.mp3"
+        ]
+    },
+    {
+        "ENName": "[Thrill Lover]\nMarquis",
+        "DevNicknames": "elder_guild_fighter",
+        "Artist": "",
+        "songs": [
+            "elder_guild_fighter.mp3"
+        ]
+    },
+    {
+        "ENName": "[Summer Saver]\nSera (Summer)",
+        "DevNicknames": "machine_police_girl_smr21",
+        "Artist": "",
+        "songs": [
+            "machine_police_girl_smr21.mp3"
+        ]
+    },
+    {
+        "ENName": "[King of Empathetic Horns]\nMemram",
+        "DevNicknames": "horn_leader",
+        "Artist": "",
+        "songs": [
+            "horn_leader.mp3"
+        ]
+    },
+    {
+        "ENName": "[Destroy Slugger]\nStryna",
+        "DevNicknames": "cyber_battergirl",
+        "Artist": "",
+        "songs": [
+            "cyber_battergirl.mp3"
+        ]
+    },
+    {
+        "ENName": "[White Guardian]\nHelga (Beast)",
+        "DevNicknames": "dog_slasher_proud",
+        "Artist": "",
+        "songs": [
+            "dog_slasher_proud.mp3"
+        ]
+    },
+    {
+        "ENName": "[Thunderclap Psychic]\nKazutake Tooru",
+        "DevNicknames": "psychic_tohru",
+        "Artist": "",
+        "songs": [
+            "psychic_tohru.mp3"
+        ]
+    },
+    {
+        "ENName": "[Awakened Fang]\nShiro (Anniversary)",
+        "DevNicknames": "white_tiger_2anv",
+        "Artist": "",
+        "songs": [
+            "white_tiger_2anv.mp3"
+        ]
+    },
+    {
+        "ENName": "[Moratorium Weapon]\nTect",
+        "DevNicknames": "super_robot",
+        "Artist": "",
+        "songs": [
+            "super_robot.mp3"
+        ]
+    },
+    {
+        "ENName": "[Moon Spider of Violet Electricity]\r\nMayuzuki",
+        "DevNicknames": "spider_ninja",
+        "Artist": "",
+        "songs": [
+            "spider_ninja.mp3"
+        ]
+    },
+    {
+        "ENName": "[Piercing Bullet of the Summer Sky]\nBaretta (Summer)",
+        "DevNicknames": "combat_soldier_smr22",
+        "Artist": "",
+        "songs": [
+            "combat_soldier_smr22.mp3"
+        ]
+    },
+    {
+        "ENName": "[Idol\u2606Hero]\r\nLaputina",
+        "DevNicknames": "nihilist_mechgirl",
+        "Artist": "",
+        "songs": [
+            "nihilist_mechgirl.mp3"
+        ]
+    },
+    {
+        "ENName": "[Vampire of the Lonely Night]\nRumylaka",
+        "DevNicknames": "little_vampire",
+        "Artist": "",
+        "songs": [
+            "little_vampire.mp3"
+        ]
+    },
+    {
+        "ENName": "[Black Dress Knight]\nKira (Halloween)",
+        "DevNicknames": "palpebra_knight_lady_hw22",
+        "Artist": "",
+        "songs": [
+            "palpebra_knight_lady_hw22.mp3"
+        ]
+    },
+    {
+        "ENName": "[Capable Manager Full of New Year Spirit]\nTwink (New Year)",
+        "DevNicknames": "general_toyakiren_ny23",
+        "Artist": "",
+        "songs": [
+            "general_toyakiren_ny23.mp3"
+        ]
+    },
+    {
+        "ENName": "[Cage Liberator]\nK\u00e4sivars",
+        "DevNicknames": "octcyborg_lady",
+        "Artist": "",
+        "songs": [
+            "octcyborg_lady.mp3"
+        ]
+    },
+    {
+        "ENName": "[Inverted White Girl]\nDine (Valentine)",
+        "DevNicknames": "dark_psygirl_vt23",
+        "Artist": "",
+        "songs": [
+            "dark_psygirl_vt23.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Haughty Gentleman Negotiator]\nLiebraum (White Day)",
+        "DevNicknames": "blade_dancer_wt23",
+        "Artist": "",
+        "songs": [
+            "blade_dancer_wt23.mp3"
+        ]
+    },
+    {
+        "ENName": "[King Predator]\nKing Johnson",
+        "DevNicknames": "pbc_ceo_playable",
+        "Artist": "",
+        "songs": [
+            "pbc_ceo_playable.mp3"
+        ]
+    },
+    {
+        "ENName": "[Psychic of Cutting Edge]\r\nAmou Nagiri",
+        "DevNicknames": "psychic_katana",
+        "Artist": "",
+        "songs": [
+            "psychic_katana.mp3"
+        ]
+    },
+    {
+        "ENName": "[Naked Lion]\nTheo (Summer)",
+        "DevNicknames": "lion_boy_smr23",
+        "Artist": "",
+        "songs": [
+            "lion_boy_smr23.mp3"
+        ]
+    },
+    {
+        "ENName": "[Powerful Winged Shooter]\r\nTajes",
+        "DevNicknames": "starbreak_hunter_meteor23",
+        "Artist": "",
+        "songs": [
+            "starbreak_hunter_meteor23.mp3"
+        ]
+    },
+    {
+        "ENName": "[Codename: Shinigami]\r\nCharlene",
+        "DevNicknames": "artificialeye_sniper",
+        "Artist": "",
+        "songs": [
+            "artificialeye_sniper.mp3"
+        ]
+    },
+    {
+        "ENName": "[Guardian of Courage]\nLight (4th Anniversary)",
+        "DevNicknames": "light_adventurer_4anv",
+        "Artist": "",
+        "songs": [
+            "light_adventurer_4anv.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Cute and Loveable Sword Monster]\nSilty",
+        "DevNicknames": "wind_spgirl",
+        "Artist": "",
+        "songs": [
+            "silty_1.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Fated Battle Miko]\nPhilia",
+        "DevNicknames": "wind_oracle",
+        "Artist": "",
+        "songs": [
+            "wind_oracle.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Spirit Katana's Resident Spirit]\nMurakumo",
+        "DevNicknames": "katana_ghost",
+        "Artist": "",
+        "songs": [
+            "murakumo.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Rumbling's Survivor]\nLeon",
+        "DevNicknames": "mercenary",
+        "Artist": "",
+        "songs": [
+            "mercenary.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Broad-wing Spirit User]\nShiue",
+        "DevNicknames": "bigwing_shaman",
+        "Artist": "",
+        "songs": [
+            "bigwing_shaman.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Soaring Ambassador]\nMiguel",
+        "DevNicknames": "gentle_barten",
+        "Artist": "",
+        "songs": [
+            "gentle_barten.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Tiny Guide]\nKokkoro",
+        "DevNicknames": "kokkoro",
+        "Artist": "",
+        "songs": [
+            "kokkoro.mp3"
+        ]
+    },
+    {
+        "ENName": "[Vortex Dragon of Destruction]\nShult ",
+        "DevNicknames": "wind_dragon",
+        "Artist": "",
+        "songs": [
+            "wind_dragon.mp3"
+        ]
+    },
+    {
+        "ENName": "[Child of Hope]\nEsterielle",
+        "DevNicknames": "elf_princess",
+        "Artist": "",
+        "songs": [
+            "elf_princess.mp3"
+        ]
+    },
+    {
+        "ENName": "[Young Female Knight of the Stars]\nSilty (Anniversary)",
+        "DevNicknames": "wind_spgirl_1anv",
+        "Artist": "",
+        "songs": [
+            "wind_spgirl_1anv.mp3"
+        ]
+    },
+    {
+        "ENName": "[Kunoichi in Her New Year's Best Clothes]\nSuzuka (New Year)",
+        "DevNicknames": "timid_kunoichi_ny21",
+        "Artist": "",
+        "songs": [
+            "timid_kunoichi_ny21.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Silent Subjugator] \nFluffy",
+        "DevNicknames": "combat_animal",
+        "Artist": "",
+        "songs": [
+            "combat_animal.mp3"
+        ]
+    },
+    {
+        "ENName": "[Dancing Wind's Splendor in the Empty Sky] \nSonya (Limited)",
+        "DevNicknames": "brown_fighter_dst21",
+        "Artist": "",
+        "songs": [
+            "brown_fighter_dst21.mp3"
+        ]
+    },
+    {
+        "ENName": "[Seer of Time]\nNevia",
+        "DevNicknames": "beast_shaman",
+        "Artist": "",
+        "songs": [
+            "beast_shaman.mp3"
+        ]
+    },
+    {
+        "ENName": "[Destroyer of Eternity]\nEsterielle (Half Anniversary)",
+        "DevNicknames": "elf_princess_1halfanv",
+        "Artist": "",
+        "songs": [
+            "elf_princess_1halfanv.mp3"
+        ]
+    },
+    {
+        "ENName": "[Sprite Priestess Experiencing Love]\nShiue (Summer)",
+        "DevNicknames": "bigwing_shaman_smr21",
+        "Artist": "",
+        "songs": [
+            "bigwing_shaman_smr21.mp3"
+        ]
+    },
+    {
+        "ENName": "[Malevolent Tengu of the Tempest]\nGouran",
+        "DevNicknames": "tengu_master",
+        "Artist": "",
+        "songs": [
+            "tengu_master.mp3"
+        ]
+    },
+    {
+        "ENName": "[Adventurer Cooling Off in the Summer Night]\nLeon (Summer/Yukata)",
+        "DevNicknames": "mercenary_smr21",
+        "Artist": "",
+        "songs": [
+            "mercenary_smr21.mp3"
+        ]
+    },
+    {
+        "ENName": "[Christmas Eve Subjugator]\nFluffy (Christmas)",
+        "DevNicknames": "combat_animal_xm21",
+        "Artist": "",
+        "songs": [
+            "combat_animal_xm21.mp3"
+        ]
+    },
+    {
+        "ENName": "[Kind Rabbit Girl]\nMimi",
+        "DevNicknames": "mimi",
+        "Artist": "",
+        "songs": [
+            "mimi.mp3"
+        ]
+    },
+    {
+        "ENName": "[Marching Star]\nMarchia",
+        "DevNicknames": "marching_conductor",
+        "Artist": "",
+        "songs": [
+            "marching_conductor.mp3"
+        ]
+    },
+    {
+        "ENName": "[Escort Dragon]\nShult (White Day)",
+        "DevNicknames": "wind_dragon_wt22",
+        "Artist": "",
+        "songs": [
+            "wind_dragon_wt22.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Free Knight Girl]\r\nElmar",
+        "DevNicknames": "waste_armor",
+        "Artist": "",
+        "songs": [
+            "waste_armor.mp3"
+        ]
+    },
+    {
+        "ENName": "[Silent Sprinter]\r\nSilence Suzuka",
+        "DevNicknames": "silence_suzuka",
+        "Artist": "",
+        "songs": [
+            "silence_suzuka.mp3"
+        ]
+    },
+    {
+        "ENName": "[Their Hero]\nInori Shouta (Summer)",
+        "DevNicknames": "psychic_shouta_smr22",
+        "Artist": "",
+        "songs": [
+            "psychic_shouta_smr22.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Spirit Mirror's Resident Spirit]\nManoka",
+        "DevNicknames": "ghost_nymph",
+        "Artist": "",
+        "songs": [
+            "ghost_nymph.mp3"
+        ]
+    },
+    {
+        "ENName": "[Princess Shrine Maiden of the Bird Tribe]\r\nZephyr",
+        "DevNicknames": "asymmetry_birdgirl",
+        "Artist": "",
+        "songs": [
+            "asymmetry_birdgirl.mp3"
+        ]
+    },
+    {
+        "ENName": "[One-Man Circus Queen]\nCirqueharle (New Year)",
+        "DevNicknames": "heavenly_four",
+        "Artist": "",
+        "songs": [
+            "heavenly_four.mp3"
+        ]
+    },
+    {
+        "ENName": "[Off-Shot Gravure]\nBeaucy (Valentine)",
+        "DevNicknames": "heavenly_two_vt23",
+        "Artist": "",
+        "songs": [
+            "heavenly_two_vt23.mp3"
+        ]
+    },
+    {
+        "ENName": "[Psychic of Freedom]\nAsato Yae",
+        "DevNicknames": "psychic_gal",
+        "Artist": "",
+        "songs": [
+            "psychic_gal.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Free Black Wolf Knight]\nRolf (White Day)",
+        "DevNicknames": "black_wolf_knight_wt23",
+        "Artist": "",
+        "songs": [
+            "black_wolf_knight_wt23.mp3"
+        ]
+    },
+    {
+        "ENName": "[Winds Spun for the Future]\nPhilia (Meteor)",
+        "DevNicknames": "wind_oracle_meteor23",
+        "Artist": "",
+        "songs": [
+            "wind_oracle_meteor23.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Man Who Knew the Afterwards]\nYuhino Taichi",
+        "DevNicknames": "psychic_taichi",
+        "Artist": "",
+        "songs": [
+            "psychic_taichi.mp3"
+        ]
+    },
+    {
+        "ENName": "[Gravity Girlfriend]\nKuguri Yukariko (Summer)",
+        "DevNicknames": "psychic_yamikawa_smr23",
+        "Artist": "",
+        "songs": [
+            "psychic_yamikawa_smr23.mp3"
+        ]
+    },
+    {
+        "ENName": "[Gale Fighter]\r\nFluffy",
+        "DevNicknames": "combat_animal_meteor23",
+        "Artist": "",
+        "songs": [
+            "combat_animal_meteor23.mp3"
+        ]
+    },
+    {
+        "ENName": "[Painting Enthusiast Crossing the Otherworldly]\nOld Man Zigza",
+        "DevNicknames": "mob_jiguza_playable",
+        "Artist": "",
+        "songs": [
+            "mob_jiguza_playable.mp3"
+        ]
+    },
+    {
+        "ENName": "[Sword Saint of Stars]\nSilty (Meteor)",
+        "DevNicknames": "wind_spgirl_4anv",
+        "Artist": "",
+        "songs": [
+            "wind_spgirl_4anv.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Awakened Ancient Weapon]\nNephteim",
+        "DevNicknames": "ruin_girl",
+        "Artist": "",
+        "songs": [
+            "ruin_girl.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Wandering Prince]\nLazeret",
+        "DevNicknames": "prince_zero",
+        "Artist": "",
+        "songs": [
+            "lasert_prince_zero.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Seven-Colored Sword Splitter]\nEcrire / \u00c9crire",
+        "DevNicknames": "bodysuit_trooper",
+        "Artist": "",
+        "songs": [
+            "bodysuit_trooper.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Cute and Loveable Nine-tailed]\nInaho (Christmas)",
+        "DevNicknames": "fox_oracle_xm19",
+        "Artist": "",
+        "songs": [
+            "christmas_fox_oracle.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Godly-speed Shooter]\nTajes",
+        "DevNicknames": "starbreak_hunter",
+        "Artist": "",
+        "songs": [
+            "starbreak_hunter.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Free Bullet]\nBaretta",
+        "DevNicknames": "combat_soldier",
+        "Artist": "",
+        "songs": [
+            "combat_soldier.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Haughty Negotiator]\nLiebraum",
+        "DevNicknames": "blade_dancer",
+        "Artist": "",
+        "songs": [
+            "blade_dancer.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Festive and Beautiful Ancient Weapon-Girl]\nNephteim (Half Anniversary)",
+        "DevNicknames": "ruin_girl_halfanv",
+        "Artist": "",
+        "songs": [
+            "ruin_girl_halfanv.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Travelling Peckish Swordswoman]\nPecorine",
+        "DevNicknames": "pecorine",
+        "Artist": "",
+        "songs": [
+            "pecorine.mp3"
+        ]
+    },
+    {
+        "ENName": "[Neo-Violin Performer]\nLila",
+        "DevNicknames": "neoviolin_musician",
+        "Artist": "",
+        "songs": [
+            "neoviolin_musician_entertainer.mp3",
+            "neoviolin_musician_menuette.mp3",
+            "neoviolin_musician_violin_only.mp3"
+        ]
+    },
+    {
+        "ENName": "[Saintess of Fatoma]\nOrvelle",
+        "DevNicknames": "high_priestess",
+        "Artist": "",
+        "songs": [
+            "high_priestess.mp3"
+        ]
+    },
+    {
+        "ENName": "[Light's Guide]\nPhilamelia",
+        "DevNicknames": "lamp_guide",
+        "Artist": "",
+        "songs": [
+            "lamp_guide.mp3"
+        ]
+    },
+    {
+        "ENName": "[Successor of Hope and Light]\nPhilia (Anniversary)",
+        "DevNicknames": "wind_oracle_1anv",
+        "Artist": "",
+        "songs": [
+            "wind_oracle_1anv.mp3"
+        ]
+    },
+    {
+        "ENName": "[Love's Klutzy Girl]\nEliya (Valentine)",
+        "DevNicknames": "lightbullet_wiz_vt21",
+        "Artist": "",
+        "songs": [
+            "lightbullet_wiz_vt21.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Crystal Travelling Swordsman]\nSeriol",
+        "DevNicknames": "crystal_swordman",
+        "Artist": "",
+        "songs": [
+            "crystal_swordman.mp3"
+        ]
+    },
+    {
+        "ENName": "[Spirit and Goblin Hunter]\nRengetsu",
+        "DevNicknames": "yokai_exterminator",
+        "Artist": "",
+        "songs": [
+            "yokai_exterminator.mp3"
+        ]
+    },
+    {
+        "ENName": "[Naked Princess]\nLilith (Summer)",
+        "DevNicknames": "resistance_princess_smr21",
+        "Artist": "",
+        "songs": [
+            "resistance_princess_smr21.mp3"
+        ]
+    },
+    {
+        "ENName": "[Fair Summer-Furred Nine-tailed Maiden]\nInaho (Summer)",
+        "DevNicknames": "fox_oracle_smr21",
+        "Artist": "",
+        "songs": [
+            "fox_oracle_smr21.mp3"
+        ]
+    },
+    {
+        "ENName": "[Beautiful Weapon Girl of Summer]\nNephteim (Summer/Yukata)",
+        "DevNicknames": "ruin_girl_smr21",
+        "Artist": "",
+        "songs": [
+            "ruin_girl_smr21.mp3"
+        ]
+    },
+    {
+        "ENName": "[Canopy Knight]\nZekhel",
+        "DevNicknames": "guildknight_leader",
+        "Artist": "",
+        "songs": [
+            "guildknight_leader.mp3"
+        ]
+    },
+    {
+        "ENName": "[Music Loving Witch Girl]\nLila (Halloween)",
+        "DevNicknames": "neoviolin_musician_hw21",
+        "Artist": "",
+        "songs": [
+            "neoviolin_musician_hw21.mp3"
+        ]
+    },
+    {
+        "ENName": "[New Year Celebratory Saint]\nOrvelle (New Year)",
+        "DevNicknames": "high_priestess_ny22",
+        "Artist": "",
+        "songs": [
+            "high_priestess_ny22.mp3"
+        ]
+    },
+    {
+        "ENName": "[Stray Heart]\nNate (Valentine)",
+        "DevNicknames": "hero_girl_vt22",
+        "Artist": "",
+        "songs": [
+            "hero_girl_vt22.mp3"
+        ]
+    },
+    {
+        "ENName": "[Pretending to be a God of Evil and Tyranny]\nStinel",
+        "DevNicknames": "still_obstinator",
+        "Artist": "",
+        "songs": [
+            "still_obstinator.mp3"
+        ]
+    },
+    {
+        "ENName": "[Top Trendsetter]\r\nQuinvid",
+        "DevNicknames": "airship_captain",
+        "Artist": "",
+        "songs": [
+            "airship_captain.mp3"
+        ]
+    },
+    {
+        "ENName": "[Pure and Innocent Hokkaido Girl]\r\nSpecial Week",
+        "DevNicknames": "special_week",
+        "Artist": "",
+        "songs": [
+            "special_week.mp3"
+        ]
+    },
+    {
+        "ENName": "[Waterside Ninja Samurai]\nZantetsu (Summer)",
+        "DevNicknames": "samurai_robot_smr22",
+        "Artist": "",
+        "songs": [
+            "samurai_robot_smr22.mp3"
+        ]
+    },
+    {
+        "ENName": "[Sacred Swordsman]\nIrinoa",
+        "DevNicknames": "holysword_girl",
+        "Artist": "",
+        "songs": [
+            "holysword_girl.mp3"
+        ]
+    },
+    {
+        "ENName": "[Flying Swallow Free Knights' Commander]\nYuwel (Anniversary)",
+        "DevNicknames": "swallow_knight_3anv",
+        "Artist": "",
+        "songs": [
+            "swallow_knight_3anv.mp3"
+        ]
+    },
+    {
+        "ENName": "[Courtesan of the Holy Night Festival]\nKikuno (Christmas)",
+        "DevNicknames": "compliment_oiran_xm22",
+        "Artist": "",
+        "songs": [
+            "compliment_oiran_xm22.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Last Champion]\r\nLight",
+        "DevNicknames": "light_ballot23",
+        "Artist": "",
+        "songs": [
+            "light_ballot23.mp3"
+        ]
+    },
+    {
+        "ENName": "[From Starview Village]\r\nStella",
+        "DevNicknames": "stella_ballot23",
+        "Artist": "",
+        "songs": [
+            "stella_ballot23.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Inheritor Dragon of Affection]\r\nRachmano",
+        "DevNicknames": "golden_dragon_jr",
+        "Artist": "",
+        "songs": [
+            "golden_dragon_jr.mp3"
+        ]
+    },
+    {
+        "ENName": "[Sword of the Twin Stellas]\nArc (Meteor)",
+        "DevNicknames": "alk_3halfanv",
+        "Artist": "",
+        "songs": [
+            "alk_3halfanv.mp3"
+        ]
+    },
+    {
+        "ENName": "[New Adventurer]\nNagihara Nao (Ceremony)",
+        "DevNicknames": "psychic_nao_3halfanv",
+        "Artist": "",
+        "songs": [
+            "psychic_nao_3halfanv.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Spirit Jewel's Resident Spirit]\r\nTamako",
+        "DevNicknames": "magatama_spirit",
+        "Artist": "",
+        "songs": [
+            "magatama_spirit.mp3"
+        ]
+    },
+    {
+        "ENName": "[Traveler of A Kindred Journey]\nNova",
+        "DevNicknames": "nova_4anv",
+        "Artist": "",
+        "songs": [
+            "nova_4anv.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Dimensional Witch]\nBercetia",
+        "DevNicknames": "dimension_witch",
+        "Artist": "",
+        "songs": [
+            "dimension_witch.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Experienced Hunter]\nVeron",
+        "DevNicknames": "veteran_hunter",
+        "Artist": "",
+        "songs": [
+            "veteran_hunter.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Wandering Magic Swordswoman]\nMolmia",
+        "DevNicknames": "blade_witch",
+        "Artist": "",
+        "songs": [
+            "blade_witch.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Snake's Shadow and Smiling Girl]\nKarla",
+        "DevNicknames": "cursed_girl",
+        "Artist": "",
+        "songs": [
+            "cursed_girl.mp3"
+        ]
+    },
+    {
+        "ENName": "[Fallen Angel]\nOlivia",
+        "DevNicknames": "olivia",
+        "Artist": "",
+        "songs": [
+            "olivia.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Cat-Eared Sorceress]\nKaryl",
+        "DevNicknames": "kyaru",
+        "Artist": "",
+        "songs": [
+            "kyaru.mp3"
+        ]
+    },
+    {
+        "ENName": "[Marine Nightmare]\nAlice (Summer)",
+        "DevNicknames": "alice_smr20",
+        "Artist": "",
+        "songs": [
+            "alice_smr20.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Steel Little Devil Diva]\nDia (Halloween)",
+        "DevNicknames": "sing_android_hw20",
+        "Artist": "",
+        "songs": [
+            "sing_android_hw20.mp3"
+        ]
+    },
+    {
+        "ENName": "[\u2020 Darkness Girl \u2020] \nDine",
+        "DevNicknames": "dark_psygirl",
+        "Artist": "",
+        "songs": [
+            "dark_psygirl.mp3"
+        ]
+    },
+    {
+        "ENName": "[Hope in the Dead of Night]\nEduceus",
+        "DevNicknames": "devil_leader",
+        "Artist": "",
+        "songs": [
+            "devil_leader.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Snake-Decapitating Ninja]\nYakumo",
+        "DevNicknames": "silent_ninja",
+        "Artist": "",
+        "songs": [
+            "silent_ninja.mp3"
+        ]
+    },
+    {
+        "ENName": "[Devilish Girl Santa]\nAlm (Christmas)",
+        "DevNicknames": "devil_princess_xm20",
+        "Artist": "",
+        "songs": [
+            "devil_princess_xm20.mp3"
+        ]
+    },
+    {
+        "ENName": "[One Who Opened the Gate]\nCouette",
+        "DevNicknames": "summoner_little",
+        "Artist": "",
+        "songs": [
+            "summoner_little.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Deep Sea's Lady] \nMaelviola",
+        "DevNicknames": "noble_sorceress",
+        "Artist": "",
+        "songs": [
+            "noble_sorceress.mp3"
+        ]
+    },
+    {
+        "ENName": "[\u2021 Darkness Girl Zero \u2021] \nDine (Limited)",
+        "DevNicknames": "dark_psygirl_dst21",
+        "Artist": "",
+        "songs": [
+            "dark_psygirl_dst21.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Immortal Ultramarine]\nBeatrix",
+        "DevNicknames": "beatrix",
+        "Artist": "",
+        "songs": [
+            "beatrix.mp3",
+            "beatrix_arrange.mp3"
+        ]
+    },
+    {
+        "ENName": "[Necktie-Slackening Gunner]\nSergil / Sergyl (Half Anniversary)",
+        "DevNicknames": "blindness_gunner_1halfanv",
+        "Artist": "",
+        "songs": [
+            "blindness_gunner_1halfanv.mp3"
+        ]
+    },
+    {
+        "ENName": "[Chocolate Lily Witch]\nPrimula",
+        "DevNicknames": "blackflower_wiz",
+        "Artist": "",
+        "songs": [
+            "blackflower_wiz.mp3"
+        ]
+    },
+    {
+        "ENName": "[HW\u2605Night Girl]\nLav / Love (Halloween)",
+        "DevNicknames": "touyakiren_ceo_hw21",
+        "Artist": "",
+        "songs": [
+            "touyakiren_ceo_hw21.mp3"
+        ]
+    },
+    {
+        "ENName": "[Psychic of Gravity]\nInori Shouta",
+        "DevNicknames": "psychic_shouta",
+        "Artist": "",
+        "songs": [
+            "psychic_shouta.mp3"
+        ]
+    },
+    {
+        "ENName": "[Onmyoudo Apprentice]\nCouette (Anniversary)",
+        "DevNicknames": "summoner_little_2anv",
+        "Artist": "",
+        "songs": [
+            "summoner_little_2anv.mp3"
+        ]
+    },
+    {
+        "ENName": "[Witch of New Year Twilight]\nBercetia (New Year)",
+        "DevNicknames": "dimension_witch_ny22",
+        "Artist": "",
+        "songs": [
+            "dimension_witch_ny22.mp3"
+        ]
+    },
+    {
+        "ENName": "[Servant x Prince]\nMurakumo (White Day)",
+        "DevNicknames": "katana_ghost_wt22",
+        "Artist": "",
+        "songs": [
+            "katana_ghost_wt22.mp3"
+        ]
+    },
+    {
+        "ENName": "[Guild Leader for Estate Affairs]\nHildegard",
+        "DevNicknames": "estateguild_leader",
+        "Artist": "",
+        "songs": [
+            "estateguild_leader.mp3"
+        ]
+    },
+    {
+        "ENName": "[Witch Of The Mirror] Louelise",
+        "DevNicknames": "mirror_witch",
+        "Artist": "",
+        "songs": [
+            "mirror_witch.mp3"
+        ]
+    },
+    {
+        "ENName": "[Seeker of Truth]\nLiam (Half Anniversary)",
+        "DevNicknames": "warlock_2halfanv",
+        "Artist": "",
+        "songs": [
+            "warlock_2halfanv.mp3"
+        ]
+    },
+    {
+        "ENName": "[Blooming Summer Witch]\nPrimula (Summer)",
+        "DevNicknames": "blackflower_wiz_smr22",
+        "Artist": "",
+        "songs": [
+            "blackflower_wiz_smr22.mp3"
+        ]
+    },
+    {
+        "ENName": "[Astral Projection Esper]\nKuguri Yukariko",
+        "DevNicknames": "psychic_yamikawa",
+        "Artist": "",
+        "songs": [
+            "psychic_yamikawa.mp3"
+        ]
+    },
+    {
+        "ENName": "[Devilish Swordswoman Vampire in Love]\nSilty (Halloween)",
+        "DevNicknames": "wind_spgirl_hw22",
+        "Artist": "",
+        "songs": [
+            "wind_spgirl_hw22.mp3"
+        ]
+    },
+    {
+        "ENName": "[Healer of Empathetic Horns]\r\nElmore",
+        "DevNicknames": "horn_mypace",
+        "Artist": "",
+        "songs": [
+            "horn_mypace.mp3"
+        ]
+    },
+    {
+        "ENName": "[Warrior of Reconquest]\nVeron (Anniversary)",
+        "DevNicknames": "veteran_hunter_3anv",
+        "Artist": "",
+        "songs": [
+            "veteran_hunter_3anv.mp3"
+        ]
+    },
+    {
+        "ENName": "[Weaver of Shadows]\nNirjana",
+        "DevNicknames": "rector_sorcerer_playable",
+        "Artist": "",
+        "songs": [
+            "rector_sorcerer_playable.mp3"
+        ]
+    },
+    {
+        "ENName": "[Master of Chaos]\r\nTanakiera",
+        "DevNicknames": "evilloli_master",
+        "Artist": "",
+        "songs": [
+            "evilloli_master.mp3"
+        ]
+    },
+    {
+        "ENName": "[False Priest of Midnight]\r\nIorez",
+        "DevNicknames": "impostor_priest",
+        "Artist": "",
+        "songs": [
+            "impostor_priest.mp3"
+        ]
+    },
+    {
+        "ENName": "[Beautiful New Weapon-Girl Student]\nNephteim (Meteor)",
+        "DevNicknames": "ruin_girl_3halfanv",
+        "Artist": "",
+        "songs": [
+            "ruin_girl_3halfanv.mp3"
+        ]
+    },
+    {
+        "ENName": "[Starless Light]\r\nMarden",
+        "DevNicknames": "priest_prince_playable",
+        "Artist": "",
+        "songs": [
+            "priest_prince_playable.mp3"
+        ]
+    },
+    {
+        "ENName": "[Psychic of Teleportation]\r\nSuminami Hibiki",
+        "DevNicknames": "psychic_teleport_playable",
+        "Artist": "",
+        "songs": [
+            "psychic_teleport_playable.mp3"
+        ]
+    },
+    {
+        "ENName": "[Talkactive Ex-Intelligence Agent]\r\nChatrina",
+        "DevNicknames": "blindfold_agent",
+        "Artist": "",
+        "songs": [
+            "blindfold_agent.mp3"
+        ]
+    },
+    {
+        "ENName": "[Traveler Embracing Dreams]\nLeve",
+        "DevNicknames": "stella_copy_4anv",
+        "Artist": "",
+        "songs": [
+            "stella_copy_4anv.mp3"
+        ]
+    },
+    {
+        "ENName": "[The Star-Travelling Boy]\nArc",
+        "DevNicknames": "alk",
+        "Artist": "",
+        "songs": [
+            "alk_ceremony.mp3"
+        ]
+    }
+]

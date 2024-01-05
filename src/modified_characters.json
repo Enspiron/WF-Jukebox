@@ -1,0 +1,2422 @@
+[
+    {
+        "ENName": "[The Hell-Fire Dragon King]\nWagner",
+        "DevNicknames": "fire_dragon",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Pirate Captain Who Crosses the Stars]\nMarina",
+        "DevNicknames": "pirates_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Incomplete Alchemist]\nClarisse",
+        "DevNicknames": "clarisse",
+        "Author": ""
+    },
+    {
+        "ENName": "[Dressy Maid]\nMarianne (Christmas)",
+        "DevNicknames": "battle_maid_xm19",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Wandering Courtesan]\nKikuno",
+        "DevNicknames": "compliment_oiran",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Mouse Kingdom's Idol]\nNoene (New Year)",
+        "DevNicknames": "heavenly_one",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Black Wolf Knight]\nRolf",
+        "DevNicknames": "black_wolf_knight",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Summertime Fired-up Treasure Hunting Tiger Girl]\nMia (Summer)",
+        "DevNicknames": "tiger_treasure_hunter_smr20",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Starry Firework Ninja]\nHanabi (Anniversary)",
+        "DevNicknames": "kunoichi_1anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Glamorous Santa Claus]\nBianca (Christmas)",
+        "DevNicknames": "lady_summoner_xm20",
+        "Author": ""
+    },
+    {
+        "ENName": "[Princess with Superhuman Strength]\nToria",
+        "DevNicknames": "halberd_princess",
+        "Author": ""
+    },
+    {
+        "ENName": "[Animal-Eared Ship Doctor]\nLiao",
+        "DevNicknames": "doctor_pirate",
+        "Author": ""
+    },
+    {
+        "ENName": "[Onmyouji Filled With Longing] \nSuizen (White Day)",
+        "DevNicknames": "onmyoji_boy_wt21",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Smiling Hermit] \nQuare",
+        "DevNicknames": "magical_bayonetter",
+        "Author": ""
+    },
+    {
+        "ENName": "[Crimson Piercing Light]\nZeta",
+        "DevNicknames": "zeta",
+        "Author": ""
+    },
+    {
+        "ENName": "[Bullet of the Felder Clan]\nLeticia",
+        "DevNicknames": "tsundere_bountyhunter",
+        "Author": ""
+    },
+    {
+        "ENName": "[Passionate Platinum]\nEcrire / \u00c9crire (Summer)",
+        "DevNicknames": "bodysuit_trooper_smr21",
+        "Author": ""
+    },
+    {
+        "ENName": "[Arrogant Hero]\nHaruhi Suzumiya (The Melancholy of Haruhi Suzumiya Collab)",
+        "DevNicknames": "suzumiya_haruhi",
+        "Author": ""
+    },
+    {
+        "ENName": "[Avenger of the Magic Gun]\nRyunon",
+        "DevNicknames": "shadow_redhood",
+        "Author": ""
+    },
+    {
+        "ENName": "[Captain of the Stars]\nMarina (Anniversary)",
+        "DevNicknames": "pirates_girl_2anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Professional Prankster]\nMisogi",
+        "DevNicknames": "misogi",
+        "Author": ""
+    },
+    {
+        "ENName": "[Valentine's Bullet]\nLeticia (Valentine)",
+        "DevNicknames": "tsundere_bountyhunter_vt22",
+        "Author": ""
+    },
+    {
+        "ENName": "[Bloodstained Wolf]\nWaif",
+        "DevNicknames": "anger_investigator",
+        "Author": ""
+    },
+    {
+        "ENName": "[Foreign Student Princess With Superhuman Strength]\nToria (Half Anniversary)",
+        "DevNicknames": "halberd_princess_2halfanv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Prancing Golden Wrecker Girl]\r\nGold Ship",
+        "DevNicknames": "gold_ship",
+        "Author": ""
+    },
+    {
+        "ENName": "[Obsessed with Explosion Magic]\nMegumin (KonoSuba Collab)",
+        "DevNicknames": "megumin",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Summer Sea Monster Chef]\nParfait (Summer)",
+        "DevNicknames": "monster_cook_smr22",
+        "Author": ""
+    },
+    {
+        "ENName": "[Lion of Anguish] Magnos",
+        "DevNicknames": "lion_swordman_playable",
+        "Author": ""
+    },
+    {
+        "ENName": "[Golem Club's President]\r\nDaedalia",
+        "DevNicknames": "golemclub_captain",
+        "Author": ""
+    },
+    {
+        "ENName": "[Treasure Santa]\nMia (Christmas)",
+        "DevNicknames": "tiger_treasure_hunter_xm22",
+        "Author": ""
+    },
+    {
+        "ENName": "[I Bless You]\nStinel (Ballot)",
+        "DevNicknames": "still_obstinator_ballot23",
+        "Author": ""
+    },
+    {
+        "ENName": "[Newbie Adventurer of Fire]\r\nRunetta",
+        "DevNicknames": "flame_blessgirl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Pure and Lovely Kitten]\r\nPenerone",
+        "DevNicknames": "catbaby_psychicer",
+        "Author": ""
+    },
+    {
+        "ENName": "[Guardian of Flame]\nLilith (Meteor)",
+        "DevNicknames": "resistance_princess_3halfanv",
+        "Author": ""
+    },
+    {
+        "ENName": "[One Who Opened the Gate of Summer]\r\nCouette",
+        "DevNicknames": "summoner_little_smr23",
+        "Author": ""
+    },
+    {
+        "ENName": "[Passionate Proposal Suit]\r\nWilfred",
+        "DevNicknames": "wirfled_playable",
+        "Author": ""
+    },
+    {
+        "ENName": "[Flame Dragon King]\nWagner (Zenith)",
+        "DevNicknames": "fire_dragon_zenith",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Dancing Water's Splendor]\nSonya",
+        "DevNicknames": "brown_fighter",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Matchless Onmyouji]\nSuizen",
+        "DevNicknames": "onmyoji_boy",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Bountiful Water Hagoita Girl]\nEliya (New Year)",
+        "DevNicknames": "lightbullet_wiz_ny20",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Ice Witch]\nCypher",
+        "DevNicknames": "ice_witch",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Iron Wolf]\nSirene",
+        "DevNicknames": "commander",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Dragon's Keeper]\nRimnis",
+        "DevNicknames": "lakeside_guardian",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Borderlands' Guide]\nLaquisha / Lakisha",
+        "DevNicknames": "drawing_witch",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Wave-Riding Prince]\nLazeret (Summer)",
+        "DevNicknames": "prince_zero_smr20",
+        "Author": ""
+    },
+    {
+        "ENName": "[Zombie 1]\nSakura Minamoto (Zombie Land Saga Collab)",
+        "DevNicknames": "minamoto_sakura",
+        "Author": ""
+    },
+    {
+        "ENName": "[Eyes of Freezing]\nRaylas",
+        "DevNicknames": "freeze_eye",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Gentle-Hearted Half Elf]\nEmilia (Re:Zero Collab)",
+        "DevNicknames": "emilia",
+        "Author": ""
+    },
+    {
+        "ENName": "[The All-Powerful Subordinate Maid and Younger Sister]\nRem (Re:Zero Collab)",
+        "DevNicknames": "rem",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Monstrous Martial Arts Genius]\nSheyron / Shuilong",
+        "DevNicknames": "waterdragon_kunfu",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Kingdom's Great General] \nHalidal",
+        "DevNicknames": "desert_commander",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Charming Mermaid Pirate]\nAmelia (Half Anniversary)",
+        "DevNicknames": "mermaid_1halfanv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Motherly Savior]\nMamnalia",
+        "DevNicknames": "holy_mother",
+        "Author": ""
+    },
+    {
+        "ENName": "[Silent Alien]\nYuki Nagato (The Melancholy of Haruhi Suzumiya Collab)",
+        "DevNicknames": "nagato_yuki",
+        "Author": ""
+    },
+    {
+        "ENName": "[Beastly Warrior]\nSheyron / Shuilong (Beast)",
+        "DevNicknames": "waterdragon_kunfu_proud",
+        "Author": ""
+    },
+    {
+        "ENName": "[Psychic of Boundaries]\nMishima Yuki",
+        "DevNicknames": "psychic_yuki",
+        "Author": ""
+    },
+    {
+        "ENName": "[Indominable Warship]\nFraxis",
+        "DevNicknames": "navy_officer",
+        "Author": ""
+    },
+    {
+        "ENName": "[Great Witch of Frost]\nCypher (Anniversary)",
+        "DevNicknames": "ice_witch_2anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Saint of Snow]\nRaylas (Christmas)",
+        "DevNicknames": "freeze_eye_xm21",
+        "Author": ""
+    },
+    {
+        "ENName": "[CIPO Investigator]\nToraetty (New Year)",
+        "DevNicknames": "heavenly_three",
+        "Author": ""
+    },
+    {
+        "ENName": "[Young Elf Honor Student]\nKyouka",
+        "DevNicknames": "kyouka",
+        "Author": ""
+    },
+    {
+        "ENName": "[Frostfang Dragon Songstress of Freedom]\nAnbach",
+        "DevNicknames": "ice_dragon",
+        "Author": ""
+    },
+    {
+        "ENName": "[Enforcer of Wishes]\nJusty",
+        "DevNicknames": "justice_lady",
+        "Author": ""
+    },
+    {
+        "ENName": "[Metal Diva of the Deep]\nDia (Half Anniversary)",
+        "DevNicknames": "sing_android_2halfanv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Goddess of the Axis Order]\nAqua (KonoSuba Collab)",
+        "DevNicknames": "aqua",
+        "Author": ""
+    },
+    {
+        "ENName": "[Psychic at Sea] \nLuca",
+        "DevNicknames": "luca_playable",
+        "Author": ""
+    },
+    {
+        "ENName": "[Raging Whale Pirate Captain]\nZelimir",
+        "DevNicknames": "pirates_of_fear",
+        "Author": ""
+    },
+    {
+        "ENName": "[Youngest Daughter of the Royal House of Silva]\nNoelle Silva (Black Clover Collab)",
+        "DevNicknames": "noelle_silva",
+        "Author": ""
+    },
+    {
+        "ENName": "[Lord of Thirdia]\nCiel",
+        "DevNicknames": "wind_spbro_3anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Flower of Spring]\nMishima Yuki (New Year)",
+        "DevNicknames": "psychic_yuki_ny23",
+        "Author": ""
+    },
+    {
+        "ENName": "[Golden Dawn]\nSotieth (Meteor)",
+        "DevNicknames": "ruin_lady_meteor23",
+        "Author": ""
+    },
+    {
+        "ENName": "[Adventurer of Empathetic Horns]\r\nNisues",
+        "DevNicknames": "vesta_caster",
+        "Author": ""
+    },
+    {
+        "ENName": "[Kowloon Gangster]\r\nRanmei",
+        "DevNicknames": "amulet_bosslady",
+        "Author": ""
+    },
+    {
+        "ENName": "[Dragon Shadow On Summer Days]\r\nKageoka Ryuichi",
+        "DevNicknames": "psychic_projection_smr23",
+        "Author": ""
+    },
+    {
+        "ENName": "[Bride of Possibilities]\r\nSouvi",
+        "DevNicknames": "psycho_reaper_meteor23",
+        "Author": ""
+    },
+    {
+        "ENName": "[Canopy Bearer]\r\nPu Lilie",
+        "DevNicknames": "guild_front_girl_playable",
+        "Author": ""
+    },
+    {
+        "ENName": "[Spirit of Blessing]\nChalua (Halloween)",
+        "DevNicknames": "dryad_hw23",
+        "Author": ""
+    },
+    {
+        "ENName": "[Heir of the Nine-tails]\nInaho",
+        "DevNicknames": "fox_oracle",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Founding Alchemist]\nCagliostro",
+        "DevNicknames": "cagliostro",
+        "Author": ""
+    },
+    {
+        "ENName": "[Holy Night Samurai]\nSoushiro (Christmas)",
+        "DevNicknames": "samurai_xm19",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Wild Merrymaking Thunder Bow User]\nMetis",
+        "DevNicknames": "thunder_archer",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Thunderclap Boxing King]\nBarak",
+        "DevNicknames": "mighty_striker",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Loyal Iron Striker]\nSera",
+        "DevNicknames": "machine_police_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Efficient Fireworks Master]\nBotan",
+        "DevNicknames": "big_gunner",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Midsummer Magician]\nIllumi (Summer)",
+        "DevNicknames": "illusionist_smr20",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Abyss's Lady]\nBercetia (Summer)",
+        "DevNicknames": "dimension_witch_smr20",
+        "Author": ""
+    },
+    {
+        "ENName": "[The White-Flowered Mecha]\nRegis (Anniversary)",
+        "DevNicknames": "rec_android_1anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Ox Kingdom's Idol]\nBeaucy (New Year)",
+        "DevNicknames": "heavenly_two",
+        "Author": ""
+    },
+    {
+        "ENName": "[Monster and Young Girl]\nRhode",
+        "DevNicknames": "girl_and_mecha",
+        "Author": ""
+    },
+    {
+        "ENName": "[Capable Manager Rocketing Forward]\nTwink",
+        "DevNicknames": "general_toyakiren",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Ninja Samurai Arrives]\nZantetsu",
+        "DevNicknames": "samurai_robot",
+        "Author": ""
+    },
+    {
+        "ENName": "[Thrill Lover]\nMarquis",
+        "DevNicknames": "elder_guild_fighter",
+        "Author": ""
+    },
+    {
+        "ENName": "[Summer Saver]\nSera (Summer)",
+        "DevNicknames": "machine_police_girl_smr21",
+        "Author": ""
+    },
+    {
+        "ENName": "[King of Empathetic Horns]\nMemram",
+        "DevNicknames": "horn_leader",
+        "Author": ""
+    },
+    {
+        "ENName": "[Destroy Slugger]\nStryna",
+        "DevNicknames": "cyber_battergirl",
+        "Author": ""
+    },
+    {
+        "ENName": "[White Guardian]\nHelga (Beast)",
+        "DevNicknames": "dog_slasher_proud",
+        "Author": ""
+    },
+    {
+        "ENName": "[Thunderclap Psychic]\nKazutake Tooru",
+        "DevNicknames": "psychic_tohru",
+        "Author": ""
+    },
+    {
+        "ENName": "[Awakened Fang]\nShiro (Anniversary)",
+        "DevNicknames": "white_tiger_2anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Moratorium Weapon]\nTect",
+        "DevNicknames": "super_robot",
+        "Author": ""
+    },
+    {
+        "ENName": "[Moon Spider of Violet Electricity]\r\nMayuzuki",
+        "DevNicknames": "spider_ninja",
+        "Author": ""
+    },
+    {
+        "ENName": "[Piercing Bullet of the Summer Sky]\nBaretta (Summer)",
+        "DevNicknames": "combat_soldier_smr22",
+        "Author": ""
+    },
+    {
+        "ENName": "[Idol\u2606Hero]\r\nLaputina",
+        "DevNicknames": "nihilist_mechgirl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Vampire of the Lonely Night]\nRumylaka",
+        "DevNicknames": "little_vampire",
+        "Author": ""
+    },
+    {
+        "ENName": "[Black Dress Knight]\nKira (Halloween)",
+        "DevNicknames": "palpebra_knight_lady_hw22",
+        "Author": ""
+    },
+    {
+        "ENName": "[Capable Manager Full of New Year Spirit]\nTwink (New Year)",
+        "DevNicknames": "general_toyakiren_ny23",
+        "Author": ""
+    },
+    {
+        "ENName": "[Cage Liberator]\nK\u00e4sivars",
+        "DevNicknames": "octcyborg_lady",
+        "Author": ""
+    },
+    {
+        "ENName": "[Inverted White Girl]\nDine (Valentine)",
+        "DevNicknames": "dark_psygirl_vt23",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Haughty Gentleman Negotiator]\nLiebraum (White Day)",
+        "DevNicknames": "blade_dancer_wt23",
+        "Author": ""
+    },
+    {
+        "ENName": "[King Predator]\nKing Johnson",
+        "DevNicknames": "pbc_ceo_playable",
+        "Author": ""
+    },
+    {
+        "ENName": "[Psychic of Cutting Edge]\r\nAmou Nagiri",
+        "DevNicknames": "psychic_katana",
+        "Author": ""
+    },
+    {
+        "ENName": "[Naked Lion]\nTheo (Summer)",
+        "DevNicknames": "lion_boy_smr23",
+        "Author": ""
+    },
+    {
+        "ENName": "[Powerful Winged Shooter]\r\nTajes",
+        "DevNicknames": "starbreak_hunter_meteor23",
+        "Author": ""
+    },
+    {
+        "ENName": "[Codename: Shinigami]\r\nCharlene",
+        "DevNicknames": "artificialeye_sniper",
+        "Author": ""
+    },
+    {
+        "ENName": "[Guardian of Courage]\nLight (4th Anniversary)",
+        "DevNicknames": "light_adventurer_4anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Cute and Loveable Sword Monster]\nSilty",
+        "DevNicknames": "wind_spgirl",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Fated Battle Miko]\nPhilia",
+        "DevNicknames": "wind_oracle",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Spirit Katana's Resident Spirit]\nMurakumo",
+        "DevNicknames": "katana_ghost",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Rumbling's Survivor]\nLeon",
+        "DevNicknames": "mercenary",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Broad-wing Spirit User]\nShiue",
+        "DevNicknames": "bigwing_shaman",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Soaring Ambassador]\nMiguel",
+        "DevNicknames": "gentle_barten",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Tiny Guide]\nKokkoro",
+        "DevNicknames": "kokkoro",
+        "Author": ""
+    },
+    {
+        "ENName": "[Vortex Dragon of Destruction]\nShult ",
+        "DevNicknames": "wind_dragon",
+        "Author": ""
+    },
+    {
+        "ENName": "[Zombie 2]\nSaki Nikaido (Zombie Land Saga Collab)",
+        "DevNicknames": "nikaido_saki",
+        "Author": ""
+    },
+    {
+        "ENName": "[Child of Hope]\nEsterielle",
+        "DevNicknames": "elf_princess",
+        "Author": ""
+    },
+    {
+        "ENName": "[Young Female Knight of the Stars]\nSilty (Anniversary)",
+        "DevNicknames": "wind_spgirl_1anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Kunoichi in Her New Year's Best Clothes]\nSuzuka (New Year)",
+        "DevNicknames": "timid_kunoichi_ny21",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Silent Subjugator] \nFluffy",
+        "DevNicknames": "combat_animal",
+        "Author": ""
+    },
+    {
+        "ENName": "[Dancing Wind's Splendor in the Empty Sky] \nSonya (Limited)",
+        "DevNicknames": "brown_fighter_dst21",
+        "Author": ""
+    },
+    {
+        "ENName": "[Seer of Time]\nNevia",
+        "DevNicknames": "beast_shaman",
+        "Author": ""
+    },
+    {
+        "ENName": "[Destroyer of Eternity]\nEsterielle (Half Anniversary)",
+        "DevNicknames": "elf_princess_1halfanv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Sprite Priestess Experiencing Love]\nShiue (Summer)",
+        "DevNicknames": "bigwing_shaman_smr21",
+        "Author": ""
+    },
+    {
+        "ENName": "[Malevolent Tengu of the Tempest]\nGouran",
+        "DevNicknames": "tengu_master",
+        "Author": ""
+    },
+    {
+        "ENName": "[Adventurer Cooling Off in the Summer Night]\nLeon (Summer/Yukata)",
+        "DevNicknames": "mercenary_smr21",
+        "Author": ""
+    },
+    {
+        "ENName": "[Christmas Eve Subjugator]\nFluffy (Christmas)",
+        "DevNicknames": "combat_animal_xm21",
+        "Author": ""
+    },
+    {
+        "ENName": "[Kind Rabbit Girl]\nMimi",
+        "DevNicknames": "mimi",
+        "Author": ""
+    },
+    {
+        "ENName": "[Marching Star]\nMarchia",
+        "DevNicknames": "marching_conductor",
+        "Author": ""
+    },
+    {
+        "ENName": "[Escort Dragon]\nShult (White Day)",
+        "DevNicknames": "wind_dragon_wt22",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Free Knight Girl]\r\nElmar",
+        "DevNicknames": "waste_armor",
+        "Author": ""
+    },
+    {
+        "ENName": "[Silent Sprinter]\r\nSilence Suzuka",
+        "DevNicknames": "silence_suzuka",
+        "Author": ""
+    },
+    {
+        "ENName": "[Their Hero]\nInori Shouta (Summer)",
+        "DevNicknames": "psychic_shouta_smr22",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Spirit Mirror's Resident Spirit]\nManoka",
+        "DevNicknames": "ghost_nymph",
+        "Author": ""
+    },
+    {
+        "ENName": "[Wind-wielding Genius Mage]\nYuno (Black Clover Collab)",
+        "DevNicknames": "yuno",
+        "Author": ""
+    },
+    {
+        "ENName": "[Princess Shrine Maiden of the Bird Tribe]\r\nZephyr",
+        "DevNicknames": "asymmetry_birdgirl",
+        "Author": ""
+    },
+    {
+        "ENName": "[One-Man Circus Queen]\nCirqueharle (New Year)",
+        "DevNicknames": "heavenly_four",
+        "Author": ""
+    },
+    {
+        "ENName": "[Off-Shot Gravure]\nBeaucy (Valentine)",
+        "DevNicknames": "heavenly_two_vt23",
+        "Author": ""
+    },
+    {
+        "ENName": "[Psychic of Freedom]\nAsato Yae",
+        "DevNicknames": "psychic_gal",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Free Black Wolf Knight]\nRolf (White Day)",
+        "DevNicknames": "black_wolf_knight_wt23",
+        "Author": ""
+    },
+    {
+        "ENName": "[Winds Spun for the Future]\nPhilia (Meteor)",
+        "DevNicknames": "wind_oracle_meteor23",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Man Who Knew the Afterwards]\nYuhino Taichi",
+        "DevNicknames": "psychic_taichi",
+        "Author": ""
+    },
+    {
+        "ENName": "[Gravity Girlfriend]\nKuguri Yukariko (Summer)",
+        "DevNicknames": "psychic_yamikawa_smr23",
+        "Author": ""
+    },
+    {
+        "ENName": "[Gale Fighter]\r\nFluffy",
+        "DevNicknames": "combat_animal_meteor23",
+        "Author": ""
+    },
+    {
+        "ENName": "[Painting Enthusiast Crossing the Otherworldly]\nOld Man Zigza",
+        "DevNicknames": "mob_jiguza_playable",
+        "Author": ""
+    },
+    {
+        "ENName": "[Sword Saint of Stars]\nSilty (Meteor)",
+        "DevNicknames": "wind_spgirl_4anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Awakened Ancient Weapon]\nNephteim",
+        "DevNicknames": "ruin_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Wandering Prince]\nLazeret",
+        "DevNicknames": "prince_zero",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Seven-Colored Sword Splitter]\nEcrire / \u00c9crire",
+        "DevNicknames": "bodysuit_trooper",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Cute and Loveable Nine-tailed]\nInaho (Christmas)",
+        "DevNicknames": "fox_oracle_xm19",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Godly-speed Shooter]\nTajes",
+        "DevNicknames": "starbreak_hunter",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Free Bullet]\nBaretta",
+        "DevNicknames": "combat_soldier",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Haughty Negotiator]\nLiebraum",
+        "DevNicknames": "blade_dancer",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Festive and Beautiful Ancient Weapon-Girl]\nNephteim (Half Anniversary)",
+        "DevNicknames": "ruin_girl_halfanv",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Travelling Peckish Swordswoman]\nPecorine",
+        "DevNicknames": "pecorine",
+        "Author": ""
+    },
+    {
+        "ENName": "[Neo-Violin Performer]\nLila",
+        "DevNicknames": "neoviolin_musician",
+        "Author": ""
+    },
+    {
+        "ENName": "[Saintess of Fatoma]\nOrvelle",
+        "DevNicknames": "high_priestess",
+        "Author": ""
+    },
+    {
+        "ENName": "[Light's Guide]\nPhilamelia",
+        "DevNicknames": "lamp_guide",
+        "Author": ""
+    },
+    {
+        "ENName": "[Zombie 6]\nLily Hoshikawa (Zombie Land Saga Collab)",
+        "DevNicknames": "hoshikawa_ririi",
+        "Author": ""
+    },
+    {
+        "ENName": "[Successor of Hope and Light]\nPhilia (Anniversary)",
+        "DevNicknames": "wind_oracle_1anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Love's Klutzy Girl]\nEliya (Valentine)",
+        "DevNicknames": "lightbullet_wiz_vt21",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Crystal Travelling Swordsman]\nSeriol",
+        "DevNicknames": "crystal_swordman",
+        "Author": ""
+    },
+    {
+        "ENName": "[Spirit and Goblin Hunter]\nRengetsu",
+        "DevNicknames": "yokai_exterminator",
+        "Author": ""
+    },
+    {
+        "ENName": "[Naked Princess]\nLilith (Summer)",
+        "DevNicknames": "resistance_princess_smr21",
+        "Author": ""
+    },
+    {
+        "ENName": "[Fair Summer-Furred Nine-tailed Maiden]\nInaho (Summer)",
+        "DevNicknames": "fox_oracle_smr21",
+        "Author": ""
+    },
+    {
+        "ENName": "[SOS Brigade Mascot]\nMikuru Asahina (The Melancholy of Haruhi Suzumiya Collab)",
+        "DevNicknames": "asahina_mikuru",
+        "Author": ""
+    },
+    {
+        "ENName": "[Beautiful Weapon Girl of Summer]\nNephteim (Summer/Yukata)",
+        "DevNicknames": "ruin_girl_smr21",
+        "Author": ""
+    },
+    {
+        "ENName": "[Canopy Knight]\nZekhel",
+        "DevNicknames": "guildknight_leader",
+        "Author": ""
+    },
+    {
+        "ENName": "[Music Loving Witch Girl]\nLila (Halloween)",
+        "DevNicknames": "neoviolin_musician_hw21",
+        "Author": ""
+    },
+    {
+        "ENName": "[New Year Celebratory Saint]\nOrvelle (New Year)",
+        "DevNicknames": "high_priestess_ny22",
+        "Author": ""
+    },
+    {
+        "ENName": "[Stray Heart]\nNate (Valentine)",
+        "DevNicknames": "hero_girl_vt22",
+        "Author": ""
+    },
+    {
+        "ENName": "[Pretending to be a God of Evil and Tyranny]\nStinel",
+        "DevNicknames": "still_obstinator",
+        "Author": ""
+    },
+    {
+        "ENName": "[Top Trendsetter]\r\nQuinvid",
+        "DevNicknames": "airship_captain",
+        "Author": ""
+    },
+    {
+        "ENName": "[Pure and Innocent Hokkaido Girl]\r\nSpecial Week",
+        "DevNicknames": "special_week",
+        "Author": ""
+    },
+    {
+        "ENName": "[Masochistic Crusader]\nDarkness (KonoSuba Collab)",
+        "DevNicknames": "darkness",
+        "Author": ""
+    },
+    {
+        "ENName": "[Waterside Ninja Samurai]\nZantetsu (Summer)",
+        "DevNicknames": "samurai_robot_smr22",
+        "Author": ""
+    },
+    {
+        "ENName": "[Sacred Swordsman]\nIrinoa",
+        "DevNicknames": "holysword_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Flying Swallow Free Knights' Commander]\nYuwel (Anniversary)",
+        "DevNicknames": "swallow_knight_3anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Courtesan of the Holy Night Festival]\nKikuno (Christmas)",
+        "DevNicknames": "compliment_oiran_xm22",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Last Champion]\r\nLight",
+        "DevNicknames": "light_ballot23",
+        "Author": ""
+    },
+    {
+        "ENName": "[From Starview Village]\r\nStella",
+        "DevNicknames": "stella_ballot23",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Inheritor Dragon of Affection]\r\nRachmano",
+        "DevNicknames": "golden_dragon_jr",
+        "Author": ""
+    },
+    {
+        "ENName": "[Sword of the Twin Stellas]\nArc (Meteor)",
+        "DevNicknames": "alk_3halfanv",
+        "Author": ""
+    },
+    {
+        "ENName": "[New Adventurer]\nNagihara Nao (Ceremony)",
+        "DevNicknames": "psychic_nao_3halfanv",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Spirit Jewel's Resident Spirit]\r\nTamako",
+        "DevNicknames": "magatama_spirit",
+        "Author": ""
+    },
+    {
+        "ENName": "[Traveler of A Kindred Journey]\nNova",
+        "DevNicknames": "nova_4anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Dimensional Witch]\nBercetia",
+        "DevNicknames": "dimension_witch",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Experienced Hunter]\nVeron",
+        "DevNicknames": "veteran_hunter",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Wandering Magic Swordswoman]\nMolmia",
+        "DevNicknames": "blade_witch",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Snake's Shadow and Smiling Girl]\nKarla",
+        "DevNicknames": "cursed_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Fallen Angel]\nOlivia",
+        "DevNicknames": "olivia",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Cat-Eared Sorceress]\nKaryl",
+        "DevNicknames": "kyaru",
+        "Author": ""
+    },
+    {
+        "ENName": "[Marine Nightmare]\nAlice (Summer)",
+        "DevNicknames": "alice_smr20",
+        "Author": ""
+    },
+    {
+        "ENName": "[Zombie 4]\nJunko Konno (Zombie Land Saga Collab)",
+        "DevNicknames": "konno_junko",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Steel Little Devil Diva]\nDia (Halloween)",
+        "DevNicknames": "sing_android_hw20",
+        "Author": ""
+    },
+    {
+        "ENName": "[\u2020 Darkness Girl \u2020] \nDine",
+        "DevNicknames": "dark_psygirl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Hope in the Dead of Night]\nEduceus",
+        "DevNicknames": "devil_leader",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Snake-Decapitating Ninja]\nYakumo",
+        "DevNicknames": "silent_ninja",
+        "Author": ""
+    },
+    {
+        "ENName": "[Devilish Girl Santa]\nAlm (Christmas)",
+        "DevNicknames": "devil_princess_xm20",
+        "Author": ""
+    },
+    {
+        "ENName": "[One Who Opened the Gate]\nCouette",
+        "DevNicknames": "summoner_little",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Deep Sea's Lady] \nMaelviola",
+        "DevNicknames": "noble_sorceress",
+        "Author": ""
+    },
+    {
+        "ENName": "[\u2021 Darkness Girl Zero \u2021] \nDine (Limited)",
+        "DevNicknames": "dark_psygirl_dst21",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Immortal Ultramarine]\nBeatrix",
+        "DevNicknames": "beatrix",
+        "Author": ""
+    },
+    {
+        "ENName": "[Necktie-Slackening Gunner]\nSergil / Sergyl (Half Anniversary)",
+        "DevNicknames": "blindness_gunner_1halfanv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Chocolate Lily Witch]\nPrimula",
+        "DevNicknames": "blackflower_wiz",
+        "Author": ""
+    },
+    {
+        "ENName": "[HW\u2605Night Girl]\nLav / Love (Halloween)",
+        "DevNicknames": "touyakiren_ceo_hw21",
+        "Author": ""
+    },
+    {
+        "ENName": "[Psychic of Gravity]\nInori Shouta",
+        "DevNicknames": "psychic_shouta",
+        "Author": ""
+    },
+    {
+        "ENName": "[Onmyoudo Apprentice]\nCouette (Anniversary)",
+        "DevNicknames": "summoner_little_2anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Witch of New Year Twilight]\nBercetia (New Year)",
+        "DevNicknames": "dimension_witch_ny22",
+        "Author": ""
+    },
+    {
+        "ENName": "[Servant x Prince]\nMurakumo (White Day)",
+        "DevNicknames": "katana_ghost_wt22",
+        "Author": ""
+    },
+    {
+        "ENName": "[Guild Leader for Estate Affairs]\nHildegard",
+        "DevNicknames": "estateguild_leader",
+        "Author": ""
+    },
+    {
+        "ENName": "[Witch Of The Mirror] Louelise",
+        "DevNicknames": "mirror_witch",
+        "Author": ""
+    },
+    {
+        "ENName": "[Seeker of Truth]\nLiam (Half Anniversary)",
+        "DevNicknames": "warlock_2halfanv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Blooming Summer Witch]\nPrimula (Summer)",
+        "DevNicknames": "blackflower_wiz_smr22",
+        "Author": ""
+    },
+    {
+        "ENName": "[Astral Projection Esper]\nKuguri Yukariko",
+        "DevNicknames": "psychic_yamikawa",
+        "Author": ""
+    },
+    {
+        "ENName": "[Devilish Swordswoman Vampire in Love]\nSilty (Halloween)",
+        "DevNicknames": "wind_spgirl_hw22",
+        "Author": ""
+    },
+    {
+        "ENName": "[Mage Without Magic]\nAsta (Black Clover Collab)",
+        "DevNicknames": "asta",
+        "Author": ""
+    },
+    {
+        "ENName": "[Healer of Empathetic Horns]\r\nElmore",
+        "DevNicknames": "horn_mypace",
+        "Author": ""
+    },
+    {
+        "ENName": "[Warrior of Reconquest]\nVeron (Anniversary)",
+        "DevNicknames": "veteran_hunter_3anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Weaver of Shadows]\nNirjana",
+        "DevNicknames": "rector_sorcerer_playable",
+        "Author": ""
+    },
+    {
+        "ENName": "[Master of Chaos]\r\nTanakiera",
+        "DevNicknames": "evilloli_master",
+        "Author": ""
+    },
+    {
+        "ENName": "[False Priest of Midnight]\r\nIorez",
+        "DevNicknames": "impostor_priest",
+        "Author": ""
+    },
+    {
+        "ENName": "[Beautiful New Weapon-Girl Student]\nNephteim (Meteor)",
+        "DevNicknames": "ruin_girl_3halfanv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Starless Light]\r\nMarden",
+        "DevNicknames": "priest_prince_playable",
+        "Author": ""
+    },
+    {
+        "ENName": "[Psychic of Teleportation]\r\nSuminami Hibiki",
+        "DevNicknames": "psychic_teleport_playable",
+        "Author": ""
+    },
+    {
+        "ENName": "[Talkactive Ex-Intelligence Agent]\r\nChatrina",
+        "DevNicknames": "blindfold_agent",
+        "Author": ""
+    },
+    {
+        "ENName": "[Traveler Embracing Dreams]\nLeve",
+        "DevNicknames": "stella_copy_4anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Star-Travelling Boy]\nArc",
+        "DevNicknames": "alk",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Dragon Hunter]\nAzel",
+        "DevNicknames": "dragon_slayer",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Enchanting Summoner]\nBianca",
+        "DevNicknames": "lady_summoner",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Hidden Ninja]\nHanabi",
+        "DevNicknames": "kunoichi",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Fierce God's Bloodline]\nAsukirimaru",
+        "DevNicknames": "half_oni_boy",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Strong Shield Swordsman]\nGlide",
+        "DevNicknames": "master_knight",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Red-Haired Double Gunner]\nKanon",
+        "DevNicknames": "red_gunner",
+        "Author": ""
+    },
+    {
+        "ENName": "[The First-time Evangelist Reporter]\nLuluca (New Year)",
+        "DevNicknames": "reporter_ny20",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Overly Beautiful Adventurer]\nRevy",
+        "DevNicknames": "shapely_soldier",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Crybaby Gun Girl]\nKiri",
+        "DevNicknames": "crybaby_shooter",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Reckless Bullet]\nHaze",
+        "DevNicknames": "pirates_gunner",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Bashful Wushu Master]\nMilmina",
+        "DevNicknames": "sanctuary_guard",
+        "Author": ""
+    },
+    {
+        "ENName": "[Girl Entranced by the Magic Sword]\nNasir",
+        "DevNicknames": "magic_sword_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Righteous Flame]\nKuramaru",
+        "DevNicknames": "vigilante_boy",
+        "Author": ""
+    },
+    {
+        "ENName": "[Zombie 5]\nYugiri (Zombie Land Saga Collab)",
+        "DevNicknames": "yugiri",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Rumored Perfect Teacher]\nNikola",
+        "DevNicknames": "sorceress_teacher",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Kind Pathfinder]\nArc (Anniversary)",
+        "DevNicknames": "alk_1anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Holy Night's Red Swordswoman]\nTorene (Christmas)",
+        "DevNicknames": "cool_woman_soldier_xm20",
+        "Author": ""
+    },
+    {
+        "ENName": "[Shrine Maiden of an Ancient Line]\nMaihime",
+        "DevNicknames": "naginata_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Sworn Friend of Dragons]\nAzel (Summer)",
+        "DevNicknames": "dragon_slayer_smr21",
+        "Author": ""
+    },
+    {
+        "ENName": "[SOS Brigade Regular Human Representative]\nKyon (The Melancholy of Haruhi Suzumiya Collab)",
+        "DevNicknames": "kyon",
+        "Author": ""
+    },
+    {
+        "ENName": "[Psychic of Curses]\nHikawa Rinne",
+        "DevNicknames": "psychic_tomboygirl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Psychic of the Starry Sea]\nNagihara Nao",
+        "DevNicknames": "psychic_nao",
+        "Author": ""
+    },
+    {
+        "ENName": "[Animal-Eared Nurse]\nPishika",
+        "DevNicknames": "nurse_pirate",
+        "Author": ""
+    },
+    {
+        "ENName": "[Kimono-clad Swordsman of Crowning Beauty]\nRevy (New Year)",
+        "DevNicknames": "shapely_soldier_ny22",
+        "Author": ""
+    },
+    {
+        "ENName": "[Cowardly Ghost Exterminator]\r\nQianshi",
+        "DevNicknames": "jiangshi_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Flying Swallow Free Knight]\nYuwel",
+        "DevNicknames": "swallow_knight",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Labyrinth's Angel]\nRiesel",
+        "DevNicknames": "bishop_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Deep Sea Mermaid]\nAmelia",
+        "DevNicknames": "mermaid",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Drifting Magic Girl]\nAlice",
+        "DevNicknames": "alice",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Fighting Guild Member]\nSharon",
+        "DevNicknames": "battle_guild_staff",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Sea-spurring Officer]\nLanner",
+        "DevNicknames": "spry_sailor",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Deep-sea Humanoid]\nZaar",
+        "DevNicknames": "deepsea_mage",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Sandstorm Magic Item User]\nMoldiaga",
+        "DevNicknames": "desert_wizard",
+        "Author": ""
+    },
+    {
+        "ENName": "[The White Snake Onmyouji]\nMizuchi",
+        "DevNicknames": "onmyo_attendant",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Broken Spirit Doctor]\nSouvi / Sauvi",
+        "DevNicknames": "psycho_reaper",
+        "Author": ""
+    },
+    {
+        "ENName": "[Masked Knight of the Beach]\nJelal (Summer)",
+        "DevNicknames": "unicorn_lancer_smr20",
+        "Author": ""
+    },
+    {
+        "ENName": "[Female Pirate of Eternal Summer]\nMarina (Legacy of Ocean)",
+        "DevNicknames": "pirates_girl_smr20",
+        "Author": ""
+    },
+    {
+        "ENName": "[Adventurer Who Loves Backs]\nVivi",
+        "DevNicknames": "shy_assassin",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Young Kimono-clad Swordswoman]\nTrista (New Year)",
+        "DevNicknames": "urban_soldier_ny21",
+        "Author": ""
+    },
+    {
+        "ENName": "[Ancient Weapon of the Dawn]\nSotieth (Oath to the Dawn)",
+        "DevNicknames": "ruin_lady",
+        "Author": ""
+    },
+    {
+        "ENName": "[Blitz Blue]\nNate (HERO: BEGINNING)",
+        "DevNicknames": "hero_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Up-and-Coming Magician]\nFacon",
+        "DevNicknames": "stylish_witch",
+        "Author": ""
+    },
+    {
+        "ENName": "[Government-Approved Sniper]\nEvelyn",
+        "DevNicknames": "dress_gunner",
+        "Author": ""
+    },
+    {
+        "ENName": "[Glamorous Assistant]\nShirano (Summer)",
+        "DevNicknames": "fox_companion_smr21",
+        "Author": ""
+    },
+    {
+        "ENName": "[Bewitching Cross-Dressing Maid]\nLanner (Halloween)",
+        "DevNicknames": "spry_sailor_hw21",
+        "Author": ""
+    },
+    {
+        "ENName": "[Psychic of Recovery]\nTakamori Seiji",
+        "DevNicknames": "psychic_seiji",
+        "Author": ""
+    },
+    {
+        "ENName": "[Bunny Princess Of The Sea]\nFaroro",
+        "DevNicknames": "innocent_glaiver",
+        "Author": ""
+    },
+    {
+        "ENName": "[Magic Academy Student Council President]\nLuciada (Binary Planet)",
+        "DevNicknames": "student_president",
+        "Author": ""
+    },
+    {
+        "ENName": "[Summer of Smiles]\nPishika (Summer)",
+        "DevNicknames": "nurse_pirate_smr22",
+        "Author": ""
+    },
+    {
+        "ENName": "[Bandit-Hunter Bandit]\nFarah",
+        "DevNicknames": "sand_bandit",
+        "Author": ""
+    },
+    {
+        "ENName": "[Dreaming Princess of Love]\nFini (Valentine)",
+        "DevNicknames": "sleep_puppy_vt23",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Mystical Thunder Dragon]\nRams",
+        "DevNicknames": "thunder_dragon",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Smiling Scientist]\nLunalu",
+        "DevNicknames": "fox_scientist",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Android Gentleman]\nRegis",
+        "DevNicknames": "rec_android",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Star's Flames]\nEleanor",
+        "DevNicknames": "elf_soldier",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Perceptive Old Cat]\nJay",
+        "DevNicknames": "cat_shaman",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Outstanding Female Bullfighter]\nMino",
+        "DevNicknames": "minotaur_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Holy Night Deliveryman]\nAureo (Christmas)",
+        "DevNicknames": "docking_beast_xm19",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Secret Sword Tactitian]\nAdoni",
+        "DevNicknames": "black_hair_swordman",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Slumbering Android Woman]\nRudy",
+        "DevNicknames": "lady_android",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Created Puppet Princess]\nPrica / Prika (The Princess of Figment)",
+        "DevNicknames": "fake_princess",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Sun's Gambler]\nNeska (Summer)",
+        "DevNicknames": "casino_dealer_smr20",
+        "Author": ""
+    },
+    {
+        "ENName": "[Dancing Girl of the Moment]\nRoselia",
+        "DevNicknames": "hidden_blader",
+        "Author": ""
+    },
+    {
+        "ENName": "[Zombie 3]\nAi Mizuno (Zombie Land Saga Collab)",
+        "DevNicknames": "mizuno_ai",
+        "Author": ""
+    },
+    {
+        "ENName": "[Twilight's Smiling Scientist]\nLunalu (Halloween)",
+        "DevNicknames": "fox_scientist_hw20",
+        "Author": ""
+    },
+    {
+        "ENName": "[Holy Mass Tactician]\nAdoni (Christmas)",
+        "DevNicknames": "black_hair_swordman_xm20",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Tiny Sorceress Teacher]\nTo Rereni",
+        "DevNicknames": "little_wizard",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Extreme, yet Popular Adventurer]\nEditha",
+        "DevNicknames": "punk_warrior",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Flawless Shock Girl]\nTelna",
+        "DevNicknames": "electro_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Innocent Magical Tool Collector]\nGiselle",
+        "DevNicknames": "secret_observer",
+        "Author": ""
+    },
+    {
+        "ENName": "[Fortune-Inviting Girl]\nFuku",
+        "DevNicknames": "warashi",
+        "Author": ""
+    },
+    {
+        "ENName": "[Lion's Descendent]\nTheo (Crown of The Beast King)",
+        "DevNicknames": "lion_boy",
+        "Author": ""
+    },
+    {
+        "ENName": "[New Year-Congratulating Black Panther]\nKuro (New Year)",
+        "DevNicknames": "outlaw_panther_ny22",
+        "Author": ""
+    },
+    {
+        "ENName": "[Machine Repairer]\nElegia",
+        "DevNicknames": "spanner_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Unfinished Flapper]\nRinkarina",
+        "DevNicknames": "scissor_ratgirl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Elegant Pretty Boy]\r\nOrnesto",
+        "DevNicknames": "long_hair_swordsman",
+        "Author": ""
+    },
+    {
+        "ENName": "[Sunny Summer Smile]\nEcho (Blue Sunny Smile)",
+        "DevNicknames": "rural_ladyship",
+        "Author": ""
+    },
+    {
+        "ENName": "[Indomitable Young Lady]\nElmelissa",
+        "DevNicknames": "marching_rival",
+        "Author": ""
+    },
+    {
+        "ENName": "[Hero Mechanic]\nInvetra",
+        "DevNicknames": "hero_mechanic",
+        "Author": ""
+    },
+    {
+        "ENName": "[The White Tiger Beast-man]\nShiro",
+        "DevNicknames": "white_tiger",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Tiger Girl That Does Her Best]\nMia",
+        "DevNicknames": "tiger_treasure_hunter",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Open Sky's Huntsman]\nOrouru",
+        "DevNicknames": "birdman",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Cloud-splitting Samurai]\nSoushiro",
+        "DevNicknames": "samurai",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Wind-paired Girl]\nMercel",
+        "DevNicknames": "elf_archer",
+        "Author": ""
+    },
+    {
+        "ENName": "[The White Wolf Staff Master]\nHelga",
+        "DevNicknames": "dog_slasher",
+        "Author": ""
+    },
+    {
+        "ENName": "[Protector of the Forest]\nArisa",
+        "DevNicknames": "arisa",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Flustered Fortune-telling Miko]\nRebecca (New Year)",
+        "DevNicknames": "bearish_darkwitch_ny20",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Excited Adventuring Lad]\nRuu",
+        "DevNicknames": "beast_adventurer",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Reluctant Kunoichi]\nSuzuka",
+        "DevNicknames": "timid_kunoichi",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Tengu's Loved Disciple]\nKohane",
+        "DevNicknames": "tengu_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Onmyou Painter]\nKugui (The Edited Day of Yo-kai Book)",
+        "DevNicknames": "ekaki_onmyoji",
+        "Author": ""
+    },
+    {
+        "ENName": "[Boy with the Wind]\nHao",
+        "DevNicknames": "wild_boy",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Santa Reindeer White Tiger]\nShiro (Christmas)",
+        "DevNicknames": "white_tiger_xm20",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Awkward Sharp-Tongued Maid and Older Sister]\nRam (Re:Zero Collab)",
+        "DevNicknames": "ram",
+        "Author": ""
+    },
+    {
+        "ENName": "[Martial Arts Thoroughbred]\nRicardo",
+        "DevNicknames": "wind_striker",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Steel Whirlwind Athlete]\nMiddie",
+        "DevNicknames": "steel_lacrosse",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Resigned Small Witch]\nPiamo",
+        "DevNicknames": "cool_witch_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Traveling Falconer]\nLemarque",
+        "DevNicknames": "bird_master",
+        "Author": ""
+    },
+    {
+        "ENName": "[Warrior Monk Who Loves Training]\nMakani",
+        "DevNicknames": "pilgrim_monk",
+        "Author": ""
+    },
+    {
+        "ENName": "[Prank Loving Martial Artist]\nMilmina (Halloween)",
+        "DevNicknames": "sanctuary_guard_hw21",
+        "Author": ""
+    },
+    {
+        "ENName": "[Sheep Girl in Love]\nMerienna (Pure Coward's Love Confession)",
+        "DevNicknames": "sheep_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Fledgling Yin-Yang Artist]\nRyouki",
+        "DevNicknames": "ekaki_girl_playable",
+        "Author": ""
+    },
+    {
+        "ENName": "[Fist Fighter Pursuing Enemy]\r\nFuuran",
+        "DevNicknames": "kung_fu_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Android Diva]\nDia",
+        "DevNicknames": "sing_android",
+        "Author": ""
+    },
+    {
+        "ENName": "[The White Masked Knight]\nJelal",
+        "DevNicknames": "unicorn_lancer",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Light Bullet Magician]\nEliya",
+        "DevNicknames": "lightbullet_wiz",
+        "Author": ""
+    },
+    {
+        "ENName": "[The One Who Protects Order and Peace]\nFinn",
+        "DevNicknames": "palpebra_knight",
+        "Author": ""
+    },
+    {
+        "ENName": "[The One Who Protects Smiles]\nKira",
+        "DevNicknames": "palpebra_knight_lady",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Monster Chef]\nParfait (Valentine Festival!)",
+        "DevNicknames": "monster_cook",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Dreamy Light Magician]\nIllumi",
+        "DevNicknames": "illusionist",
+        "Author": ""
+    },
+    {
+        "ENName": "[Trick Shooter]\nHopul",
+        "DevNicknames": "unleash_hunter",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Ecology Investigator Hunter]\nLaia",
+        "DevNicknames": "unyielding_adventurer",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Reckless Mercenary Swordswoman]\nFloretta",
+        "DevNicknames": "whitedog_beast",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Midsummer Savior]\nRiesel (Summer)",
+        "DevNicknames": "bishop_girl_smr20",
+        "Author": ""
+    },
+    {
+        "ENName": "[The All-Knowing Unlock Girl]\nKiana",
+        "DevNicknames": "keylock_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Successor of the Light]\nLilith",
+        "DevNicknames": "resistance_princess",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Indiscriminate Healer]\nMech",
+        "DevNicknames": "doctor_machine",
+        "Author": ""
+    },
+    {
+        "ENName": "[Knight Protecting Hope]\nCecilia (Anniversary)",
+        "DevNicknames": "woman_knight_1anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Fisherwoman Fighter]\nDilette",
+        "DevNicknames": "sea_violent",
+        "Author": ""
+    },
+    {
+        "ENName": "[Shy Girl of Thawing Snow]\nFloretta (Valentine)",
+        "DevNicknames": "whitedog_beast_vt21",
+        "Author": ""
+    },
+    {
+        "ENName": "[Girl Putting Others to Sleep]\nFini",
+        "DevNicknames": "sleep_puppy",
+        "Author": ""
+    },
+    {
+        "ENName": "[Light of the Desert]\nSariha",
+        "DevNicknames": "desert_priest",
+        "Author": ""
+    },
+    {
+        "ENName": "[Summertime Spirit Alchemist Doctor]\nSouvi (Drifters in the Great \u2b50 Love)",
+        "DevNicknames": "psycho_reaper_smr21",
+        "Author": ""
+    },
+    {
+        "ENName": "[Broken Goddess]\nStella (Forward, Dreamers of Darkness)",
+        "DevNicknames": "stella_2anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Midnight Santa]\nFalse / Force (Christmas)",
+        "DevNicknames": "devil_clown_xm21",
+        "Author": ""
+    },
+    {
+        "ENName": "[Security Commander]\nCarabina",
+        "DevNicknames": "advanced_soldier",
+        "Author": ""
+    },
+    {
+        "ENName": "[Luminous Cyan]\nClarte",
+        "DevNicknames": "pbc_operator",
+        "Author": ""
+    },
+    {
+        "ENName": "[Postergirl of the Beach]\nYuna (Summer)",
+        "DevNicknames": "twin_blader_smr22",
+        "Author": ""
+    },
+    {
+        "ENName": "[One Royal Road]\nVeraine (The Long Way for King and Knights)",
+        "DevNicknames": "reformist_prince",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Pure Evil Shadow]\nAlm",
+        "DevNicknames": "devil_princess",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Fighting Maid]\nMarianne",
+        "DevNicknames": "battle_maid",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Coffin-Using Spirit Summoner]\nAndy",
+        "DevNicknames": "undead_boy",
+        "Author": ""
+    },
+    {
+        "ENName": "[Seeker of the Abyss]\nLiam",
+        "DevNicknames": "warlock",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Food and Festival Coordinator]\nYuwel (New Year)",
+        "DevNicknames": "swallow_knight_ny20",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Black-Haired Beauty]\nQuartzer (Multi Boss Pick-up)",
+        "DevNicknames": "sword_beauty",
+        "Author": ""
+    },
+    {
+        "ENName": "[Great Mother of Unending Night]\nLav / Love (The Skyscraper)",
+        "DevNicknames": "touyakiren_ceo",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Eyepatch Gunner]\nSergil / Sergyl",
+        "DevNicknames": "blindness_gunner",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Young Necromancer]\nLuna",
+        "DevNicknames": "luna",
+        "Author": ""
+    },
+    {
+        "ENName": "[Rose of Evening Calm]\nMarguerite (Summer)",
+        "DevNicknames": "lady_gunner_smr20",
+        "Author": ""
+    },
+    {
+        "ENName": "[Adventurer Aiming for First in the World]\nGreig",
+        "DevNicknames": "dinosaur_hunter",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Scoundrel Alchemist]\nBryce",
+        "DevNicknames": "crazy_doctor",
+        "Author": ""
+    },
+    {
+        "ENName": "[Zombie 0]\nTae Yamada (Zombie Land Saga Collab)",
+        "DevNicknames": "yamada_tae",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Cat-Eared-and-Tailed Keeper]\nFalce (Halloween)",
+        "DevNicknames": "reaper_girl_hw20",
+        "Author": ""
+    },
+    {
+        "ENName": "[Traitor of the Purple Smoke]\nZelma",
+        "DevNicknames": "illegal_herbalist",
+        "Author": ""
+    },
+    {
+        "ENName": "[The White Demon Warrior]\nAri (Anniversary)",
+        "DevNicknames": "devil_woman_soldier_1anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Boy Fighting Against Fate]\nSubaru Natsuki (Re:Zero Collab)",
+        "DevNicknames": "subaru",
+        "Author": ""
+    },
+    {
+        "ENName": "[Revealer of Darkness]\nEdward",
+        "DevNicknames": "mystery_agent",
+        "Author": ""
+    },
+    {
+        "ENName": "[Philosophical Armor]\nLonsdale",
+        "DevNicknames": "walking_armor",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Peddlers' Young Leader]\nTawil",
+        "DevNicknames": "desert_caravans",
+        "Author": ""
+    },
+    {
+        "ENName": "[Smiling Bard]\nItsuki Koizumi (The Melancholy of Haruhi Suzumiya Collab)",
+        "DevNicknames": "koizumi_ituki",
+        "Author": ""
+    },
+    {
+        "ENName": "[Sinister Female Detective]\nVirgia",
+        "DevNicknames": "formercorrupt_detective",
+        "Author": ""
+    },
+    {
+        "ENName": "[Shadow Manipulation Psychic]\nKageoka Ryuichi",
+        "DevNicknames": "psychic_projection",
+        "Author": ""
+    },
+    {
+        "ENName": "[Cursed Informant]\nShion (Anniversary)",
+        "DevNicknames": "informant_2anv",
+        "Author": ""
+    },
+    {
+        "ENName": "[Otherworldly Strategist]\nKazuma (KonoSuba Collab)",
+        "DevNicknames": "kazuma",
+        "Author": ""
+    },
+    {
+        "ENName": "[Guild Staff Apprentice]\nHikawa Rinne (Halloween)",
+        "DevNicknames": "psychic_tomboygirl_hw22",
+        "Author": ""
+    },
+    {
+        "ENName": "[Santa Nurse Herbalist]\nHeartleaf (Christmas)",
+        "DevNicknames": "herbalist_xm22",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Abyss Dragon of Connected Thoughts]\r\nArmadeus",
+        "DevNicknames": "darkness_dragon",
+        "Author": ""
+    },
+    {
+        "ENName": "[Explosion Alchemist]\nLirell",
+        "DevNicknames": "alchemist",
+        "Author": ""
+    },
+    {
+        "ENName": "[Witch in Training]\nMeimy",
+        "DevNicknames": "pretty_witch",
+        "Author": ""
+    },
+    {
+        "ENName": "[Desert Gunner]\nIris",
+        "DevNicknames": "gunslinger",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Border Hunter]\nHash",
+        "DevNicknames": "monster_hunter",
+        "Author": ""
+    },
+    {
+        "ENName": "[The All-Loving Outlaw]\nJin",
+        "DevNicknames": "black_doctor",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Red Cursed Swordswoman]\nTorene",
+        "DevNicknames": "cool_woman_soldier",
+        "Author": ""
+    },
+    {
+        "ENName": "[Mad Warrior]\nGilslad",
+        "DevNicknames": "berserker",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Fire Shrine Maiden]\nEnni",
+        "DevNicknames": "fire_shaman",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Strict and Orderly Inspector]\nJake",
+        "DevNicknames": "disciplined_swordman",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Bird Tribe's Female Warrior]\nKran",
+        "DevNicknames": "birdwoman",
+        "Author": ""
+    },
+    {
+        "ENName": "[Harmony's Healer]\nHalisha",
+        "DevNicknames": "tradition_healer",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Tiger-Chasing Mouse]\nSven",
+        "DevNicknames": "brave_mouse",
+        "Author": ""
+    },
+    {
+        "ENName": "[Tailor Bringing Happiness]\nLilian",
+        "DevNicknames": "sewing_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Sweet Assassin]\nKlaus (White Day)",
+        "DevNicknames": "wolf_assassin_wt21",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Forest's Hunter]\nKeiros",
+        "DevNicknames": "sniper",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Young Blue Swordswoman]\nTrista",
+        "DevNicknames": "urban_soldier",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Cowardly Heavy Warrior]\nWalter",
+        "DevNicknames": "hard_face_soldier",
+        "Author": ""
+    },
+    {
+        "ENName": "[The White-Coat Outlaw]\nErza",
+        "DevNicknames": "nurse",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Toothed Assassin]\nKlaus",
+        "DevNicknames": "wolf_assassin",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Nine-Tails' Assistant]\nShirano",
+        "DevNicknames": "fox_companion",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Illusory Cup Master]\nKaiyu",
+        "DevNicknames": "depraved_monk",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Truth-Seeking Sailor Girl]\nRatty",
+        "DevNicknames": "sailor_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Silly Baby Dragon]\nFaf",
+        "DevNicknames": "cute_fafnir",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Miraculous Fountain's Elegant Assistant]\nRiko",
+        "DevNicknames": "mens_attire_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Holy Tree Spirit]\nCharua (Christmas)",
+        "DevNicknames": "dryad_xm19",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Admiring Female Mercenary]\nClara",
+        "DevNicknames": "junior_yearngirl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Fanatic\u2605Shaman]\nSamasa",
+        "DevNicknames": "little_shaman",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Mischievous Scout Girl]\nRita",
+        "DevNicknames": "scout_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Dreaming Double-Sword User]\nYuna",
+        "DevNicknames": "twin_blader",
+        "Author": ""
+    },
+    {
+        "ENName": "[Numbing Bee Girl]\nHoney",
+        "DevNicknames": "bee_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Thunder Strike Boxer]\nTaiga",
+        "DevNicknames": "lightning_fighter",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Intelligent Black Panther]\nKuro",
+        "DevNicknames": "outlaw_panther",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Toothed Young Nobleman]\nAlbert",
+        "DevNicknames": "wolf_swordsman",
+        "Author": ""
+    },
+    {
+        "ENName": "[Dancing Girl of Wind and Thunder]\nKadzuchi",
+        "DevNicknames": "oni_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Adventurer Relying on Alcohol]\nTatiana",
+        "DevNicknames": "sociable_mestizo",
+        "Author": ""
+    },
+    {
+        "ENName": "[Thunder User Who Fell Into Ruin]\nColt",
+        "DevNicknames": "magic_boy",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Gun-Loving Student Engineer]\nSha Susu",
+        "DevNicknames": "student_gunsmith",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Far-Sighted Fortune Teller]\nFoula",
+        "DevNicknames": "fortuneteller",
+        "Author": ""
+    },
+    {
+        "ENName": "[Cat Girl With the New Year's Best Clothes]\nMiu (New Year)",
+        "DevNicknames": "cat_fighter_ny20",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Solitary Iron Man]\nBargen",
+        "DevNicknames": "old_mercenary",
+        "Author": ""
+    },
+    {
+        "ENName": "[Subgravity Girl]\nFlana ",
+        "DevNicknames": "floating_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Rainy Skip]\nFi Nonoa",
+        "DevNicknames": "conjurer_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Rumbling Adventurer]\nEvan",
+        "DevNicknames": "highlander",
+        "Author": ""
+    },
+    {
+        "ENName": "[Loved Daughter of the Forest]\nCharua",
+        "DevNicknames": "dryad",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Gentle Undead King]\nLecitar",
+        "DevNicknames": "lich",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Spirit Gambler]\nNeska",
+        "DevNicknames": "casino_dealer",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Cat-Eared Fighter]\nMiu",
+        "DevNicknames": "cat_fighter",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Laughing Clown]\nFalse / Force",
+        "DevNicknames": "devil_clown",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Spring Breeze Herbalist]\nHeartleaf",
+        "DevNicknames": "herbalist",
+        "Author": ""
+    },
+    {
+        "ENName": "[Skill Ray Lancer]\nConnor",
+        "DevNicknames": "spearman",
+        "Author": ""
+    },
+    {
+        "ENName": "[Trappist and Dairy Farmer]\nJuster",
+        "DevNicknames": "trap_errand",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Fang-Beared Good Thief]\nKate",
+        "DevNicknames": "gang_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Seeker of Magical Theory]\nNetty",
+        "DevNicknames": "lazy_genious",
+        "Author": ""
+    },
+    {
+        "ENName": "[Beginner Adventurer]\nMillet",
+        "DevNicknames": "rookie_adventurer",
+        "Author": ""
+    },
+    {
+        "ENName": "[Priestess of Love]\nCorina",
+        "DevNicknames": "priest",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Beautiful Gunner]\nMarguerite",
+        "DevNicknames": "lady_gunner",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Female Knight of Protection]\nCecilia",
+        "DevNicknames": "woman_knight",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Beast-Riding Home Deliverer]\nAureo",
+        "DevNicknames": "docking_beast",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Desert Island Winery Master]\nRaul",
+        "DevNicknames": "exorcist_oldman",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Immature Young Knight]\nMiles",
+        "DevNicknames": "half_knight",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Newly-Employed Reporter Girl]\nLuluca",
+        "DevNicknames": "reporter",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Stray Wolf Girl]\nCaro",
+        "DevNicknames": "wild_wolfgirl",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Pure Moth Girl]\nMora",
+        "DevNicknames": "moth_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Mischievous Disciple]\nCorina (Halloween)",
+        "DevNicknames": "priest_hw20",
+        "Author": ""
+    },
+    {
+        "ENName": "[Novice Guard]\nKsyukha",
+        "DevNicknames": "junior_soldier",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Speeding Newboarder]\nAxem",
+        "DevNicknames": "skateboard_boy",
+        "Author": ""
+    },
+    {
+        "ENName": "[Dreaming of a Harem Life]\nRu Ruto",
+        "DevNicknames": "kids_gunner",
+        "Author": ""
+    },
+    {
+        "ENName": "[Keeper of the Dead]\nFalce",
+        "DevNicknames": "reaper_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Quiet Job-Seeker]\nJalil",
+        "DevNicknames": "chakram_shooter",
+        "Author": ""
+    },
+    {
+        "ENName": "[Traitor of the Demons]\nAri",
+        "DevNicknames": "devil_woman_soldier",
+        "Author": ""
+    },
+    {
+        "ENName": "[The High-Hoped Information Broker]\nShion",
+        "DevNicknames": "informant",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Surviving Fighter]\nAdil",
+        "DevNicknames": "arabic_swordman",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Ill-Tempered Maid]\nDorothea",
+        "DevNicknames": "dark_nursemaid",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Dreamy Magician]\nRebecca",
+        "DevNicknames": "bearish_darkwitch",
+        "Author": ""
+    },
+    {
+        "ENName": "[The One Loved By Monsters]\nNocelle",
+        "DevNicknames": "monster_attract",
+        "Author": ""
+    },
+    {
+        "ENName": "[Delusional Adventurer]\nMeryl",
+        "DevNicknames": "delusion_girl",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Bewildered Delusional Santa]\nMeryl (Christmas)",
+        "DevNicknames": "delusion_girl_xm20",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Strange Mummy Boy]\nTalha",
+        "DevNicknames": "mummy_boy",
+        "Author": ""
+    },
+    {
+        "ENName": "[Young Warrior of the Rabbit Tribe]\nCody",
+        "DevNicknames": "revenge_rabbit",
+        "Author": ""
+    },
+    {
+        "ENName": "[Aspiring Young Detective]\nLucille",
+        "DevNicknames": "assistant_boy",
+        "Author": ""
+    },
+    {
+        "ENName": "[Dusty Guardian]\nGolem",
+        "DevNicknames": "guardian_golem",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Forest's Intellectual]\nPojito",
+        "DevNicknames": "owl",
+        "Author": ""
+    },
+    {
+        "ENName": "[Wind Blade Spirit]\nKamaitachi",
+        "DevNicknames": "fox",
+        "Author": ""
+    },
+    {
+        "ENName": "[Reckless Support's Gift]\nCF Kiseki (Golden Head of Miracle Collab)",
+        "DevNicknames": "towa_namakubi",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Strange Diva Transcending Space and Time]\nTowa Kiseki (Golden Head of Miracle Collab)",
+        "DevNicknames": "towa_vtuber",
+        "Author": ""
+    },
+    {
+        "ENName": "[The Spore Spirit]\nKino",
+        "DevNicknames": "kinoko",
+        "Author": ""
+    },
+    {
+        "ENName": "[Fire's Jiggle]\nRed Pore",
+        "DevNicknames": "slango_red",
+        "Author": ""
+    },
+    {
+        "ENName": "[Fire's Spirit]\nFire Spirit",
+        "DevNicknames": "spirit_fire",
+        "Author": ""
+    },
+    {
+        "ENName": "[Water's Jiggle]\nBlue Pore",
+        "DevNicknames": "slango_blue",
+        "Author": ""
+    },
+    {
+        "ENName": "[Thunder's Jiggle]\nYellow Pore",
+        "DevNicknames": "slango_yellow",
+        "Author": ""
+    },
+    {
+        "ENName": "[Electric Needle Mouse]\nPararat",
+        "DevNicknames": "paralysis_hedgehog",
+        "Author": ""
+    },
+    {
+        "ENName": "[Wind's Jiggle]\nGreen Pore",
+        "DevNicknames": "slango_green",
+        "Author": ""
+    }
+]

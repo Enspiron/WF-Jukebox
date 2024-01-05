@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* General styles */
+.mp3-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  /* Grid styles */
+  #grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  /* Box styles */
+  .box {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box h3 {
+    margin-bottom: 10px;
+  }
+  
+  /* List styles */
+  .song-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .song-list li {
+    margin-bottom: 5px;
+  }
+  
+  /* Audio player styles */
+  .audio-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .audio-player img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  /* Favorite songs styles */
+  .favorite {
+    cursor: pointer;
+  }
+  
+  /* Add more specific styles as needed */
+  
+  

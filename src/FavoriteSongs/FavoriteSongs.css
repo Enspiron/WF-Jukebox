@@ -1,0 +1,25 @@
+#FavoriteSongs {
+    margin-bottom: '10px';
+    width: '100%';
+}
+
+#favorite {
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+
+}
+
+#fav_unit {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
