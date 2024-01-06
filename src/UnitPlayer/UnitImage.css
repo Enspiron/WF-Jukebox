@@ -1,0 +1,18 @@
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+#UnitImage {
+
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    margin-left: auto;
+  }
+  
+
+.toggle {
+    width: fit-content;
+}
+

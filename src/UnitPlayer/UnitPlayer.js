@@ -1,8 +1,10 @@
 //import './App.css';
 import Unit from '../Unit/Unit.js';
-import MP3Player from '../MP3Player/MP3Player.js';
-import InfoPopup from '../InfoPopup/InfoPopup.js';
-import characters from '../characters.json';
+import MP3Player from '../Home/MP3Player/MP3Player.js';
+import InfoPopup from '../Home/InfoPopup/InfoPopup.js';
+import UnitImage from './UnitImage.js'
+
+import characters from './characters.json';
 import { useMediaQuery } from 'react-responsive';
 import React, { useEffect, useState } from 'react';
 import Grid from '@mui/material/Unstable_Grid2';
@@ -14,6 +16,11 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
 import TextField from '@mui/material/TextField';
+
+import TabList from '@mui/joy/TabList';
+import Tabs from '@mui/joy/Tabs';
+import Tab from '@mui/joy/Tab';
+import TabPan from '@mui/joy/TabPanel';
 
 import './UnitPlayer.css';
 
@@ -199,7 +206,7 @@ function UnitPlayer() {
           />
   
         </div>
-        <div  >
+        <div id="filters" >
 
           <div id="raritySelector">
             <Divider>
@@ -312,9 +319,20 @@ function UnitPlayer() {
         </Divider>
 
         </div>
+          <Tabs ariel-label="Basic tabs" defaultValue={0}>
+                <TabList>
+                  <Tab>Unit Song</Tab>
+                  <Tab>Unit Image Browser</Tab>
+                </TabList>
+                <TabPan value={0}>
+                <MP3Player />
+                </TabPan>
+                <TabPan value={1}>
+                  <UnitImage/>
+                </TabPan>
+          </Tabs>
 
-
-        <MP3Player  />
+        
         </div>
         </div>
 

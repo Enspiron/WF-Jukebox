@@ -6,9 +6,9 @@
 }
 
 /* Mobile */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
     .unitImage {
-        width: 100px; /* Use percentage or any other appropriate value */
+        width: 55px; /* Use percentage or any other appropriate value */
         height: auto; /* Maintain aspect ratio */
         object-fit: cover;
     }

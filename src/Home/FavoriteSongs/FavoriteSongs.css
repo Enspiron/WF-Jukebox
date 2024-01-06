@@ -1,0 +1,54 @@
+
+
+@media (max-width: 800px) {
+    #favorite {
+        background-color: #f2f2f2;
+        padding: 10px;
+        border-radius: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        height: 150px;
+        width: 93%;
+        overflow-x: auto;
+
+    }
+
+    #fav_unit {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+}
+/* for favorite style={{ backgroundColor: '#f2f2f2', padding: '10px', borderRadius: '5px', display: 'flex', flexWrap: 'wrap', gap: '10px', border: '2px solid #ccc', margin: '10px' }} */
+@media screen and (min-width: 1000px) {
+    
+    #FavoriteSongs {
+        margin-bottom: '10px';
+        width: '100%';
+    }
+    
+    #favorite {
+        background-color: #f2f2f2;
+        padding: 10px;
+        border-radius: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #fav_unit {
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        margin: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    
+    
+}

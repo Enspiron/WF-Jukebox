@@ -1,4 +1,5 @@
 import React from 'react';
+import './FavoriteSongs.css';
 
 class FavoriteSongs extends React.Component {
     constructor(props) {
@@ -18,10 +19,10 @@ class FavoriteSongs extends React.Component {
         }
 
         return (
-            <div id="favorite" style={{ backgroundColor: '#f2f2f2', padding: '10px', borderRadius: '5px', display: 'flex', flexWrap: 'wrap', gap: '10px', border: '2px solid #ccc', margin: '10px' }}>
+            <div id="favorite" >
                 <h3 style={{ marginBottom: '10px', width: '100%' }}>Favorite Songs:</h3>
                 {this.props.favoriteSongs.map((song, index) => (
-                    <div key={index} style={{ display: 'flex', alignItems: 'center', marginBottom: '10px', border: '1px solid #ddd', borderRadius: '5px', padding: '10px', maxWidth: 'max-content' }}>
+                    <div key={index} id="fav_unit">
                         <img
                             src={"https://eliya-bot.herokuapp.com/img/assets/chars/" + song + "/square_0.png"}
                             alt=""

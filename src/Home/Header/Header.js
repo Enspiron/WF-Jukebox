@@ -5,7 +5,7 @@ import ListDivider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import Box from '@mui/material/Box';
-import Clock from '../Clock.js';
+import Clock from '../Clock';
 import Tooltip from '@mui/material/Tooltip';
 import './Header.css';
 
@@ -25,8 +25,10 @@ export const Header = () => {
     return(
         <header className="App-header">
         <div style={{ display: 'flex' }}>
-        <h1>World Flipper Song Player</h1>
-        <div style={{marginLeft: '65%' }} id="eos">
+        <div class="title">
+          <h1>World Flipper Song Player</h1>
+          </div>
+        <div id="eos">
           Days Till EOS:
           <Tooltip title="February 20th, 2024" followCursor><div style={customCursorStyle}>
           <Clock region="JP" deadline="February, 20, 2024" />
@@ -44,7 +46,7 @@ export const Header = () => {
         </div>
   
           <div className="App">
-            <Box component="nav" aria-label="My site" sx={{ flexGrow: 1 }} >
+            <Box component="nav" aria-label="My site">
             <List role="menubar" orientation="horizontal" style={flexContainer}>
               <ListItem disablePadding role="menuitem">
                 <ListItemButton
