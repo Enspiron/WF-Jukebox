@@ -185,7 +185,7 @@ function UnitPlayer() {
 
         <div id="filter" style={{ width: '50%', float:"left" }}>
         <div id="searchBox" style={{ marginBottom: '20px', marginRight: '20px' }}>
-        <Button onClick={reset}>Load Units/Reset Filters</Button>
+        <Button onClick={reset}>{filters.length > 0 || attribute.length > 0 ? "Reset Filters" : "Load Units"}</Button>
 
           <TextField 
           fullWidth sx={{ m: 1 }}
