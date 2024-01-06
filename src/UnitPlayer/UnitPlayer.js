@@ -196,7 +196,7 @@ function UnitPlayer() {
           />
   
         </div>
-  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+  <div id="filterContainer" >
 
   <div id="raritySelector">
     <Divider>

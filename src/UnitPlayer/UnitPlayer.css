@@ -1,0 +1,21 @@
+/*Desktop Device*/
+@media (min-width: 1500px) {
+    
+}
+
+
+@media (min-width: 600px) {
+    #filterContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+/*Mobile Device*/
+@media (max-width: 600px) {
+
+}
+
+/*Smaller */

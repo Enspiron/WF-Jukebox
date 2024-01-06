@@ -7,7 +7,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import Box from '@mui/material/Box';
 import Clock from '../Clock.js';
 import Tooltip from '@mui/material/Tooltip';
-
+import './Header.css';
 
 export const Header = () => {
     const flexContainer = {
@@ -26,7 +26,7 @@ export const Header = () => {
         <header className="App-header">
         <div style={{ display: 'flex' }}>
         <h1>World Flipper Song Player</h1>
-        <div style={{marginLeft: '65%' }} >
+        <div style={{marginLeft: '65%' }} id="eos">
           Days Till EOS:
           <Tooltip title="February 20th, 2024" followCursor><div style={customCursorStyle}>
           <Clock region="JP" deadline="February, 20, 2024" />
