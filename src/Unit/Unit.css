@@ -1,0 +1,24 @@
+/* Unit.css */
+
+/* Common styles for both mobile and desktop */
+.unitImage {
+    cursor: pointer;
+}
+
+/* Mobile */
+@media screen and (max-width: 1000px) {
+    .unitImage {
+        width: 100px; /* Use percentage or any other appropriate value */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: cover;
+    }
+}
+
+/* Desktop Device */
+@media screen and (min-width: 1000px) {
+    .unitImage {
+        width: 50px;
+        height: auto;
+        object-fit: cover;
+    }
+}

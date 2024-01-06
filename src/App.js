@@ -23,6 +23,8 @@ function App() {
     <div className="App">
       <HashRouter basename="/">
         <div className="App">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
           <Header updateViewingPage={null} />
           <Routes>
             <Route path="/" element={<Navigate to="/home" replace />} />

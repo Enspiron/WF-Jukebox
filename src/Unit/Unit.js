@@ -6,6 +6,8 @@ import Grid from '@mui/material/Unstable_Grid2';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 
+import './Unit.css'
+
 const unitsImages = require.context('./chars', true);
 
 class Unit extends React.Component {
@@ -124,7 +126,9 @@ class Unit extends React.Component {
                 <Item>
                 
             <Tooltip title={this.props.char.ENName} arrow size='lg'>
-                <img src={this.imageSource(this.props.name)} style={imgStyle} />
+                <div>
+                <img class="unitImage" src={this.imageSource(this.props.name)} />
+                </div>
             </Tooltip>
                   
                 </Item>

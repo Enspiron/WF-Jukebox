@@ -15,7 +15,7 @@ import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
 import TextField from '@mui/material/TextField';
 
-
+import './UnitPlayer.css';
 
 function UnitPlayer() {
   const [filters, setFilters] = React.useState([]); // State to store the filter conditions
@@ -171,19 +171,22 @@ function UnitPlayer() {
     <div className="App">
       <header className="App-header">
         <InfoPopup />
-      <Box sx={{ width: '100%' }}>
-      <Grid id="result" style={{ width: '50%', float:"left", height: '90vh', overflowY: 'auto' }}>
-        {filteredChars.map((obj) => (
-          (filters.length === 0 || filters.includes(obj.Rarity)) &&
-          (attribute.length === 0 || attribute.includes(obj.Attribute)) && (
-            <Unit key={obj.id} name={obj.DevNicknames} char={obj} onClick={() => handleClick(obj)} style={{ cursor: 'pointer' }} />
-          )
-        ))}
-
-      </Grid>
-      </Box>
-
-        <div id="filter" style={{ width: '50%', float:"left" }}>
+        <div id="filterContainer">
+        <div>
+         <Box sx={{ width: '100%' }}>
+            <Grid id="result" >
+              <div class="resultBox">
+              {filteredChars.map((obj) => (
+                (filters.length === 0 || filters.includes(obj.Rarity)) &&
+                (attribute.length === 0 || attribute.includes(obj.Attribute)) && (
+                  <Unit class="unitImage" key={obj.id} name={obj.DevNicknames} char={obj} onClick={() => handleClick(obj)} style={{ cursor: 'pointer' }} />
+                )
+              ))}
+                </div>
+            </Grid>
+        </Box>
+        </div>
+        <div id="filter" >
         <div id="searchBox" style={{ marginBottom: '20px', marginRight: '20px' }}>
         <Button onClick={reset}>{filters.length > 0 || attribute.length > 0 ? "Reset Filters" : "Load Units"}</Button>
 
@@ -196,124 +199,124 @@ function UnitPlayer() {
           />
   
         </div>
-  <div id="filterContainer" >
+        <div  >
 
-  <div id="raritySelector">
-    <Divider>
-    <ToggleButtonGroup >
-    <Stack direction="row" spacing={3}>
-        <Button
+          <div id="raritySelector">
+            <Divider>
+            <ToggleButtonGroup >
+            <Stack direction="row" spacing={3}>
+                <Button
+                  color="primary"
+                  variant="outlined"
+                  size="small"
+                  onClick={() => toggleFilter(null)}
+                  // style={{
+                  //   backgroundColor: isFilterSelected(null) ? 'green' : 'white',
+                  //   padding: '8px 12px',
+                  //   margin: '0 4px',
+                  //   border: '1px solid #ccc',
+                  //   borderRadius: '4px',
+                  //   cursor: 'pointer',
+                  //   height: '32px', /* Set a specific height for all buttons */
+                  // }}
+                >
+                  All
+                </Button>
+                {[1, 2, 3, 4, 5].map((rarity) => (
+                  <ToggleButton 
+                    key={rarity}
+                    onClick={() => toggleFilter(rarity)}
+                    style={{
+                      backgroundColor: isFilterSelected(rarity) ? 'green' : 'white',
+                      width: 'fit-content',
+                      height: 'fit-content',
+                      padding: '5px 0px',
+                      margin: '0 0px',
+                      border: '1px solid #ccc',
+                      borderRadius: '3px',
+                      cursor: 'pointer',
+                      scale: '0.9'
+                    }}
+                  >
+                <img
+                src={`https://eliya-bot.herokuapp.com/img/assets/sprites/rarity/star${rarity}.png`}
+                alt={`Rarity ${rarity}`}
+                style={{
+                  height: 'auto', /* Allow inherent image height for stars */
+                  width: '72px', /* Set fixed width for stars */
+                  objectFit: 'contain', /* Scale to fit within width while maintaining aspect ratio */
+                }}
+              />  
+                  </ToggleButton >
+                ))}
+                </Stack>
+                </ToggleButtonGroup>
+                </Divider>
+          </div>
+        <Divider orientation="vertical" >    </Divider>
+
+        <Divider>      
+          <div id="attributeSelector" >
+          <ToggleButtonGroup >
+          <Button
           color="primary"
           variant="outlined"
           size="small"
-          onClick={() => toggleFilter(null)}
-          // style={{
-          //   backgroundColor: isFilterSelected(null) ? 'green' : 'white',
-          //   padding: '8px 12px',
-          //   margin: '0 4px',
-          //   border: '1px solid #ccc',
-          //   borderRadius: '4px',
-          //   cursor: 'pointer',
-          //   height: '32px', /* Set a specific height for all buttons */
-          // }}
-        >
-          All
-        </Button>
-        {[1, 2, 3, 4, 5].map((rarity) => (
-          <ToggleButton 
-            key={rarity}
-            onClick={() => toggleFilter(rarity)}
-            style={{
-              backgroundColor: isFilterSelected(rarity) ? 'green' : 'white',
-              width: 'fit-content',
-              height: 'fit-content',
-              padding: '5px 0px',
-              margin: '0 0px',
-              border: '1px solid #ccc',
-              borderRadius: '3px',
-              cursor: 'pointer',
-              scale: '0.9'
-            }}
+            onClick={() => toggleAttribute(null)}
+          style={{
+                      backgroundColor: isFilterSelected(null) ? 'green' : 'white',
+                      width: 'fit-content', /* Ensure buttons are sized based on content */
+                      padding: '8px 12px', /* Add standard padding for consistency */
+                      margin: '0 2px', /* Add spacing between buttons */
+                      leftmargin: '10px',
+                      border: '1px solid #ccc', /* Add a border for visual separation */
+                      borderRadius: '4px', /* Rounded corners for visual appeal */
+                      cursor: 'pointer', /* Indicate interactivity */
+                    }}
           >
-        <img
-        src={`https://eliya-bot.herokuapp.com/img/assets/sprites/rarity/star${rarity}.png`}
-        alt={`Rarity ${rarity}`}
-        style={{
-          height: 'auto', /* Allow inherent image height for stars */
-          width: '72px', /* Set fixed width for stars */
-          objectFit: 'contain', /* Scale to fit within width while maintaining aspect ratio */
-        }}
-      />  
-          </ToggleButton >
-        ))}
-        </Stack>
-        </ToggleButtonGroup>
+            All Attributes
+          </Button>
+          {[
+            { attribute: 'Water', value: 'blue' },
+            { attribute: 'Fire', value: 'red' },
+            { attribute: 'Wind', value: 'green' },
+            { attribute: 'Thunder', value: 'yellow' },
+            { attribute: 'Light', value: 'white' },
+            { attribute: 'Dark', value: 'black' },
+          ].map(({ attribute, value }) => (
+            <ToggleButton
+              key={attribute}
+              onClick={() => toggleAttribute(attribute)}
+              style={{
+                backgroundColor: isAttributeSelected(attribute) ? 'green' : 'white',
+                width: 'fit-content',
+                padding: '8px 12px',
+                margin: '0 4px',
+                border: '1px solid #ccc',
+                borderRadius: '4px',
+                cursor: 'pointer',
+              }}
+            >
+              <img
+                src={`https://eliya-bot.herokuapp.com/img/assets/sprites/elements/element_${value}.png`}
+                alt={`Attribute ${attribute}`}
+                style={{
+                  height: '20px', /* Set base image height */
+                  objectFit: 'contain', /* Scale image to fit within height */
+                }}
+              />
+            </ToggleButton>
+          ))}
+          </ToggleButtonGroup>
+          </div>
         </Divider>
-  </div>
-        <Divider orientation="vertical" >    </Divider>
 
-  <Divider>      
-  <div id="attributeSelector" >
-  <ToggleButtonGroup >
-  <Button
-  color="primary"
-  variant="outlined"
-  size="small"
-    onClick={() => toggleAttribute(null)}
-  style={{
-              backgroundColor: isFilterSelected(null) ? 'green' : 'white',
-              width: 'fit-content', /* Ensure buttons are sized based on content */
-              padding: '8px 12px', /* Add standard padding for consistency */
-              margin: '0 2px', /* Add spacing between buttons */
-              leftmargin: '10px',
-              border: '1px solid #ccc', /* Add a border for visual separation */
-              borderRadius: '4px', /* Rounded corners for visual appeal */
-              cursor: 'pointer', /* Indicate interactivity */
-            }}
-  >
-    All Attributes
-  </Button>
-  {[
-    { attribute: 'Water', value: 'blue' },
-    { attribute: 'Fire', value: 'red' },
-    { attribute: 'Wind', value: 'green' },
-    { attribute: 'Thunder', value: 'yellow' },
-    { attribute: 'Light', value: 'white' },
-    { attribute: 'Dark', value: 'black' },
-  ].map(({ attribute, value }) => (
-    <ToggleButton
-      key={attribute}
-      onClick={() => toggleAttribute(attribute)}
-      style={{
-        backgroundColor: isAttributeSelected(attribute) ? 'green' : 'white',
-        width: 'fit-content',
-        padding: '8px 12px',
-        margin: '0 4px',
-        border: '1px solid #ccc',
-        borderRadius: '4px',
-        cursor: 'pointer',
-      }}
-    >
-      <img
-        src={`https://eliya-bot.herokuapp.com/img/assets/sprites/elements/element_${value}.png`}
-        alt={`Attribute ${attribute}`}
-        style={{
-          height: '20px', /* Set base image height */
-          objectFit: 'contain', /* Scale image to fit within height */
-        }}
-      />
-    </ToggleButton>
-  ))}
-  </ToggleButtonGroup>
-  </div>
-  </Divider>
-
-  </div>
+        </div>
 
 
         <MP3Player  />
         </div>
-
+        </div>
 
       </header>
       
