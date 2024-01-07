@@ -45,7 +45,11 @@ class UnitImage extends Component {
     const altart = 'full_shot_1.png'
     const regart = 'full_shot_0.png'
     const eliya = 'https://eliya-bot.herokuapp.com/img/assets/chars/'
+    const gifSource = 'https://wfjukebox-storage.s3.us-west-1.amazonaws.com/WF+BGM+%26+IMAGES/character/character_art/'
+    //https://wfjukebox-storage.s3.us-west-1.amazonaws.com/WF+BGM+%26+IMAGES/character/character_art/wirfled_playable/pixelart/animated/special.gif
+    const special = '/pixelart/animated/special.gif'
 
+    const staticImages = ['full_shot_0.png', 'full_shot_1.png', 'square_0.png', 'square_1.png']
 
     return (
       <div className="images">
@@ -61,10 +65,26 @@ class UnitImage extends Component {
             <Divider orientation="horizontal" sx={{ height: '60%', alignSelf: 'center' }} />
             <Button value="square_0.png">Icon OG</Button>
             <Button value="square_1.png">Icon ALT</Button>
+            <Divider orientation="horizontal" sx={{ height: '60%', alignSelf: 'center' }} />
+            <Button value="/pixelart/animated/special.gif">Special</Button>
           </ToggleButtonGroup>
         </div>
         <div className="UnitImage">
-          <img src={eliya + this.state.clickedUnit + '/' + this.state.imgType} />
+            {
+                this.state.imgType === '/pixelart/animated/special.gif' ? (
+                    <img
+                    src={gifSource + this.state.clickedUnit + special}
+                    alt="Gif has not yet been uploaded"
+                    style={{ width: '100%', height: '100%' }}
+                    />
+                ) : (
+                    <img
+                    src={eliya + this.state.clickedUnit + '/' + this.state.imgType}
+                    alt={this.state.clickedUnit + '/' + this.state.imgType}
+                    style={{ width: '100%', height: '100%' }}
+                    />
+                )
+            }
         </div>
       </div>
     );
