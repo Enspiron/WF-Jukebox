@@ -1,5 +1,7 @@
 import React, { Component, useEffect, useState } from 'react';
 import Button from '@mui/joy/Button';
+import Sheet from '@mui/joy/Sheet';
+
 import { ToggleButtonGroup } from '@mui/joy';
 import Divider from '@mui/joy/Divider';
 import './UnitImage.css';
@@ -58,23 +60,30 @@ class UnitImage extends Component {
     return (
       <div className="images">
         <div className="toggle">
+            <Sheet
+            variant="outlined"
+            sx={{ borderRadius: 'md', display: 'flex', gap: 2, p: 0.5 }}
+            >
           <ToggleButtonGroup
+          variant="plain"
+          spacing={0.5}
             size={"md" || undefined}
             value={this.state.imgType}
             onChange={this.handleImgTypeChange}
-            orientation="vertical"
+            orientation="horizontal"
           >
             <Button value="full_shot_0.png">OG</Button>
             <Button value="full_shot_1.png">Alt</Button>
-            <Divider orientation="horizontal" sx={{ height: '60%', alignSelf: 'center' }} />
+            <Divider orientation="vertical" sx={{ height: '60%', alignSelf: 'center' }} />
             <Button value="square_0.png">Icon OG</Button>
             <Button value="square_1.png">Icon ALT</Button>
-            <Divider orientation="horizontal" sx={{ height: '60%', alignSelf: 'center' }} />
+            <Divider orientation="vertical" sx={{ height: '60%', alignSelf: 'center' }} />
             <Button value="/pixelart/animated/special.gif">Special</Button>
             <Button value="/pixelart/animated/walk_back.gif">Walk Back</Button>
             <Button value="/pixelart/animated/walk_front.gif">Walk Front</Button>
 
           </ToggleButtonGroup>
+          </Sheet>
         </div>
         <div className="UnitImage">
             {
@@ -82,13 +91,13 @@ class UnitImage extends Component {
                     <img
                     src={gifSource + this.state.clickedUnit + this.state.imgType}
                     alt="Gif has not yet been uploaded"
-                    style={{ width: 'fit-content', height: '100%' }}
+                    class="images"
                     />
                 ) : (
                     <img
                     src={eliya + this.state.clickedUnit + '/' + this.state.imgType}
                     alt={this.state.clickedUnit + '/' + this.state.imgType}
-                    style={{ width: 'fit-content', height: '100%' }}
+                    class="images"
                     />
                 )
             }
