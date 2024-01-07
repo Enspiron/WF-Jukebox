@@ -41,6 +41,10 @@ class UnitImage extends Component {
     this.setState({ imgType: newValue });
   };
 
+  containsGif(str) {
+    return str && str.includes('gif');
+  }
+
   render() {
     const altart = 'full_shot_1.png'
     const regart = 'full_shot_0.png'
@@ -67,21 +71,24 @@ class UnitImage extends Component {
             <Button value="square_1.png">Icon ALT</Button>
             <Divider orientation="horizontal" sx={{ height: '60%', alignSelf: 'center' }} />
             <Button value="/pixelart/animated/special.gif">Special</Button>
+            <Button value="/pixelart/animated/walk_back.gif">Walk Back</Button>
+            <Button value="/pixelart/animated/walk_front.gif">Walk Front</Button>
+
           </ToggleButtonGroup>
         </div>
         <div className="UnitImage">
             {
-                this.state.imgType === '/pixelart/animated/special.gif' ? (
+                this.containsGif(this.state.imgType) ? (
                     <img
-                    src={gifSource + this.state.clickedUnit + special}
+                    src={gifSource + this.state.clickedUnit + this.state.imgType}
                     alt="Gif has not yet been uploaded"
-                    style={{ width: '100%', height: '100%' }}
+                    style={{ width: 'fit-content', height: '100%' }}
                     />
                 ) : (
                     <img
                     src={eliya + this.state.clickedUnit + '/' + this.state.imgType}
                     alt={this.state.clickedUnit + '/' + this.state.imgType}
-                    style={{ width: '100%', height: '100%' }}
+                    style={{ width: 'fit-content', height: '100%' }}
                     />
                 )
             }
