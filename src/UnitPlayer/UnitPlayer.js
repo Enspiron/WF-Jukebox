@@ -23,6 +23,8 @@ import Tab from '@mui/joy/Tab';
 import TabPan from '@mui/joy/TabPanel';
 
 import './UnitPlayer.css';
+import { common } from '@mui/material/colors';
+
 
 function UnitPlayer() {
   const [filters, setFilters] = React.useState([]); // State to store the filter conditions
@@ -47,6 +49,8 @@ function UnitPlayer() {
     setFilteredChars(characters.chars);
 
   };
+
+  
 
   const toggleFilter = (filter) => {
     if (filter === null) {
@@ -171,10 +175,11 @@ function UnitPlayer() {
     });
   }
   
-
+  
   
 
   return (
+    
     <div className="App">
       <header className="App-header">
         <InfoPopup />
@@ -325,10 +330,10 @@ function UnitPlayer() {
                   <Tab>Unit Image Browser</Tab>
                 </TabList>
                 <TabPan value={0}>
-                <MP3Player />
+                <MP3Player unit={clickedUnit}/>
                 </TabPan>
                 <TabPan value={1}>
-                  <UnitImage/>
+                  <UnitImage unit={clickedUnit}/>
                 </TabPan>
           </Tabs>
 

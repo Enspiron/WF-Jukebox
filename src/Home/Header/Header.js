@@ -1,9 +1,10 @@
 import { useRef } from "react";
 import React from "react";
-import List from '@mui/material/List';
-import ListDivider from '@mui/material/Divider';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
+import List from '@mui/joy/List';
+import ListDivider from '@mui/joy/ListDivider';
+import ListItem from '@mui/joy/ListItem';
+import ListItemButton from '@mui/joy/ListItemButton';
+
 import Box from '@mui/material/Box';
 import Clock from '../Clock';
 import Tooltip from '@mui/material/Tooltip';
@@ -52,7 +53,7 @@ export const Header = () => {
                 <ListItemButton
                   role="menuitem"
                   component="a"
-                  to='#home'
+                  href='#home'
                   aria-label="/"
                 >
                   Home
@@ -63,7 +64,7 @@ export const Header = () => {
                 <ListItemButton
                   role="menuitem"
                   component="a"
-                  to='#test'
+                  href='#test'
                   aria-label="Home"
                 >
                   Test

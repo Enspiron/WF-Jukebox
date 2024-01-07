@@ -31,6 +31,7 @@ class MP3Player extends React.Component {
             //console.log(e.detail);
         });
         document.title = "MP3 Player";
+        this.handleStorageChange();
     }
 
 
