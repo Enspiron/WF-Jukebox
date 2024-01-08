@@ -51,7 +51,7 @@ class UnitImage extends Component {
     const altart = 'full_shot_1.png'
     const regart = 'full_shot_0.png'
     const eliya = 'https://eliya-bot.herokuapp.com/img/assets/chars/'
-    const gifSource = 'https://wfjukebox-storage.s3.us-west-1.amazonaws.com/WF+BGM+%26+IMAGES/character/character_art/'
+    const gifSource = 'https://wfjukebox.b-cdn.net/wfjukebox/character/character_art/'
     //https://wfjukebox-storage.s3.us-west-1.amazonaws.com/WF+BGM+%26+IMAGES/character/character_art/wirfled_playable/pixelart/animated/special.gif
     const special = '/pixelart/animated/special.gif'
 
@@ -79,8 +79,8 @@ class UnitImage extends Component {
             <Button value="square_1.png">Icon ALT</Button>
             <Divider orientation="vertical" sx={{ height: '60%', alignSelf: 'center' }} />
             <Button value="/pixelart/animated/special.gif">Special</Button>
-            <Button value="/pixelart/animated/walk_back.gif">Walk Back</Button>
             <Button value="/pixelart/animated/walk_front.gif">Walk Front</Button>
+            <Button value="/pixelart/animated/walk_back.gif">Walk Back</Button>
 
           </ToggleButtonGroup>
           </Sheet>
