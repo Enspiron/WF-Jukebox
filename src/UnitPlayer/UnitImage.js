@@ -72,13 +72,15 @@ class UnitImage extends Component {
             onChange={this.handleImgTypeChange}
             orientation="horizontal"
           >
-            <Button value="full_shot_0.png">OG</Button>
-            <Button value="full_shot_1.png">Alt</Button>
+            <Button value="full_shot_0.png">Base Art</Button>
+            <Button value="full_shot_1.png">Awaken Art</Button>
             <Divider orientation="vertical" sx={{ height: '60%', alignSelf: 'center' }} />
-            <Button value="square_0.png">Icon OG</Button>
-            <Button value="square_1.png">Icon ALT</Button>
+            <Button value="square_0.png">Base Icon</Button>
+            <Button value="square_1.png">Awaken Icon</Button>
             <Divider orientation="vertical" sx={{ height: '60%', alignSelf: 'center' }} />
             <Button value="/pixelart/animated/special.gif">Special</Button>
+            <Button value="/pixelart/animated/skill_ready.gif">Skill Ready</Button>
+            <Button value="/pixelart/animated/kachidoki.gif">Idle</Button>
             <Button value="/pixelart/animated/walk_front.gif">Walk Front</Button>
             <Button value="/pixelart/animated/walk_back.gif">Walk Back</Button>
 
