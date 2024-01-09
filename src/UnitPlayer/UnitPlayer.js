@@ -2,7 +2,8 @@
 import Unit from '../Unit/Unit.js';
 import MP3Player from '../Home/MP3Player/MP3Player.js';
 import InfoPopup from '../Home/InfoPopup/InfoPopup.js';
-import UnitImage from './UnitImage.js'
+import UnitImage from './UnitImage/UnitImage.js'
+import UnitAudio from './UnitAudio/UnitAudio.js';
 
 import characters from './characters.json';
 import { useMediaQuery } from 'react-responsive';
@@ -324,16 +325,20 @@ function UnitPlayer() {
         </Divider>
 
         </div>
-          <Tabs ariel-label="Basic tabs" defaultValue={0}>
+          <Tabs ariel-label="Basic tabs" defaultValue={0} style={{marginTop: "5px"}}>
                 <TabList>
                   <Tab>Unit Song</Tab>
                   <Tab>Unit Image Browser</Tab>
+                  <Tab>Unit Sound Board</Tab>
                 </TabList>
                 <TabPan value={0}>
                 <MP3Player unit={clickedUnit}/>
                 </TabPan>
                 <TabPan value={1}>
                   <UnitImage unit={clickedUnit}/>
+                </TabPan>
+                <TabPan value={2}>
+                  <UnitAudio unit={clickedUnit}/>
                 </TabPan>
           </Tabs>
 
