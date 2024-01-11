@@ -4,6 +4,7 @@ import MP3Player from '../Home/MP3Player/MP3Player.js';
 import InfoPopup from '../Home/InfoPopup/InfoPopup.js';
 import UnitImage from './UnitImage/UnitImage.js'
 import UnitAudio from './UnitAudio/UnitAudio.js';
+import UnitAbility from './UnitAbility/UnitAbility.js';
 
 import characters from './characters.json';
 import { useMediaQuery } from 'react-responsive';
@@ -334,6 +335,7 @@ function UnitPlayer() {
                   <Tab>Unit Song</Tab>
                   <Tab>Unit Image Browser</Tab>
                   <Tab>Unit Sound Board</Tab>
+                  <Tab>Unit Abilities</Tab>
                 </TabList>
                 <TabPan value={0}>
                 <MP3Player unit={clickedUnit}/>
@@ -344,6 +346,10 @@ function UnitPlayer() {
                 <TabPan value={2}>
                   <UnitAudio unit={clickedUnit}/>
                 </TabPan>
+                <TabPan value={3}>
+                  <UnitAbility unit={clickedUnit}/>
+                </TabPan>
+
           </Tabs>
 
         
