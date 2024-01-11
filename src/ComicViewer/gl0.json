@@ -1,0 +1,105 @@
+{
+  "total_count": 354,
+  "current_page_index": 0,
+  "comic_list": [
+    {
+      "episode": 354,
+      "title": "Country Girl Blues",
+      "media_image": {
+        "main": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/ac87abd5/base.png",
+        "thumbnail_s": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/ac87abd5/small.png",
+        "thumbnail_l": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/ac87abd5/large.png"
+      },
+      "commence_time": "2024-01-03 14:00:00",
+      "complete_time": "2199-12-31 23:59:00"
+    },
+    {
+      "episode": 353,
+      "title": "Earnest Ernest",
+      "media_image": {
+        "main": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/9b757970/base.png",
+        "thumbnail_s": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/9b757970/small.png",
+        "thumbnail_l": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/9b757970/large.png"
+      },
+      "commence_time": "2023-12-29 14:00:00",
+      "complete_time": "2199-12-31 23:59:00"
+    },
+    {
+      "episode": 352,
+      "title": "Ruelle’s Ideal Prince",
+      "media_image": {
+        "main": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/b07ce7f4/base.png",
+        "thumbnail_s": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/b07ce7f4/small.png",
+        "thumbnail_l": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/b07ce7f4/large.png"
+      },
+      "commence_time": "2023-12-27 14:00:00",
+      "complete_time": "2199-12-31 23:59:00"
+    },
+    {
+      "episode": 351,
+      "title": "Quinvere’s Ambition",
+      "media_image": {
+        "main": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/89af1f60/base.png",
+        "thumbnail_s": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/89af1f60/small.png",
+        "thumbnail_l": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/89af1f60/large.png"
+      },
+      "commence_time": "2023-12-25 14:00:00",
+      "complete_time": "2199-12-31 23:59:00"
+    },
+    {
+      "episode": 350,
+      "title": "Clumsy Harlisha",
+      "media_image": {
+        "main": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/9144d262/base.png",
+        "thumbnail_s": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/9144d262/small.png",
+        "thumbnail_l": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/9144d262/large.png"
+      },
+      "commence_time": "2023-12-18 14:00:00",
+      "complete_time": "2199-12-31 23:59:00"
+    },
+    {
+      "episode": 349,
+      "title": "Karina the Designer",
+      "media_image": {
+        "main": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/2b68f1f7/base.png",
+        "thumbnail_s": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/2b68f1f7/small.png",
+        "thumbnail_l": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/2b68f1f7/large.png"
+      },
+      "commence_time": "2023-12-15 14:00:00",
+      "complete_time": "2199-12-31 23:59:00"
+    },
+    {
+      "episode": 348,
+      "title": "Hildegarde, Innovator",
+      "media_image": {
+        "main": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/a0bdc4ca/base.png",
+        "thumbnail_s": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/a0bdc4ca/small.png",
+        "thumbnail_l": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/a0bdc4ca/large.png"
+      },
+      "commence_time": "2023-12-13 14:00:00",
+      "complete_time": "2199-12-31 23:59:00"
+    },
+    {
+      "episode": 347,
+      "title": "Kitchen Nightmares",
+      "media_image": {
+        "main": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/f4f36649/base.png",
+        "thumbnail_s": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/f4f36649/small.png",
+        "thumbnail_l": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/f4f36649/large.png"
+      },
+      "commence_time": "2023-12-11 14:00:00",
+      "complete_time": "2199-12-31 23:59:00"
+    },
+    {
+      "episode": 346,
+      "title": "Vargen’s Wild Hunt",
+      "media_image": {
+        "main": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/e03ceaec/base.png",
+        "thumbnail_s": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/e03ceaec/small.png",
+        "thumbnail_l": "http://patch.wdfp.kakaogames.com/Live/manga/manga/en/e03ceaec/large.png"
+      },
+      "commence_time": "2023-12-08 14:00:00",
+      "complete_time": "2199-12-31 23:59:00"
+    }
+  ]
+}

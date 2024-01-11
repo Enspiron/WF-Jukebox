@@ -128,6 +128,8 @@ function UnitPlayer() {
 
 
   useEffect(() => {
+    setFilteredChars(characters.chars);
+
     const handleStorage = () => {
       try {
         const storedUnit = localStorage.getItem('clickedUnit');
@@ -142,6 +144,8 @@ function UnitPlayer() {
     }
 
     const handleSiteLoad = () => {
+      
+
       try {
         const storedUnit = localStorage.getItem('clickedUnit');
         if (storedUnit) {

@@ -31,6 +31,7 @@ class UnitAudio extends Component {
     }
 
     componentDidMount() {
+        
         const id = JSON.parse(localStorage.getItem('clickedUnit')).DevNicknames
         //console.log(songs[JSON.parse(localStorage.getItem('clickedUnit')).DevNicknames])
         window.addEventListener('storage', this.handleClick);

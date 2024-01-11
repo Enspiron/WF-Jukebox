@@ -27,7 +27,7 @@ export const Header = () => {
         <header className="App-header">
         <div style={{ display: 'flex' }}>
         <div class="title">
-          <h1>World Flipper Song Player</h1>
+          <h1 id="Header_Title">World Flipper Song Player</h1>
           </div>
         <div id="eos">
           Days Till EOS:
@@ -59,15 +59,16 @@ export const Header = () => {
                   Home
                 </ListItemButton>
               </ListItem>
+              
               <ListDivider />
               <ListItem disablePadding role="menuitem">
                 <ListItemButton
                   role="menuitem"
                   component="a"
-                  href='#test'
+                  href='#comics'
                   aria-label="Home"
                 >
-                  Test
+                  Comics
                 </ListItemButton>
               </ListItem>
             </List>

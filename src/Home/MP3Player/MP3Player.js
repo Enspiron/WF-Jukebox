@@ -20,6 +20,7 @@ class MP3Player extends React.Component {
         };
     }
 
+
     // Add methods here
 
     componentDidMount() {
