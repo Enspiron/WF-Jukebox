@@ -3,6 +3,7 @@ import { Router, Route, Routes, BrowserRouter, createHashRouter, HashRouter, Nav
 import UnitPlayer from './UnitPlayer/UnitPlayer.js';
 import ComicViewer from './ComicViewer/ComicViewer.js';
 import Header from './Home/Header/Header.js';
+import EventBossMusic from './EventBossMusic/EventBossMusic.js';
 
 import './App.css';
 
@@ -28,6 +29,7 @@ function App() {
             <Route path="/home" element={<UnitPlayer />} />
             <Route path="/test" element={<div>test</div>} />
             <Route path="/comics" element={<ComicViewer />} />
+            <Route path="/event-ost" element={<EventBossMusic />} />
             <Route path="/centerqoob" element={
             <div class="container">
               <div style={centerStyle}>

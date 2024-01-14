@@ -2,6 +2,7 @@
     "chars": [
         {
             "Character": "",
+            "va": "Shunsuke Takeuchi",
             "Attribute": "Fire",
             "JPName": "\u30f4\u30a1\u30fc\u30b0\u30ca\u30fc",
             "ENName": "[The Hell-Fire Dragon King]\nWagner",
@@ -59,6 +60,7 @@
         },
         {
             "Character": "",
+            "va": "Shizuka Ito",
             "Attribute": "Fire",
             "JPName": "\u30de\u30ea\u30fc\u30ca",
             "ENName": "[The Pirate Captain Who Crosses the Stars]\nMarina",

@@ -1,0 +1,23 @@
+{
+    "world": [
+        { "name": "W1", "icon": "https://wfjukebox.b-cdn.net/orbs/w1.png" },
+        { "name": "W2", "icon": "https://wfjukebox.b-cdn.net/orbs/w2.png" },
+        { "name": "W3", "icon": "https://wfjukebox.b-cdn.net/orbs/w3.png" },
+        { "name": "W4", "icon": "https://wfjukebox.b-cdn.net/orbs/w4.png" },
+        { "name": "W5", "icon": "https://wfjukebox.b-cdn.net/orbs/w5.png" },
+        { "name": "W6", "icon": "https://wfjukebox.b-cdn.net/orbs/w6.png" },
+        { "name": "W7", "icon": "https://wfjukebox.b-cdn.net/orbs/w7.png" },
+        { "name": "W8", "icon": "https://wfjukebox.b-cdn.net/orbs/w8.png" },
+        { "name": "W9", "icon": "https://wfjukebox.b-cdn.net/orbs/w9.png" },
+        { "name": "W10", "icon": "https://wfjukebox.b-cdn.net/orbs/w10.png" },
+        { "name": "W11", "icon": "https://wfjukebox.b-cdn.net/orbs/w11.png" },
+        { "name": "W12", "icon": "https://wfjukebox.b-cdn.net/orbs/w12.png" }
+    ],
+    "bosses": [
+        {"name" : "D-Dragon", "icon" : ""},
+        {"name" : "Anima", "icon" : ""},
+        {"name" : "Steam Bot", "icon" : ""}
+
+    ]
+}
+  
