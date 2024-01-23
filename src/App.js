@@ -4,6 +4,8 @@ import UnitPlayer from './UnitPlayer/UnitPlayer.js';
 import ComicViewer from './ComicViewer/ComicViewer.js';
 import Header from './Home/Header/Header.js';
 import EventBossMusic from './EventBossMusic/EventBossMusic.js';
+import Testing from './Testing/Testing.js';
+
 
 import './App.css';
 
@@ -27,9 +29,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Navigate to="/home" replace />} />
             <Route path="/home" element={<UnitPlayer />} />
-            <Route path="/test" element={<div>test</div>} />
             <Route path="/comics" element={<ComicViewer />} />
             <Route path="/event-ost" element={<EventBossMusic />} />
+            <Route path="/test" element={<Testing />} />
             <Route path="/centerqoob" element={
             <div class="container">
               <div style={centerStyle}>

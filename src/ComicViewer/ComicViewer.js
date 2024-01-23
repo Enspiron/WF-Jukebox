@@ -53,7 +53,7 @@ class ComicViewer extends React.Component {
     componentDidMount() {
         document.title = "Comic Viewer";
         const header = document.getElementById('Header_Title');
-        header.innerHTML = "Comic Viewer";
+        // header.innerHTML = "Comic Viewer";
 
         document.addEventListener('keyup', (event) => {
             if (event.key === 'ArrowLeft') {

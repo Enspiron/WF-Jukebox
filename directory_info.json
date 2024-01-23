@@ -1,0 +1,265 @@
+{
+    "name": "event",
+    "path": "d:\\organized-wfimages\\bgm\\event",
+    "contents": [
+        {
+            "name": "2halfanv",
+            "path": "d:\\organized-wfimages\\bgm\\event\\2halfanv",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "abyss_cloud",
+            "path": "d:\\organized-wfimages\\bgm\\event\\abyss_cloud",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "advent_event",
+            "path": "d:\\organized-wfimages\\bgm\\event\\advent_event",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "advent_event_spirit_beast",
+            "path": "d:\\organized-wfimages\\bgm\\event\\advent_event_spirit_beast",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "advent_steam_robot",
+            "path": "d:\\organized-wfimages\\bgm\\event\\advent_steam_robot",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "anv1",
+            "path": "d:\\organized-wfimages\\bgm\\event\\anv1",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "anv1_countdown_event",
+            "path": "d:\\organized-wfimages\\bgm\\event\\anv1_countdown_event",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "anv2",
+            "path": "d:\\organized-wfimages\\bgm\\event\\anv2",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "anv3",
+            "path": "d:\\organized-wfimages\\bgm\\event\\anv3",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "anv3half",
+            "path": "d:\\organized-wfimages\\bgm\\event\\anv3half",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "boss_battle_multi_pickup",
+            "path": "d:\\organized-wfimages\\bgm\\event\\boss_battle_multi_pickup",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "boss_epuration_event",
+            "path": "d:\\organized-wfimages\\bgm\\event\\boss_epuration_event",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "challenge_dungeon",
+            "path": "d:\\organized-wfimages\\bgm\\event\\challenge_dungeon",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "crown_beasts",
+            "path": "d:\\organized-wfimages\\bgm\\event\\crown_beasts",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "cyberpunk01",
+            "path": "d:\\organized-wfimages\\bgm\\event\\cyberpunk01",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "cyberpunk02_hero",
+            "path": "d:\\organized-wfimages\\bgm\\event\\cyberpunk02_hero",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "desert_bonds_01",
+            "path": "d:\\organized-wfimages\\bgm\\event\\desert_bonds_01",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "expert_single_event_01",
+            "path": "d:\\organized-wfimages\\bgm\\event\\expert_single_event_01",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "expert_single_side_story_01",
+            "path": "d:\\organized-wfimages\\bgm\\event\\expert_single_side_story_01",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "fakeprincess01",
+            "path": "d:\\organized-wfimages\\bgm\\event\\fakeprincess01",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "haniwa_carnival",
+            "path": "d:\\organized-wfimages\\bgm\\event\\haniwa_carnival",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "labyrinth_of_fluctuation",
+            "path": "d:\\organized-wfimages\\bgm\\event\\labyrinth_of_fluctuation",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "new_year_event_01",
+            "path": "d:\\organized-wfimages\\bgm\\event\\new_year_event_01",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "raid_event",
+            "path": "d:\\organized-wfimages\\bgm\\event\\raid_event",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "ranking_event",
+            "path": "d:\\organized-wfimages\\bgm\\event\\ranking_event",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "rush_battle_event",
+            "path": "d:\\organized-wfimages\\bgm\\event\\rush_battle_event",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "score_attack_event",
+            "path": "d:\\organized-wfimages\\bgm\\event\\score_attack_event",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "solo_timeattack",
+            "path": "d:\\organized-wfimages\\bgm\\event\\solo_timeattack",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "summer_2020",
+            "path": "d:\\organized-wfimages\\bgm\\event\\summer_2020",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "summer_2021",
+            "path": "d:\\organized-wfimages\\bgm\\event\\summer_2021",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "summer_2022",
+            "path": "d:\\organized-wfimages\\bgm\\event\\summer_2022",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "tower_dungeon",
+            "path": "d:\\organized-wfimages\\bgm\\event\\tower_dungeon",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "valentine2022",
+            "path": "d:\\organized-wfimages\\bgm\\event\\valentine2022",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "valen_2020",
+            "path": "d:\\organized-wfimages\\bgm\\event\\valen_2020",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "vcollabo_towa",
+            "path": "d:\\organized-wfimages\\bgm\\event\\vcollabo_towa",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "xm19-event",
+            "path": "d:\\organized-wfimages\\bgm\\event\\xm19-event",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        },
+        {
+            "name": "yokai_emaki_01",
+            "path": "d:\\organized-wfimages\\bgm\\event\\yokai_emaki_01",
+            "is_file": false,
+            "is_dir": true,
+            "size": null
+        }
+    ]
+}

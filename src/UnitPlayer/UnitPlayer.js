@@ -26,6 +26,7 @@ import TabPan from '@mui/joy/TabPanel';
 
 import './UnitPlayer.css';
 import { common } from '@mui/material/colors';
+import Skeleton from '@mui/material/Skeleton';
 
 
 function UnitPlayer() {
@@ -41,6 +42,10 @@ function UnitPlayer() {
 
   const [, updateState] = React.useState();
   const forceUpdate = React.useCallback(() => updateState({}), []);
+
+  const [loading, setLoading] = React.useState(true);
+  const [imageLoadCounter, setImageLoadCounter] = useState(0);
+
 
   const [seed, setSeed] = useState(1);
   const reset = () => {
@@ -171,6 +176,35 @@ function UnitPlayer() {
   const audiosource = "https://github.com/Enspiron/WorldFlipperPlayer/raw/main/character_unique/black_wolf_knight_wt23/black_wolf_knight_wt23.mp3";
   //setAudio('https://github.com/Enspiron/WorldFlipperPlayer/raw/main/character_unique/amulet_bosslady/amulet_bosslady.mp3');
   
+  const handleImageLoad = () => {
+    // Increment the image load counter
+    setImageLoadCounter(prevCounter => prevCounter + 1);
+    console.log(imageLoadCounter)
+
+    // If all images are loaded, set loading to false
+    if (imageLoadCounter === filteredChars.length) {
+      setLoading(false);
+    }
+  };
+
+
+  useEffect(() => {
+    const fetchData = async () => {
+      setLoading(true);
+      setImageLoadCounter(0); // Reset image load counter
+
+      // Fetch your data or perform any asynchronous operations
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      setFilteredChars(characters.chars);
+    };
+
+    fetchData();
+
+    // ... (rest of your useEffect)
+
+  }, [filters, attribute, seed]);
+
+
   function handleClick(clicked) {
     console.log(`Unit with ID: ${clicked} was clicked`);
     setClickedUnit(prevClickedUnit => {
@@ -194,12 +228,24 @@ function UnitPlayer() {
          <Box sx={{ width: '100%' }}>
             <Grid id="result" >
               <div class="resultBox">
-              {filteredChars.map((obj) => (
-                (filters.length === 0 || filters.includes(obj.Rarity)) &&
-                (attribute.length === 0 || attribute.includes(obj.Attribute)) && (
-                  <Unit class="unitImage" key={obj.id} name={obj.DevNicknames} char={obj} onClick={() => handleClick(obj)} style={{ cursor: 'pointer' }} />
-                )
-              ))}
+                {!loading ? (
+                  <Skeleton variant="rectangular" width={'100%'} height={"100%"} />
+                ) : (
+                  filteredChars.map((obj) => (
+                    (filters.length === 0 || filters.includes(obj.Rarity)) &&
+                    (attribute.length === 0 || attribute.includes(obj.Attribute)) && (
+                      <Unit
+                      class="unitImage"
+                      key={obj.id}
+                      name={obj.DevNicknames}
+                      char={obj}
+                      onClick={() => handleClick(obj)}
+                      onLoad={handleImageLoad} // Add onLoad event for each image
+                      style={{ cursor: 'pointer' }}
+                    />                    )
+                  ))
+                )}
+             
                 </div>
             </Grid>
         </Box>

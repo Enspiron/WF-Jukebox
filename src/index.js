@@ -7,6 +7,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import { StyledEngineProvider, CssVarsProvider } from '@mui/styled-engine';
 import { BrowserRouter, HashRouter } from 'react-router-dom';
+import mb from './Manaboard.png'
 
 const init_unit = {
   "Character": "",
@@ -73,12 +74,15 @@ const units = require('./characters.json');
 const root = ReactDOM.createRoot(document.getElementById('root'));
 localStorage.setItem('clickedUnit', JSON.stringify(init_unit));
 
+
 root.render(
   
   <React.StrictMode>
 
-    <StyledEngineProvider injectFirst>
+    <StyledEngineProvider injectFirst >
+      <div >
         <App />
+      </div>
     </StyledEngineProvider>
   </React.StrictMode>
 

@@ -5,6 +5,12 @@
         white-space: nowrap;
         right: 0;
         margin-left: 40%;
+        width: fit-content;
+        top: 0;
+        right: 0;
+        position: fixed;
+        background-color: black;
+
     }
 
     .Clock-days {
@@ -31,6 +37,12 @@
         border-radius: 5px;
         padding: 10px;
         margin-left: 70%;
+        width: fit-content;
+        top: 0;
+        right: 0;
+        position: fixed;
+        background-color: rgb(33, 78, 228);
+        
     }
 
     List {

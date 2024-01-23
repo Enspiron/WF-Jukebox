@@ -1,22 +1,863 @@
 {
     "world": [
-        { "name": "W1", "icon": "https://wfjukebox.b-cdn.net/orbs/w1.png" },
-        { "name": "W2", "icon": "https://wfjukebox.b-cdn.net/orbs/w2.png" },
-        { "name": "W3", "icon": "https://wfjukebox.b-cdn.net/orbs/w3.png" },
-        { "name": "W4", "icon": "https://wfjukebox.b-cdn.net/orbs/w4.png" },
-        { "name": "W5", "icon": "https://wfjukebox.b-cdn.net/orbs/w5.png" },
-        { "name": "W6", "icon": "https://wfjukebox.b-cdn.net/orbs/w6.png" },
-        { "name": "W7", "icon": "https://wfjukebox.b-cdn.net/orbs/w7.png" },
-        { "name": "W8", "icon": "https://wfjukebox.b-cdn.net/orbs/w8.png" },
-        { "name": "W9", "icon": "https://wfjukebox.b-cdn.net/orbs/w9.png" },
-        { "name": "W10", "icon": "https://wfjukebox.b-cdn.net/orbs/w10.png" },
-        { "name": "W11", "icon": "https://wfjukebox.b-cdn.net/orbs/w11.png" },
-        { "name": "W12", "icon": "https://wfjukebox.b-cdn.net/orbs/w12.png" }
+        { "name": "W1", "icon": "https://wfjukebox.b-cdn.net/orbs/w1.png", "id" : "world_grass",
+          "songs": {
+            "story": ["grass_story_1.mp3", "grass_story_2.mp3", "grass_story_3_before_last_boss.mp3", "grass_story_4.mp3", "grass_story_5.mp3", "grass_story_6_before_middle_boss.mp3", "grass_story_7.mp3", "grass_story_8.mp3", "grass_story_9.mp3"],
+            "battle": ["grass_battle_boss_boss.mp3", "grass_battle_middle_boss_boss.mp3", "grass_battle_middle_boss_normal.mp3", "grass_battle_middle_boss_tsunagi.mp3", "grass_battle_normal_boss.mp3", "grass_battle_normal_normal.mp3", "grass_battle_normal_tsunagi.mp3"]
+          }
+        },
+        { "name": "W2", "icon": "https://wfjukebox.b-cdn.net/orbs/w2.png", "id" : "world_desert",
+          "songs": {
+            "story": ["desert_story_1.mp3", "desert_story_2.mp3", "desert_story_3.mp3", "desert_story_4.mp3", "desert_story_5.mp3", "desert_story_6.mp3", "desert_story_7.mp3", "desert_story_8.mp3", "desert_story_shiro.mp3"],
+            "battle": ["desert_battle_boss_boss.mp3", "desert_battle_boss_normal.mp3", "desert_battle_boss_tsunagi.mp3", "desert_battle_middle_boss_normal.mp3", "desert_battle_middle_boss_tsunagi.mp3", "desert_battle_normal_boss.mp3", "desert_battle_normal_normal.mp3", "desert_battle_normal_tsunagi.mp3", "desert_battle_shiro_normal.mp3"]
+          }
+        },
+        { "name": "W3", "icon": "https://wfjukebox.b-cdn.net/orbs/w3.png", "id" : "world_sea",
+          "songs": {
+            "story": ["sea_story_ameria.mp3", "sea_story_ameria_beats.mp3", "sea_story_calm.mp3", "sea_story_depth.mp3", "sea_story_main.mp3", "sea_story_march.mp3", "sea_story_marina.mp3", "sea_story_serious.mp3", "sea_story_shinden.mp3", "sea_story_wave.mp3"],
+            "battle": ["sea_battle_boss_boss.mp3", "sea_battle_boss_normal.mp3", "sea_battle_boss_tsunagi.mp3", "sea_battle_comical_boss.mp3", "sea_battle_comical_normal.mp3", "sea_battle_comical_tsunagi.mp3", "sea_battle_depth_boss.mp3", "sea_battle_depth_normal.mp3", "sea_battle_depth_tsunagi.mp3", "sea_battle_middle_boss_2_boss.mp3", "sea_battle_middle_boss_2_normal.mp3", "sea_battle_middle_boss_2_tsunagi.mp3", "sea_battle_middle_boss_boss.mp3", "sea_battle_middle_boss_normal.mp3", "sea_battle_middle_boss_tsunagi.mp3", "sea_battle_normal_boss.mp3", "sea_battle_normal_normal.mp3", "sea_battle_normal_tsunagi.mp3"] 
+          }
+        },
+        { "name": "W4", "icon": "https://wfjukebox.b-cdn.net/orbs/w4.png", "id" : "world_beast",
+        "songs": {
+            "story": ["beast_story.mp3", "beast_story_dungeon.mp3", "beast_story_inuzoku.mp3", "beast_story_kuro.mp3", "beast_story_nekozoku.mp3", "beast_story_painful.mp3", "beast_story_pinch.mp3"],
+            "battle": ["beast_battle_boss_boss.mp3", "beast_battle_middle_boss_2_normal.mp3", "beast_battle_middle_boss_2_tsunagi.mp3", "beast_battle_middle_boss_boss.mp3", "beast_battle_middle_boss_normal.mp3", "beast_battle_middle_boss_tsunagi.mp3", "beast_battle_midlle_boss_2_zone_2.mp3", "beast_battle_midlle_boss_zone_2.mp3", "kiba_battle_middle_3_lower_mastering.mp3", "kiba_battle_midlle_2_lower_mastering.mp3", "kiba_battle_midlle_2_tsunagi_mastering.mp3", "kiba_battle_midlle_2_upper_mastering.mp3"]
+        }
+        },
+        { "name": "W5", "icon": "https://wfjukebox.b-cdn.net/orbs/w5.png", "id" : "world_mecha",
+          "songs": {
+            "story": ["lullaby_for_salvation.mp3", "mecha_story_beta.mp3", "mecha_story_bud_tracker.mp3", "mecha_story_chest_pocket.mp3", "mecha_story_circle.mp3", "mecha_story_debug.mp3", "mecha_story_dia_meet.mp3", "mecha_story_enemy_raid.mp3", "mecha_story_machina_1.mp3", "mecha_story_machina_2.mp3", "mecha_story_rain_of_iron.mp3", "mecha_story_rejis_admin.mp3", "mecha_story_salvation_1.mp3", "mecha_story_salvation_2.mp3", "mecha_story_star_2.mp3", "mecha_story_synapse.mp3"],
+            "battle": ["kikai_battle_boss_2_dirac_sea_lower_mastering.mp3", "kikai_battle_boss_2_dirac_sea_upper_mastering.mp3", "mecha_battle_boss_blindness_normal.mp3", "mecha_battle_lullaby_for_salvation.mp3", "mecha_battle_middle_boss.mp3", "mecha_battle_normal_normal.mp3", "mecha_battle_normal_tsunagi.mp3", "mecha_battle_rejis_the_mask_normal.mp3"] 
+          }
+        },
+        { "name": "W6", "icon": "https://wfjukebox.b-cdn.net/orbs/w6.png", "id" : "world_japan",
+          "songs": {
+            "story": ["japan_story_chase.mp3", "japan_story_fuan.mp3", "japan_story_heiwa.mp3", "japan_story_hiren.mp3", "japan_story_inaho_beats.mp3", "japan_story_inaho_main.mp3", "japan_story_kitsune.mp3", "japan_story_main.mp3", "japan_story_onmyoji.mp3", "japan_story_orochi.mp3", "japan_story_soshiro.mp3", "japan_story_sub_main.mp3"] ,
+            "battle": ["japan_battle_boss_full.mp3", "japan_battle_kitsune_normal.mp3", "japan_battle_kitsune_tsunagi.mp3", "japan_battle_kitsune_upper.mp3", "japan_battle_kitsune_zone_2.mp3", "japan_battle_middle_boss_2_normal.mp3", "japan_battle_middle_boss_2_tsunagi.mp3", "japan_battle_middle_boss_2_upper.mp3", "japan_battle_middle_boss_normal.mp3", "japan_battle_middle_boss_tsunagi.mp3", "japan_battle_middle_boss_upper.mp3", "japan_battle_normal_2_normal.mp3", "japan_battle_normal_2_tsunagi.mp3", "japan_battle_normal_2_upper.mp3", "japan_battle_normal_normal.mp3", "japan_battle_normal_tsunagi.mp3", "japan_battle_normal_upper.mp3", "japan_battle_oni_normal.mp3", "japan_battle_oni_tsunagi.mp3", "japan_battle_oni_upper.mp3"] 
+          }
+        },
+        { "name": "W7", "icon": "https://wfjukebox.b-cdn.net/orbs/w7.png", "id" : "world_brave",
+          "songs": {
+            "story": ["seven_story_1.mp3", "seven_story_10-1.mp3", "seven_story_10-2.mp3", "seven_story_10-3.mp3", "seven_story_10-4.mp3", "seven_story_10-5.mp3", "seven_story_10-6.mp3", "seven_story_10-7.mp3", "seven_story_10-8.mp3", "seven_story_11_1.mp3", "seven_story_11_2.mp3", "seven_story_12_1.mp3", "seven_story_12_2.mp3", "seven_story_12_3.mp3", "seven_story_12_4.mp3", "seven_story_12_5.mp3", "seven_story_12_6.mp3", "seven_story_13.mp3", "seven_story_14-1.mp3", "seven_story_14_2.mp3", "seven_story_2.mp3", "seven_story_3_resistance.mp3", "seven_story_4_shakuti.mp3", "seven_story_5.mp3", "seven_story_7.mp3", "seven_story_8_shakuti.mp3", "seven_story_9.mp3"],
+            "battle": ["seven_battle_boss_boss.mp3", "seven_battle_boss_normal.mp3", "seven_battle_boss_tsunagi.mp3", "seven_battle_middle_boss.mp3", "seven_battle_middle_normal.mp3", "seven_battle_middle_tsunagi.mp3", "seven_battle_normal_boss.mp3", "seven_battle_normal_normal.mp3", "seven_battle_normal_tsunagi.mp3", "seven_battle_shakuti.mp3"] 
+        }
+        },
+        { "name": "W8", "icon": "https://wfjukebox.b-cdn.net/orbs/w8.png", "id" : "world_hell",
+          "songs": {
+            "story": ["hell_story_0.mp3", "hell_story_1.mp3", "hell_story_10_1.mp3", "hell_story_10_2.mp3", "hell_story_11_1.mp3", "hell_story_11_2.mp3", "hell_story_12_1.mp3", "hell_story_12_2.mp3", "hell_story_13.mp3", "hell_story_14.mp3", "hell_story_15.mp3", "hell_story_16.mp3", "hell_story_17_2.mp3", "hell_story_17_3.mp3", "hell_story_18.mp3", "hell_story_19.mp3", "hell_story_2.mp3", "hell_story_20.mp3", "hell_story_21.mp3", "hell_story_22.mp3", "hell_story_22_instrument_1.mp3", "hell_story_22_instrument_2.mp3", "hell_story_23.mp3", "hell_story_24.mp3", "hell_story_3.mp3", "hell_story_4.mp3", "hell_story_5.mp3", "hell_story_8.mp3", "hell_story_9.mp3", "hell_story_beat_6.mp3", "hell_story_beat_7.mp3", "hell_zero_1.mp3", "hell_zero_2.mp3", "hell_zero_2_alt.mp3", "hell_zero_3.mp3", "hell_zero_3_1_1.mp3", "hell_zero_3_1_2.mp3", "hell_zero_3_2.mp3"],
+            "battle": ["hell_battle_envy.mp3", "hell_battle_guardian.mp3", "hell_battle_lastboss.mp3", "hell_battle_normal_2_boss.mp3", "hell_battle_normal_2_normal.mp3", "hell_battle_normal_2_tsunagi.mp3", "hell_battle_normal_boss.mp3", "hell_battle_normal_normal.mp3", "hell_battle_normal_tsunagi.mp3", "hell_battle_stella_copy.mp3", "hell_battle_ultimate_bomb.mp3"] 
+          }
+        },
+        { "name": "W9", "icon": "https://wfjukebox.b-cdn.net/orbs/w9.png", "id" : "world_9",
+          "songs": {
+            "story": ["world_9_main_3.mp3", "world_9_main_4.mp3", "world_9_main_4_positive.mp3", "world_9_story_01.mp3", "world_9_story_01_2.mp3", "world_9_story_01_2_arrange.mp3", "world_9_story_02.mp3", "world_9_story_02_2.mp3", "world_9_story_03.mp3", "world_9_story_03_2.mp3", "world_9_story_04.mp3", "world_9_story_04_2.mp3", "world_9_story_05.mp3", "world_9_story_05_2.mp3", "world_9_story_06.mp3", "world_9_story_06_2.mp3", "world_9_story_06_arrange.mp3", "world_9_story_06_brilliant.mp3", "world_9_story_06_quiet.mp3", "world_9_story_07.mp3", "world_9_story_07_2.mp3", "world_9_story_07_arrange.mp3", "world_9_story_08.mp3", "world_9_story_08_arrange.mp3", "world_9_story_08_quiet.mp3", "world_9_story_09.mp3", "world_9_story_09_02.mp3", "world_9_story_alk_theme_01.mp3", "world_9_story_alk_theme_02.mp3", "world_9_story_alk_theme_03.mp3", "world_9_story_alk_theme_quiet_01.mp3", "world_9_story_alk_theme_quiet_02.mp3", "world_9_story_battle_finish.mp3", "world_9_story_before_middle_boss.mp3", "world_9_story_counterattack.mp3", "world_9_story_ending.mp3", "world_9_story_guild_exective.mp3", "world_9_story_serious.mp3", "world_9_story_serious_2.mp3", "world_9_story_vesta_patriarch_01.mp3", "world_9_story_vesta_patriarch_02.mp3", "world_9_story_vesta_patriarch_03.mp3", "world_9_story_vesta_patriarch_04.mp3"],
+            "battle": ["world_9_battle_boss.mp3", "world_9_battle_middle_boss.mp3", "world_9_battle_normal_boss.mp3", "world_9_battle_normal_normal.mp3", "world_9_battle_normal_tsunagi.mp3", "world_9_middle_boss.mp3"] 
+          }
+        },
+        { "name": "W10", "icon": "https://wfjukebox.b-cdn.net/orbs/w10.png", "id" : "world_10",
+          "songs": {
+            "story": ["world_10_ambient_horrible_sound.mp3", "world_10_ambient_turned_out.mp3", "world_10_ambient_turned_out_intro.mp3", "world_10_story_ajito.mp3", "world_10_story_alk_awakening.mp3", "world_10_story_alk_recollection.mp3", "world_10_story_alk_revival.mp3", "world_10_story_ambient_beautiful.mp3", "world_10_story_anxiety.mp3", "world_10_story_choir.mp3", "world_10_story_counter_attack.mp3", "world_10_story_crisis_1.mp3", "world_10_story_crisis_2.mp3", "world_10_story_dark_drone.mp3", "world_10_story_eijis.mp3", "world_10_story_ending.mp3", "world_10_story_hero_1.mp3", "world_10_story_hero_2.mp3", "world_10_story_hiai_1.mp3", "world_10_story_hiai_2.mp3", "world_10_story_hoshino_sakuya.mp3", "world_10_story_ichiji_no_yasuragi_2.mp3", "world_10_story_magician_1.mp3", "world_10_story_magician_2.mp3", "world_10_story_main_2.mp3", "world_10_story_main_3.mp3", "world_10_story_main_beat.mp3", "world_10_story_main_keyboard.mp3", "world_10_story_mikoto_friend.mp3", "world_10_story_mikoto_worldend.mp3", "world_10_story_nagihara_kenichi.mp3", "world_10_story_nagihara_nanami.mp3", "world_10_story_nao.mp3", "world_10_story_nao_v2.mp3", "world_10_story_ochite_iku_lowe.mp3", "world_10_story_ochite_iku_lowe_strong.mp3", "world_10_story_relax.mp3", "world_10_story_sad_1.mp3", "world_10_story_sad_2.mp3", "world_10_story_search_or_chase.mp3", "world_10_story_seimeikai.mp3", "world_10_story_self_hate.mp3", "world_10_story_self_hate_2.mp3", "world_10_story_shock.mp3", "world_10_story_shukusei.mp3", "world_10_story_stella_no_ketsui.mp3", "world_10_story_takamori_seiji.mp3", "world_10_story_theme01.mp3", "world_10_story_thor_dai2_keitai_1.mp3", "world_10_story_thor_dai2_keitai_3.mp3", "world_10_story_uragiri_eno_ikari.mp3", "world_10_story_uragiri_eno_ikari_strong.mp3"],
+            "battle": ["world_10_battle_benten.mp3", "world_10_battle_eijis_normal_boss.mp3", "world_10_battle_eijis_normal_normal.mp3", "world_10_battle_eijis_normal_tsunagi.mp3", "world_10_battle_inori_shota.mp3", "world_10_battle_middleboss.mp3", "world_10_battle_normal_1_boss.mp3", "world_10_battle_normal_1_normal.mp3", "world_10_battle_normal_1_tsunagi.mp3", "world_10_battle_seimeikai_shinjya_boss.mp3", "world_10_battle_seimeikai_shinjya_normal.mp3", "world_10_battle_seimeikai_shinjya_tsunagi.mp3", "world_10_battle_shiryuu.mp3", "world_10_battle_syukusei.mp3", "world_10_battle_syukusei_arrange.mp3", "world_10_battle_uyama_amane.mp3"] 
+          }
+        },
+        { "name": "W11", "icon": "https://wfjukebox.b-cdn.net/orbs/w11.png", "id" : "world_11",
+          "songs": {
+            "story": ["world_11_story_advance.mp3", "world_11_story_chance01.mp3", "world_11_story_chance02.mp3", "world_11_story_chaos_quiet.mp3", "world_11_story_connect.mp3", "world_11_story_counterattack.mp3", "world_11_story_cowardly_brave.mp3", "world_11_story_despair.mp3", "world_11_story_force.mp3", "world_11_story_high_tension.mp3", "world_11_story_imminence01.mp3", "world_11_story_imminence02.mp3", "world_11_story_imminence03.mp3", "world_11_story_impayable.mp3", "world_11_story_ludic01.mp3", "world_11_story_ludic02.mp3", "world_11_story_parting.mp3", "world_11_story_positive.mp3", "world_11_story_rector_sorcerer.mp3", "world_11_story_sacred_treasure.mp3", "world_11_story_sore.mp3", "world_11_story_still_winter.mp3"],
+            "battle": ["world_11_battle_middle_boss.mp3", "world_11_battle_normal1_boss.mp3", "world_11_battle_normal1_normal.mp3", "world_11_battle_normal1_tsunagi.mp3"] 
+          }
+        },
+        { "name": "W12", "icon": "https://wfjukebox.b-cdn.net/orbs/w12.png", "id" : "world_12",
+          "songs": {
+            "story": ["world_12_story_alk_revival.mp3", "world_12_story_battle.mp3", "world_12_story_battle_syukuse.mp3", "world_12_story_battle_ultimate_bomb.mp3", "world_12_story_ceremony.mp3", "world_12_story_counterattack.mp3", "world_12_story_desert_story_1.mp3", "world_12_story_despair.mp3", "world_12_story_desperate_persuade1.mp3", "world_12_story_desperate_persuade2.mp3", "world_12_story_emotion_collide.mp3", "world_12_story_ending.mp3", "world_12_story_fear_rage.mp3", "world_12_story_hell_story_19.mp3", "world_12_story_its_not_over.mp3", "world_12_story_its_not_over_inst.mp3", "world_12_story_light_field_normal.mp3", "world_12_story_meet_again.mp3", "world_12_story_mikoto_worldend1.mp3", "world_12_story_mikoto_worldend2.mp3", "world_12_story_mikoto_worldend3.mp3", "world_12_story_mildly_advance.mp3", "world_12_story_mystic.mp3", "world_12_story_nagihara_nanami.mp3", "world_12_story_omen.mp3", "world_12_story_parting.mp3", "world_12_story_remna_awake1.mp3", "world_12_story_remna_awake2.mp3", "world_12_story_remna_awake3.mp3", "world_12_story_remna_main.mp3", "world_12_story_repent.mp3", "world_12_story_resolve.mp3", "world_12_story_sore.mp3", "world_12_story_stella_no_ketsui.mp3", "world_12_story_title_bg.mp3", "world_12_story_worldflipper_gacha.mp3"],
+            "battle": ["world_12_battle_boss.mp3", "world_12_battle_middle_boss.mp3", "world_12_battle_normal.mp3"] 
+          }
+        }
     ],
     "bosses": [
         {"name" : "D-Dragon", "icon" : ""},
-        {"name" : "Anima", "icon" : ""},
-        {"name" : "Steam Bot", "icon" : ""}
+        {"name" : "Spirit Beast", "icon" : ""},
+        {"name" : "Steam Bot", "icon" : ""},
+        {"name" : "Empress", "icon" : ""},
+        {"name" : "Raid Event", "icon" : ""},
+        {"name" : "Other" , "icon" : ""}
+    ],
+    "events" : [
+        {
+            "name": "1st Anni",
+            "id": "anv1",
+            "songs": {
+              "battle": [
+                "anv1_battle_boss.mp3",
+                "anv1_battle_middle_boss.mp3",
+                "anv1_battle_normal_boss.mp3",
+                "anv1_battle_normal_normal.mp3",
+                "anv1_battle_normal_tsunagi.mp3"
+              ],
+              "story": [
+                "anv1_story_comical_ver_1.mp3",
+                "anv1_story_comical_ver_2.mp3",
+                "anv1_story_ending.mp3",
+                "anv1_story_main_ver_1.mp3",
+                "anv1_story_main_ver_2.mp3",
+                "anv1_story_main_ver_3.mp3",
+                "anv1_story_serious.mp3",
+                "anv1_story_serious_ver_1.mp3",
+                "anv1_story_serious_ver_2.mp3",
+                "anv1_story_serious_ver_3.mp3"
+              ],
+              "system": [
+                "anv1_box_gacha.mp3",
+                "anv1_story_stage_node.mp3"
+              ]
+            }
+          },
+        {
+          "name": "2.5 Anni",
+          "id": "2halfanv",
+          "songs": {
+            "battle": [
+              "2halfanv_battle_zako.mp3"
+            ],
+            "story": [
+              "2halfanv_binary_planet.mp3",
+              "2halfanv_binary_planet_inst.mp3",
+              "2halfanv_binary_planet_noise.mp3",
+              "2halfanv_story_bravado.mp3",
+              "2halfanv_story_climax.mp3",
+              "2halfanv_story_confused.mp3",
+              "2halfanv_story_despair.mp3",
+              "2halfanv_story_ending.mp3",
+              "2halfanv_story_fun.mp3",
+              "2halfanv_story_sad.mp3",
+              "2halfanv_story_tenderly.mp3"
+            ],
+            "system": [
+              "2halfanv_questlist.mp3",
+              "2halfanv_tokengacha.mp3"
+            ]
+          }
+        },
+        
+        {
+          "name": "2nd Anni",
+          "id": "anv2",
+          "songs": {
+            "battle": [
+              "anv2_battle_1_normal.mp3",
+              "anv2_battle_2_normal.mp3",
+              "anv2_battle_boss.mp3"
+            ],
+            "story": [
+              "anv2_story_cheer.mp3",
+              "anv2_story_climax.mp3",
+              "anv2_story_combat.mp3",
+              "anv2_story_comical.mp3",
+              "anv2_story_ending.mp3",
+              "anv2_story_normal.mp3",
+              "anv2_story_sally.mp3",
+              "anv2_story_serious.mp3",
+              "anv2_story_threatening_heavy.mp3",
+              "anv2_story_threatening_light.mp3"
+            ],
+            "system": [
+              "anv2_box_gacha.mp3",
+              "anv2_story_stage_node.mp3"
+            ]
+          }
+        },
+        {
+          "name": "3rd Anni",
+          "id": "anv3",
+          "songs": {
+            "battle": [
+              "anv3_battle_boss.mp3"
+            ],
+            "story": [
+              "anv3_story_battle.mp3",
+              "anv3_story_behind.mp3",
+              "anv3_story_conference.mp3",
+              "anv3_story_decision.mp3",
+              "anv3_story_end.mp3",
+              "anv3_story_imminence.mp3",
+              "anv3_story_motive.mp3",
+              "anv3_story_negotiation.mp3",
+              "anv3_story_opennning.mp3",
+              "anv3_story_reckless.mp3",
+              "anv3_story_serious.mp3",
+              "anv3_story_show_up.mp3",
+              "anv3_story_solemn.mp3",
+              "anv3_story_sore.mp3"
+            ],
+            "system": [
+              "anv3_questlist.mp3",
+              "anv3_tokengacha.mp3"
+            ]
+          }
+        },
+        {
+          "name": "3.5 Anni",
+          "id": "anv3half",
+          "songs": {
+            "battle": [
+              "anv3half_battle_boss.mp3"
+            ],
+            "story": [
+              "anv3half_story_ceremoney.mp3",
+              "anv3half_story_comical.mp3",
+              "anv3half_story_comical01.mp3",
+              "anv3half_story_comical_chat.mp3",
+              "anv3half_story_farewell.mp3",
+              "anv3half_story_flat_chat.mp3",
+              "anv3half_story_graduation_ceremony.mp3",
+              "anv3half_story_happy_decide.mp3",
+              "anv3half_story_lonely.mp3",
+              "anv3half_story_lonely_chat.mp3",
+              "anv3half_story_mildly.mp3",
+              "anv3half_story_positive.mp3",
+              "anv3half_story_toast.mp3"
+            ],
+            "system": [
+              "anv3half_questlist.mp3",
+              "anv3half_tokengacha.mp3"
+            ]
+          }
+        },
+        {
+          "name": "boss_battle_multi_pickup",
+          "id": "boss_battle_multi_pickup",
+          "songs": {
+            "battle": [
+              "reine_blanche_battle_boss.mp3",
+              "reine_bleu_battle_boss.mp3",
+              "reine_jaune_battle_boss.mp3",
+              "reine_noir_battle_boss.mp3",
+              "reine_rouge_battle_boss.mp3",
+              "reine_welt_battle_boss.mp3"
+            ]
+          }
+        },
+        {
+          "name": "Eruption Event",
+          "id": "boss_epuration_event",
+          "songs": {
+            "battle": [
+              "boss_epuration_event_boss.mp3"
+            ],
+            "system": [
+              "boss_epuration_event_top.mp3"
+            ]
+          }
+        },
+        {
+          "name": "Crown Beasts",
+          "id": "crown_beasts",
+          "songs": {
+            "battle": [
+              "beasts_battle_lastboss.mp3",
+              "beasts_battle_normal_boss.mp3",
+              "beasts_battle_normal_normal.mp3",
+              "beasts_battle_normal_tsunagi.mp3"
+            ],
+            "story": [
+              "beasts_story_anger.mp3",
+              "beasts_story_battle_hard.mp3",
+              "beasts_story_battle_soft.mp3",
+              "beasts_story_conversation.mp3",
+              "beasts_story_disquiet.mp3",
+              "beasts_story_general_purpose.mp3",
+              "beasts_story_return.mp3",
+              "beasts_story_sad.mp3",
+              "beasts_story_sanctuary.mp3",
+              "beasts_story_sirius.mp3",
+              "beasts_story_tension.mp3"
+            ],
+            "system": [
+              "beasts_questlist.mp3",
+              "beasts_tokengacha.mp3"
+            ]
+          }
+        },
+        {
+          "name": "Neon Skyline",
+          "id": "cyberpunk01",
+          "songs": {
+            "battle": [
+              "cyberpunk_battle_boss.mp3",
+              "cyberpunk_battle_boss_multi.mp3",
+              "cyberpunk_battle_middle_boss.mp3",
+              "cyberpunk_battle_normal_boss.mp3",
+              "cyberpunk_battle_normal_normal.mp3",
+              "cyberpunk_battle_normal_tsunagi.mp3",
+              "cyberpunk_battle_touyakiren_ceo.mp3"
+            ],
+            "story": [
+              "cyberpunk_story_before_boss.mp3",
+              "cyberpunk_story_ending.mp3",
+              "cyberpunk_story_kiki.mp3",
+              "cyberpunk_story_main.mp3",
+              "cyberpunk_story_sakaba.mp3",
+              "cyberpunk_story_touyakiren_ceo.mp3"
+            ],
+            "system": [
+              "cyberpunk_story_gacha.mp3",
+              "cyberpunk_story_stage_node.mp3"
+            ]
+          }
+        },
+        {
+          "name": "A Hero's Beginning",
+          "id": "cyberpunk02_hero",
+          "songs": {
+            "battle": [
+              "cyberpunk_02_lastboss_battle.mp3",
+              "cyberpunk_02_midboss_battle.mp3",
+              "cyberpunk_02_normal_battle_boss.mp3",
+              "cyberpunk_02_normal_battle_normal.mp3",
+              "cyberpunk_02_normal_battle_tsunagi.mp3"
+            ],
+            "story": [
+              "cyberpunk_02_justy_theme.mp3",
+              "cyberpunk_02_king_johnson_theme.mp3",
+              "cyberpunk_02_nate.mp3",
+              "cyberpunk_02_story_comical_battle.mp3",
+              "cyberpunk_02_story_lastboss_before.mp3",
+              "cyberpunk_02_story_normal.mp3",
+              "cyberpunk_02_story_sirius_01.mp3",
+              "cyberpunk_02_story_sirius_02.mp3",
+              "cyberpunk_02_story_sirius_battle.mp3",
+              "cyberpunk_02_theme.mp3",
+              "cyberpunk_02_theme_ed.mp3",
+              "cyberpunk_02_theme_op.mp3"
+            ],
+            "system": [
+              "cyberpunk_02_questlist.mp3",
+              "cyberpunk_02_tokengacha.mp3"
+            ]
+          }
+        },
+        {
+          "name": "Oath to the Dawn",
+          "id": "desert_bonds_01",
+          "songs": {
+            "battle": [
+              "desert_bonds_01_battle_middle_boss.mp3",
+              "desert_bonds_01_battle_normal_boss.mp3",
+              "desert_bonds_01_battle_normal_normal.mp3",
+              "desert_bonds_01_battle_normal_tsunagi.mp3",
+              "desert_bonds_01_boss_big_boss.mp3"
+            ],
+            "story": [
+              "desert_bonds_01_boss_intro.mp3",
+              "desert_bonds_01_cave.mp3",
+              "desert_bonds_01_comical_battle.mp3",
+              "desert_bonds_01_ending.mp3",
+              "desert_bonds_01_serious_arrange.mp3",
+              "desert_bonds_01_serious_battle.mp3",
+              "desert_bonds_01_theme.mp3",
+              "desert_bonds_01_theme_intro.mp3"
+            ],
+            "system": [
+              "desert_bonds_01_box_gacha.mp3",
+              "desert_bonds_01_event_top.mp3"
+            ]
+          }
+        },
+        {
+          "name": "The Poppet Princess",
+          "id": "fakeprincess01",
+          "songs": {
+            "battle": [
+              "fakeprincess_battle_boss.mp3",
+              "fakeprincess_battle_middle_boss.mp3",
+              "fakeprincess_battle_normal_1_boss.mp3",
+              "fakeprincess_battle_normal_1_normal.mp3",
+              "fakeprincess_battle_normal_1_tsunagi.mp3",
+              "fakeprincess_battle_normal_2_boss.mp3",
+              "fakeprincess_battle_normal_2_normal.mp3",
+              "fakeprincess_battle_normal_2_tsunagi.mp3"
+            ],
+            "story": [
+              "fakeprincess_story_before_boss.mp3",
+              "fakeprincess_story_comical.mp3",
+              "fakeprincess_story_ending.mp3",
+              "fakeprincess_story_main_1.mp3",
+              "fakeprincess_story_main_2.mp3",
+              "fakeprincess_story_opening.mp3",
+              "fakeprincess_story_serious.mp3"
+            ],
+            "system" : [
+              "fakeprincess_box_gacha.mp3",
+              "fakeprincess_story_stage_node.mp3"
+            ]
+          }
+        },
+        {
+          "name": "Summer 2020",
+          "id": "summer_2020",
+          "songs": {
+            "battle": [
+              "summer_battle_boss.mp3",
+              "summer_battle_middle_boss.mp3",
+              "summer_battle_normal_1_boss.mp3",
+              "summer_battle_normal_1_normal.mp3",
+              "summer_battle_normal_1_tsunagi.mp3",
+              "summer_battle_normal_2_boss.mp3",
+              "summer_battle_normal_2_normal.mp3",
+              "summer_battle_normal_2_tsunagi.mp3",
+              "summer_battle_normal_3_boss.mp3",
+              "summer_battle_normal_3_normal.mp3",
+              "summer_battle_normal_3_tsunagi.mp3",
+              "summer_battle_normal_4_boss.mp3",
+              "summer_battle_normal_4_normal.mp3",
+              "summer_battle_normal_4_tsunagi.mp3"
+            ],
+            "story": [
+              "summer_story_calm_1.mp3",
+              "summer_story_calm_2.mp3",
+              "summer_story_casino.mp3",
+              "summer_story_climax.mp3",
+              "summer_story_crisis.mp3",
+              "summer_story_ending.mp3",
+              "summer_story_fight_sea_1.mp3",
+              "summer_story_fight_sea_2.mp3",
+              "summer_story_main_1.mp3",
+              "summer_story_main_2.mp3",
+              "summer_story_main_rhythm.mp3",
+              "summer_story_serious.mp3",
+              "summer_story_submarine.mp3"
+            ],
+            "system": [
+              "summer_event_box_gacha.mp3",
+              "summer_story_quest_select.mp3",
+              "summer_story_quest_select_rhythm.mp3"
+            ]
+          }
+        },
+        {
+          "name": "Summer 2021",
+          "id": "summer_2021",
+          "songs": {
+            "battle": [
+              "summer2021_battle_big_boss.mp3",
+              "summer2021_battle_boss.mp3",
+              "summer2021_battle_middle_boss.mp3"
+            ],
+            "story": [
+              "summer2021_story_awakening.mp3",
+              "summer2021_story_before_boss.mp3",
+              "summer2021_story_comical.mp3",
+              "summer2021_story_descent.mp3",
+              "summer2021_story_ending.mp3",
+              "summer2021_story_frightening.mp3",
+              "summer2021_story_island_exploration.mp3",
+              "summer2021_story_main.mp3",
+              "summer2021_story_main_2.mp3",
+              "summer2021_story_opening.mp3",
+              "summer2021_story_sad.mp3",
+              "summer2021_story_serious.mp3",
+              "summer2021_story_serious_2.mp3",
+              "summer2021_story_talk_on_beach.mp3"
+            ],
+            "system": [
+              "summer2021_gacha.mp3",
+              "summer2021_stage_node.mp3"
+            ]
+          }
+        },
+        {
+          "name": "Summer 2022",
+          "id": "summer_2022",
+          "songs": {
+            "battle": [
+              "summer2022_battle_boss.mp3"
+            ],
+            "story": [
+              "summer2022_story_anxiety.mp3",
+              "summer2022_story_battleintro.mp3",
+              "summer2022_story_discontent.mp3",
+              "summer2022_story_end.mp3",
+              "summer2022_story_joy.mp3",
+              "summer2022_story_main.mp3",
+              "summer2022_story_makepeace.mp3",
+              "summer2022_story_refuse.mp3",
+              "summer2022_story_sadrecollect.mp3"
+            ],
+            "system": [
+              "summer2022_questlist.mp3",
+              "summer2022_tokengacha.mp3"
+            ]
+          }
+        },
+        {
+          "name": "Valentine 2022",
+          "id": "valentine2022",
+          "songs": {
+            "battle": [
+              "valentine2022_battle_boss.mp3"
+            ],
+            "story": [
+              "valentine2022_story_battleintro.mp3",
+              "valentine2022_story_conflict.mp3",
+              "valentine2022_story_depressed.mp3",
+              "valentine2022_story_discuss.mp3",
+              "valentine2022_story_end.mp3",
+              "valentine2022_story_excited.mp3",
+              "valentine2022_story_happy.mp3",
+              "valentine2022_story_main.mp3",
+              "valentine2022_story_serious.mp3"
+            ],
+            "system": [
+              "valentine2022_questlist.mp3",
+              "valentine2022_tokengacha.mp3"
+            ]
+          }
+        },
+        {
+          "name": "Valentine 2020",
+          "id": "valen_2020",
+          "songs": {
+            "battle": [
+              "event_valentine_battle_boss.mp3"
+            ],
+            "story": [
+              "event_valentine_story.mp3",
+              "event_valentine_story2.mp3"
+            ],
+            "system" : []
+          }
+        },
+        {
+          "name": "Xmas 1(2019)",
+          "id": "xm19-event",
+          "songs": {
+            "battle" : [
+                "event_battle_christmas_boss.mp3",
+                "event_battle_christmas_normal.mp3",
+                "event_battle_christmas_tsunagi.mp3"
+            ]
+          }
+        },
+        {
+          "name": "The Yokai Encyclopedia",
+          "id": "yokai_emaki_01",
+          "songs": {
+            "battle": [
+              "yokai_emaki_battle_boss.mp3",
+              "yokai_emaki_battle_middle_boss.mp3",
+              "yokai_emaki_battle_normal_boss.mp3",
+              "yokai_emaki_battle_normal_normal.mp3",
+              "yokai_emaki_battle_normal_tsunagi.mp3"
+            ],
+            "story": [
+              "yokai_emaki_crisis.mp3",
+              "yokai_emaki_ending.mp3",
+              "yokai_emaki_fun.mp3",
+              "yokai_emaki_kaiso.mp3",
+              "yokai_emaki_nichijyo_1.mp3",
+              "yokai_emaki_nichijyo_2.mp3",
+              "yokai_emaki_serious_1.mp3",
+              "yokai_emaki_serious_2.mp3"
+            ],
+            "system": [
+              "yokai_emaki_box_gacha.mp3",
+              "yokai_emaki_event_top.mp3"
+            ]
+          }
+        },
+        {
+          "name": "Kiseki Towa Collab",
+          "icon": "",
+          "id": "vcollabo_towa",
+          "songs": {
+            "story": [],
+            "battle": ["battle_towa_kiseki.mp3"],
+            "system": []
+          }
+        },
+        {
+          "name": "Spirit Beast Theme",
+          "icon": "",
+          "id": "advent_event_spirit_beast",
+          "songs": {
+            "story": [],
+            "battle": ["spirit_beast_stage_node.mp3"],
+            "system": []
+          }
+        },
+        {
+          "name": "D-Dragon Top Menu Theme",
+          "icon": "",
+          "id": "ddragon_top",
+          "songs": {
+            "story": ["nothing"],
+            "battle": ["nothing"],
+            "system": ["advent_event_top.mp3"]
+          }
+        },
+        {
+          "name": "Zombie Land Saga Collab",
+          "icon": "",
+          "id": "advent_event_z_collabo",
+          "songs": {
+            "story": [],
+            "battle": ["z_collabo_event_battle.mp3"],
+            "system": ["z_collabo_event_top.mp3"]
+          }
+        },
+        {
+          "name": "Re Zero Collab",
+          "icon": "",
+          "id": "advent_event_r_collabo",
+          "songs": {
+            "story": ["r_collabo_event_story_normal.mp3"],
+            "battle": ["r_collabo_event_battle.mp3"],
+            "system": ["r_collabo_event_top.mp3"]
+          }
+        },
+        {
+          "name": "GrandBlue Fantasy Collab",
+          "icon": "",
+          "id": "advent_event_g_collabo",
+          "songs": {
+            "story": ["g_collabo_event_story_battle3_arrange.mp3", "g_collabo_event_story_battle4_arrange.mp3"],
+            "battle": ["g_collabo_event_battle_arrange.mp3"],
+            "system": ["g_collabo_event_top_arrange.mp3"]
+          }
+        },
+        {
+          "name": "Uma Musame Collab",
+          "icon": "",
+          "id": "advent_event_u_collabo",
+          "songs": {
+            "story": ["u_collabo_event_story_normal_1.mp3", "u_collabo_event_story_normal_2.mp3"],
+            "battle": ["u_collabo_event_battle.mp3"],
+            "system": ["u_collabo_event_gacha.mp3", "u_collabo_event_top.mp3"]
+          }
+        },
+        {
+          "name": "Haruhi Collab",
+          "icon": "",
+          "id": "advent_event_s_collabo",
+          "songs": {
+            "story": [],
+            "battle": ["s_collabo_event_battle.mp3"],
+            "system": ["s_collabo_event.mp3"]
+          }
+        },
+        {
+          "name": "Konosuba Collab",
+          "icon": "",
+          "id": "advent_event_k_collabo",
+          "songs": {
+            "story": [],
+            "battle": ["k_collabo_event_battle.mp3"],
+            "system": ["k_collabo_event_top.mp3"]
+          }
+        }
+      ],
+    "D-Dragon" : [
+        {
+            "element" : "Fire",
+            "icon" : "https://wfjukebox.b-cdn.net/event%20thumbnails/advent_event/dragon_fire/1.png",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/ddragon/advent_event_banner_02.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/advent_event/advent_event_002/battle/event_battle_fire_normal.mp3"
+        },
+        {
+            "element" : "Water",
+            "icon" : "https://wfjukebox.b-cdn.net/event%20thumbnails/advent_event/dragon_water/1.png",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/ddragon/advent_event_banner_05.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/advent_event/advent_event_005/battle/event_battle_water.mp3"
+        },
+        {
+            "element" : "Wind",
+            "icon" : "https://wfjukebox.b-cdn.net/event%20thumbnails/advent_event/dragon_wind/1.png",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/ddragon/advent_event_banner_08.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/advent_event/advent_event_007/battle/event_battle_wind.mp3"
+        },
+        {
+            "element" : "Thunder",
+            "icon" : "https://wfjukebox.b-cdn.net/event%20thumbnails/advent_event/dragon_thunder/1.png",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/ddragon/advent_event_banner_01.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/advent_event/advent_event_001/battle/hairyu_thunder_battle_normal.mp3"
+        },
+        {
+            "element" : "Light",
+            "icon" : "https://wfjukebox.b-cdn.net/event%20thumbnails/advent_event/dragon_light/1.png",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/ddragon/advent_event_banner_03.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/advent_event/advent_event_003/battle/event_battle_light_normal.mp3"
+        },
+        {
+            "element" : "Dark",
+            "icon" : "https://wfjukebox.b-cdn.net/event%20thumbnails/advent_event/dragon_dark/1.png",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/ddragon/advent_event_banner_07.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/advent_event/advent_event_dark/battle/event_battle_dark.mp3"
+        }
+    ],
+    "Spirit Beast" : [
+        {
+            "element": "Fire",
+            "icon": "https://wfjukebox.b-cdn.net/event%20thumbnails/advent_event/spirit_beast_fire/1.png",
+            "banner": "https://wfjukebox.b-cdn.net/boss_banners/spirit_beast/advent_event_spirit_beast_fire.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/advent_event_spirit_beast/spirit_beast_fire/battle/spirit_beast_fire_battle.mp3"
+        },
+        {
+            "element": "Water",
+            "icon": "https://wfjukebox.b-cdn.net/event%20thumbnails/advent_event/spirit_beast_water/1.png",
+            "banner": "https://wfjukebox.b-cdn.net/boss_banners/spirit_beast/advent_event_spirit_beast_water.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/advent_event_spirit_beast/spirit_beast_water/battle/spirit_beast_water_battle.mp3"
+        },
+        {
+            "element": "Wind",
+            "icon": "https://wfjukebox.b-cdn.net/event%20thumbnails/advent_event/spirit_beast_storm/1.png",
+            "banner": "https://wfjukebox.b-cdn.net/boss_banners/spirit_beast/advent_event_spirit_beast_storm.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/advent_event_spirit_beast/spirit_beast_storm/battle/spirit_beast_storm_battle.mp3"
+        },
+        {
+            "element": "Thunder",
+            "icon": "https://wfjukebox.b-cdn.net/event%20thumbnails/advent_event/spirit_beast_thunder/1.png",
+            "banner": "https://wfjukebox.b-cdn.net/boss_banners/spirit_beast/advent_event_spirit_beast_thunder.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/advent_event_spirit_beast/spirit_beast_thunder/battle/spirit_beast_thunder_battle.mp3"
+        },
+        {
+            "element": "Light",
+            "icon": "https://wfjukebox.b-cdn.net/event%20thumbnails/advent_event/spirit_beast_light/1.png",
+            "banner": "https://wfjukebox.b-cdn.net/boss_banners/spirit_beast/advent_event_spirit_beast_light.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/advent_event_spirit_beast/spirit_beast_light/battle/spirit_beast_light_battle.mp3"
+        },
+        {
+            "element": "Dark",
+            "icon": "https://wfjukebox.b-cdn.net/event%20thumbnails/advent_event/spirit_beast_dark/1.png",
+            "banner": "https://wfjukebox.b-cdn.net/boss_banners/spirit_beast/advent_event_spirit_beast_dark.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/advent_event_spirit_beast/spirit_beast_darkness/battle/spirit_beast_darkness_battle.mp3"
+        }
+    ],
+    "Empress" : [
+        {
+            "element" : "Fire",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/empress/advent_variant_empress_fire.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/boss_battle_multi_pickup/battle/reine_rouge_battle_boss.mp3"
+        },
+        {
+            "element" : "Water",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/empress/advent_variant_empress_water.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/boss_battle_multi_pickup/battle/reine_bleu_battle_boss.mp3"
+        },
+        {
+            "element" : "Wind",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/empress/advent_variant_empress_wind.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/boss_battle_multi_pickup/battle/reine_welt_battle_boss.mp3"
+        },
+        {
+            "element" : "Thunder",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/empress/advent_variant_empress_thunder.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/boss_battle_multi_pickup/battle/reine_jaune_battle_boss.mp3"
+        },
+        {
+            "element" : "Light",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/empress/advent_variant_empress_light.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/boss_battle_multi_pickup/battle/reine_blanche_battle_boss.mp3"
+        },
+        {
+            "element" : "Dark",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/empress/advent_variant_empress_dark.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/boss_battle_multi_pickup/battle/reine_noir_battle_boss.mp3"
+        }
+    ],
+    "Steam Bot" : [
+        {
+            "element" : "Fire",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/steam/advent_event_steam_robot_fire.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/advent_steam_robot/advent_steam_robot_fire/battle/advent_steam_robot_fire_boss.mp3"
+        },
+        {
+            "element" : "Water",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/steam/advent_event_steam_robot_water.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/advent_steam_robot/advent_steam_robot_water/battle/advent_steam_robot_water_boss.mp3"
+        },
+        {
+            "element" : "Wind",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/steam/advent_event_steam_robot_wind.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/advent_steam_robot/advent_steam_robot_wind/battle/advent_steam_robot_wind_boss.mp3"
+        },
+        {
+            "element" : "Thunder",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/steam/advent_event_steam_robot_thunder.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/advent_steam_robot/advent_steam_robot_thunder/battle/advent_steam_robot_thunder_boss.mp3"
+        },
+        {
+            "element" : "Light",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/steam/advent_event_steam_robot_light.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/advent_steam_robot/advent_steam_robot_light/battle/advent_steam_robot_light_boss.mp3"
+        },
+        {
+            "element" : "Dark",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/steam/advent_event_steam_robot_dark.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/advent_steam_robot/advent_steam_robot_dark/battle/advent_steam_robot_dark_boss.mp3"
+        },
+        {
+            "element" : "Null",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/steam/advent_event_steam_robot_another.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/advent_steam_robot/advent_steam_robot_another/battle/advent_steam_robot_another_boss.mp3"
+        }
+    ],
+    "Raid Event" : [
+        {
+            "element" : "Fire",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/raid_event/raid_event_banner_02_001.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/raid_event/raid_event_battle_red.mp3"
+        },
+        {
+            "element" : "Water",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/raid_event/raid_event_banner_03_001.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/raid_event/raid_event_battle_blue.mp3"
+        },
+        {
+            "element" : "Wind",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/raid_event/raid_event_banner_05_001.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/raid_event/raid_event_battle_green.mp3"
+        },
+        {
+            "element" : "Thunder",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/raid_event/raid_event_banner_06_001.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/raid_event/raid_event_battle_yellow.mp3"
+        },
+        {
+            "element" : "Light",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/raid_event/raid_event_banner_01_001.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/raid_event/raid_event_battle_white.mp3"
+        },
+        {
+            "element" : "Dark",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/raid_event/raid_event_banner_04_001.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/raid_event/raid_event_battle_black.mp3"
+        },
+        {
+            "element" : "Null",
+            "icon" : "",
+            "banner" : "https://wfjukebox.b-cdn.net/boss_banners/raid_event/raid_event_banner_07.png",
+            "song" : "https://wfjukebox.b-cdn.net/music/event/raid_event/seven_battle_normal_boss.mp3"
+        }
+    ],
+    "Other" : [
 
     ]
 }

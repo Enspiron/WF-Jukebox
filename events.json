@@ -1,0 +1,562 @@
+[
+  {
+    "name": "2halfanv",
+    "id": "2halfanv",
+    "songs": {
+      "battle": [
+        "2halfanv_battle_zako.mp3"
+      ],
+      "story": [
+        "2halfanv_binary_planet.mp3",
+        "2halfanv_binary_planet_inst.mp3",
+        "2halfanv_binary_planet_noise.mp3",
+        "2halfanv_story_bravado.mp3",
+        "2halfanv_story_climax.mp3",
+        "2halfanv_story_confused.mp3",
+        "2halfanv_story_despair.mp3",
+        "2halfanv_story_ending.mp3",
+        "2halfanv_story_fun.mp3",
+        "2halfanv_story_sad.mp3",
+        "2halfanv_story_tenderly.mp3"
+      ],
+      "system": [
+        "2halfanv_questlist.mp3",
+        "2halfanv_tokengacha.mp3"
+      ]
+    }
+  },
+  {
+    "name": "abyss_cloud",
+    "id": "abyss_cloud",
+    "songs": {}
+  },
+  {
+    "name": "advent_event",
+    "id": "advent_event",
+    "songs": {}
+  },
+  {
+    "name": "advent_event_spirit_beast",
+    "id": "advent_event_spirit_beast",
+    "songs": {}
+  },
+  {
+    "name": "advent_steam_robot",
+    "id": "advent_steam_robot",
+    "songs": {}
+  },
+  {
+    "name": "anv1",
+    "id": "anv1",
+    "songs": {
+      "battle": [
+        "anv1_battle_boss.mp3",
+        "anv1_battle_middle_boss.mp3",
+        "anv1_battle_normal_boss.mp3",
+        "anv1_battle_normal_normal.mp3",
+        "anv1_battle_normal_tsunagi.mp3"
+      ],
+      "story": [
+        "anv1_story_comical_ver_1.mp3",
+        "anv1_story_comical_ver_2.mp3",
+        "anv1_story_ending.mp3",
+        "anv1_story_main_ver_1.mp3",
+        "anv1_story_main_ver_2.mp3",
+        "anv1_story_main_ver_3.mp3",
+        "anv1_story_serious.mp3",
+        "anv1_story_serious_ver_1.mp3",
+        "anv1_story_serious_ver_2.mp3",
+        "anv1_story_serious_ver_3.mp3"
+      ],
+      "system": [
+        "anv1_box_gacha.mp3",
+        "anv1_story_stage_node.mp3"
+      ]
+    }
+  },
+  {
+    "name": "anv1_countdown_event",
+    "id": "anv1_countdown_event",
+    "songs": {}
+  },
+  {
+    "name": "anv2",
+    "id": "anv2",
+    "songs": {
+      "battle": [
+        "anv2_battle_1_normal.mp3",
+        "anv2_battle_2_normal.mp3",
+        "anv2_battle_boss.mp3"
+      ],
+      "story": [
+        "anv2_story_cheer.mp3",
+        "anv2_story_climax.mp3",
+        "anv2_story_combat.mp3",
+        "anv2_story_comical.mp3",
+        "anv2_story_ending.mp3",
+        "anv2_story_normal.mp3",
+        "anv2_story_sally.mp3",
+        "anv2_story_serious.mp3",
+        "anv2_story_threatening_heavy.mp3",
+        "anv2_story_threatening_light.mp3"
+      ],
+      "system": [
+        "anv2_box_gacha.mp3",
+        "anv2_story_stage_node.mp3"
+      ]
+    }
+  },
+  {
+    "name": "anv3",
+    "id": "anv3",
+    "songs": {
+      "battle": [
+        "anv3_battle_boss.mp3"
+      ],
+      "story": [
+        "anv3_story_battle.mp3",
+        "anv3_story_behind.mp3",
+        "anv3_story_conference.mp3",
+        "anv3_story_decision.mp3",
+        "anv3_story_end.mp3",
+        "anv3_story_imminence.mp3",
+        "anv3_story_motive.mp3",
+        "anv3_story_negotiation.mp3",
+        "anv3_story_opennning.mp3",
+        "anv3_story_reckless.mp3",
+        "anv3_story_serious.mp3",
+        "anv3_story_show_up.mp3",
+        "anv3_story_solemn.mp3",
+        "anv3_story_sore.mp3"
+      ],
+      "system": [
+        "anv3_questlist.mp3",
+        "anv3_tokengacha.mp3"
+      ]
+    }
+  },
+  {
+    "name": "anv3half",
+    "id": "anv3half",
+    "songs": {
+      "battle": [
+        "anv3half_battle_boss.mp3"
+      ],
+      "story": [
+        "anv3half_story_ceremoney.mp3",
+        "anv3half_story_comical.mp3",
+        "anv3half_story_comical01.mp3",
+        "anv3half_story_comical_chat.mp3",
+        "anv3half_story_farewell.mp3",
+        "anv3half_story_flat_chat.mp3",
+        "anv3half_story_graduation_ceremony.mp3",
+        "anv3half_story_happy_decide.mp3",
+        "anv3half_story_lonely.mp3",
+        "anv3half_story_lonely_chat.mp3",
+        "anv3half_story_mildly.mp3",
+        "anv3half_story_positive.mp3",
+        "anv3half_story_toast.mp3"
+      ],
+      "system": [
+        "anv3half_questlist.mp3",
+        "anv3half_tokengacha.mp3"
+      ]
+    }
+  },
+  {
+    "name": "boss_battle_multi_pickup",
+    "id": "boss_battle_multi_pickup",
+    "songs": {
+      "battle": [
+        "reine_blanche_battle_boss.mp3",
+        "reine_bleu_battle_boss.mp3",
+        "reine_jaune_battle_boss.mp3",
+        "reine_noir_battle_boss.mp3",
+        "reine_rouge_battle_boss.mp3",
+        "reine_welt_battle_boss.mp3"
+      ]
+    }
+  },
+  {
+    "name": "boss_epuration_event",
+    "id": "boss_epuration_event",
+    "songs": {
+      "battle": [
+        "boss_epuration_event_boss.mp3"
+      ],
+      "system": [
+        "boss_epuration_event_top.mp3"
+      ]
+    }
+  },
+  {
+    "name": "challenge_dungeon",
+    "id": "challenge_dungeon",
+    "songs": {}
+  },
+  {
+    "name": "crown_beasts",
+    "id": "crown_beasts",
+    "songs": {
+      "battle": [
+        "beasts_battle_lastboss.mp3",
+        "beasts_battle_normal_boss.mp3",
+        "beasts_battle_normal_normal.mp3",
+        "beasts_battle_normal_tsunagi.mp3"
+      ],
+      "story": [
+        "beasts_story_anger.mp3",
+        "beasts_story_battle_hard.mp3",
+        "beasts_story_battle_soft.mp3",
+        "beasts_story_conversation.mp3",
+        "beasts_story_disquiet.mp3",
+        "beasts_story_general_purpose.mp3",
+        "beasts_story_return.mp3",
+        "beasts_story_sad.mp3",
+        "beasts_story_sanctuary.mp3",
+        "beasts_story_sirius.mp3",
+        "beasts_story_tension.mp3"
+      ],
+      "system": [
+        "beasts_questlist.mp3",
+        "beasts_tokengacha.mp3"
+      ]
+    }
+  },
+  {
+    "name": "cyberpunk01",
+    "id": "cyberpunk01",
+    "songs": {
+      "battle": [
+        "cyberpunk_battle_boss.mp3",
+        "cyberpunk_battle_boss_multi.mp3",
+        "cyberpunk_battle_middle_boss.mp3",
+        "cyberpunk_battle_normal_boss.mp3",
+        "cyberpunk_battle_normal_normal.mp3",
+        "cyberpunk_battle_normal_tsunagi.mp3",
+        "cyberpunk_battle_touyakiren_ceo.mp3"
+      ],
+      "story": [
+        "cyberpunk_story_before_boss.mp3",
+        "cyberpunk_story_ending.mp3",
+        "cyberpunk_story_kiki.mp3",
+        "cyberpunk_story_main.mp3",
+        "cyberpunk_story_sakaba.mp3",
+        "cyberpunk_story_touyakiren_ceo.mp3"
+      ],
+      "system": [
+        "cyberpunk_story_gacha.mp3",
+        "cyberpunk_story_stage_node.mp3"
+      ]
+    }
+  },
+  {
+    "name": "cyberpunk02_hero",
+    "id": "cyberpunk02_hero",
+    "songs": {
+      "battle": [
+        "cyberpunk_02_lastboss_battle.mp3",
+        "cyberpunk_02_midboss_battle.mp3",
+        "cyberpunk_02_normal_battle_boss.mp3",
+        "cyberpunk_02_normal_battle_normal.mp3",
+        "cyberpunk_02_normal_battle_tsunagi.mp3"
+      ],
+      "story": [
+        "cyberpunk_02_justy_theme.mp3",
+        "cyberpunk_02_king_johnson_theme.mp3",
+        "cyberpunk_02_nate.mp3",
+        "cyberpunk_02_story_comical_battle.mp3",
+        "cyberpunk_02_story_lastboss_before.mp3",
+        "cyberpunk_02_story_normal.mp3",
+        "cyberpunk_02_story_sirius_01.mp3",
+        "cyberpunk_02_story_sirius_02.mp3",
+        "cyberpunk_02_story_sirius_battle.mp3",
+        "cyberpunk_02_theme.mp3",
+        "cyberpunk_02_theme_ed.mp3",
+        "cyberpunk_02_theme_op.mp3"
+      ],
+      "system": [
+        "cyberpunk_02_questlist.mp3",
+        "cyberpunk_02_tokengacha.mp3"
+      ]
+    }
+  },
+  {
+    "name": "desert_bonds_01",
+    "id": "desert_bonds_01",
+    "songs": {
+      "battle": [
+        "desert_bonds_01_battle_middle_boss.mp3",
+        "desert_bonds_01_battle_normal_boss.mp3",
+        "desert_bonds_01_battle_normal_normal.mp3",
+        "desert_bonds_01_battle_normal_tsunagi.mp3",
+        "desert_bonds_01_boss_big_boss.mp3"
+      ],
+      "story": [
+        "desert_bonds_01_boss_intro.mp3",
+        "desert_bonds_01_cave.mp3",
+        "desert_bonds_01_comical_battle.mp3",
+        "desert_bonds_01_ending.mp3",
+        "desert_bonds_01_serious_arrange.mp3",
+        "desert_bonds_01_serious_battle.mp3",
+        "desert_bonds_01_theme.mp3",
+        "desert_bonds_01_theme_intro.mp3"
+      ],
+      "system": [
+        "desert_bonds_01_box_gacha.mp3",
+        "desert_bonds_01_event_top.mp3"
+      ]
+    }
+  },
+  {
+    "name": "expert_single_event_01",
+    "id": "expert_single_event_01",
+    "songs": {}
+  },
+  {
+    "name": "expert_single_side_story_01",
+    "id": "expert_single_side_story_01",
+    "songs": {}
+  },
+  {
+    "name": "fakeprincess01",
+    "id": "fakeprincess01",
+    "songs": {
+      "battle": [
+        "fakeprincess_battle_boss.mp3",
+        "fakeprincess_battle_middle_boss.mp3",
+        "fakeprincess_battle_normal_1_boss.mp3",
+        "fakeprincess_battle_normal_1_normal.mp3",
+        "fakeprincess_battle_normal_1_tsunagi.mp3",
+        "fakeprincess_battle_normal_2_boss.mp3",
+        "fakeprincess_battle_normal_2_normal.mp3",
+        "fakeprincess_battle_normal_2_tsunagi.mp3"
+      ],
+      "story": [
+        "fakeprincess_story_before_boss.mp3",
+        "fakeprincess_story_comical.mp3",
+        "fakeprincess_story_ending.mp3",
+        "fakeprincess_story_main_1.mp3",
+        "fakeprincess_story_main_2.mp3",
+        "fakeprincess_story_opening.mp3",
+        "fakeprincess_story_serious.mp3"
+      ]
+    }
+  },
+  {
+    "name": "haniwa_carnival",
+    "id": "haniwa_carnival",
+    "songs": {}
+  },
+  {
+    "name": "labyrinth_of_fluctuation",
+    "id": "labyrinth_of_fluctuation",
+    "songs": {}
+  },
+  {
+    "name": "new_year_event_01",
+    "id": "new_year_event_01",
+    "songs": {}
+  },
+  {
+    "name": "raid_event",
+    "id": "raid_event",
+    "songs": {}
+  },
+  {
+    "name": "ranking_event",
+    "id": "ranking_event",
+    "songs": {}
+  },
+  {
+    "name": "rush_battle_event",
+    "id": "rush_battle_event",
+    "songs": {}
+  },
+  {
+    "name": "score_attack_event",
+    "id": "score_attack_event",
+    "songs": {}
+  },
+  {
+    "name": "solo_timeattack",
+    "id": "solo_timeattack",
+    "songs": {}
+  },
+  {
+    "name": "summer_2020",
+    "id": "summer_2020",
+    "songs": {
+      "battle": [
+        "summer_battle_boss.mp3",
+        "summer_battle_middle_boss.mp3",
+        "summer_battle_normal_1_boss.mp3",
+        "summer_battle_normal_1_normal.mp3",
+        "summer_battle_normal_1_tsunagi.mp3",
+        "summer_battle_normal_2_boss.mp3",
+        "summer_battle_normal_2_normal.mp3",
+        "summer_battle_normal_2_tsunagi.mp3",
+        "summer_battle_normal_3_boss.mp3",
+        "summer_battle_normal_3_normal.mp3",
+        "summer_battle_normal_3_tsunagi.mp3",
+        "summer_battle_normal_4_boss.mp3",
+        "summer_battle_normal_4_normal.mp3",
+        "summer_battle_normal_4_tsunagi.mp3"
+      ],
+      "story": [
+        "summer_story_calm_1.mp3",
+        "summer_story_calm_2.mp3",
+        "summer_story_casino.mp3",
+        "summer_story_climax.mp3",
+        "summer_story_crisis.mp3",
+        "summer_story_ending.mp3",
+        "summer_story_fight_sea_1.mp3",
+        "summer_story_fight_sea_2.mp3",
+        "summer_story_main_1.mp3",
+        "summer_story_main_2.mp3",
+        "summer_story_main_rhythm.mp3",
+        "summer_story_serious.mp3",
+        "summer_story_submarine.mp3"
+      ],
+      "system": [
+        "summer_event_box_gacha.mp3",
+        "summer_story_quest_select.mp3",
+        "summer_story_quest_select_rhythm.mp3"
+      ]
+    }
+  },
+  {
+    "name": "summer_2021",
+    "id": "summer_2021",
+    "songs": {
+      "battle": [
+        "summer2021_battle_big_boss.mp3",
+        "summer2021_battle_boss.mp3",
+        "summer2021_battle_middle_boss.mp3"
+      ],
+      "story": [
+        "summer2021_story_awakening.mp3",
+        "summer2021_story_before_boss.mp3",
+        "summer2021_story_comical.mp3",
+        "summer2021_story_descent.mp3",
+        "summer2021_story_ending.mp3",
+        "summer2021_story_frightening.mp3",
+        "summer2021_story_island_exploration.mp3",
+        "summer2021_story_main.mp3",
+        "summer2021_story_main_2.mp3",
+        "summer2021_story_opening.mp3",
+        "summer2021_story_sad.mp3",
+        "summer2021_story_serious.mp3",
+        "summer2021_story_serious_2.mp3",
+        "summer2021_story_talk_on_beach.mp3"
+      ],
+      "system": [
+        "summer2021_gacha.mp3",
+        "summer2021_stage_node.mp3"
+      ]
+    }
+  },
+  {
+    "name": "summer_2022",
+    "id": "summer_2022",
+    "songs": {
+      "battle": [
+        "summer2022_battle_boss.mp3"
+      ],
+      "story": [
+        "summer2022_story_anxiety.mp3",
+        "summer2022_story_battleintro.mp3",
+        "summer2022_story_discontent.mp3",
+        "summer2022_story_end.mp3",
+        "summer2022_story_joy.mp3",
+        "summer2022_story_main.mp3",
+        "summer2022_story_makepeace.mp3",
+        "summer2022_story_refuse.mp3",
+        "summer2022_story_sadrecollect.mp3"
+      ],
+      "system": [
+        "summer2022_questlist.mp3",
+        "summer2022_tokengacha.mp3"
+      ]
+    }
+  },
+  {
+    "name": "tower_dungeon",
+    "id": "tower_dungeon",
+    "songs": {}
+  },
+  {
+    "name": "valentine2022",
+    "id": "valentine2022",
+    "songs": {
+      "battle": [
+        "valentine2022_battle_boss.mp3"
+      ],
+      "story": [
+        "valentine2022_story_battleintro.mp3",
+        "valentine2022_story_conflict.mp3",
+        "valentine2022_story_depressed.mp3",
+        "valentine2022_story_discuss.mp3",
+        "valentine2022_story_end.mp3",
+        "valentine2022_story_excited.mp3",
+        "valentine2022_story_happy.mp3",
+        "valentine2022_story_main.mp3",
+        "valentine2022_story_serious.mp3"
+      ],
+      "system": [
+        "valentine2022_questlist.mp3",
+        "valentine2022_tokengacha.mp3"
+      ]
+    }
+  },
+  {
+    "name": "valen_2020",
+    "id": "valen_2020",
+    "songs": {
+      "battle": [
+        "event_valentine_battle_boss.mp3"
+      ],
+      "story": [
+        "event_valentine_story.mp3",
+        "event_valentine_story2.mp3"
+      ]
+    }
+  },
+  {
+    "name": "vcollabo_towa",
+    "id": "vcollabo_towa",
+    "songs": {}
+  },
+  {
+    "name": "xm19-event",
+    "id": "xm19-event",
+    "songs": {}
+  },
+  {
+    "name": "yokai_emaki_01",
+    "id": "yokai_emaki_01",
+    "songs": {
+      "battle": [
+        "yokai_emaki_battle_boss.mp3",
+        "yokai_emaki_battle_middle_boss.mp3",
+        "yokai_emaki_battle_normal_boss.mp3",
+        "yokai_emaki_battle_normal_normal.mp3",
+        "yokai_emaki_battle_normal_tsunagi.mp3"
+      ],
+      "story": [
+        "yokai_emaki_crisis.mp3",
+        "yokai_emaki_ending.mp3",
+        "yokai_emaki_fun.mp3",
+        "yokai_emaki_kaiso.mp3",
+        "yokai_emaki_nichijyo_1.mp3",
+        "yokai_emaki_nichijyo_2.mp3",
+        "yokai_emaki_serious_1.mp3",
+        "yokai_emaki_serious_2.mp3"
+      ],
+      "system": [
+        "yokai_emaki_box_gacha.mp3",
+        "yokai_emaki_event_top.mp3"
+      ]
+    }
+  }
+]
