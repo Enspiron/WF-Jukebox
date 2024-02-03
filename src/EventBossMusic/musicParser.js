@@ -1,4 +1,34 @@
 
+function searchInJSON(jsonData, searchString) {
+    const results = [];
+  
+    function searchObject(obj) {
+      for (const key in obj) {
+        if (typeof obj[key] === 'object') {
+          searchObject(obj[key]);
+        } else if (typeof obj[key] === 'string' && obj[key].includes(searchString)) {
+          results.push(obj);
+          break; // Assuming you want to stop searching within the same object after finding a match
+        }
+      }
+    }
+  
+    if (typeof jsonData === 'object') {
+      searchObject(jsonData);
+    }
+  
+    return results;
+  }
+  
+
+// Example usage
+
+const music = require('./music.json');
+
+const resultPath = searchInJSON(music, 'raid');
+console.log("this is what i found: ", resultPath);
+
+
 function musicParser(props, type, event = "Event Music") {
     const source = "https://wfjukebox.b-cdn.net/music/event/";
     const bosses = ["D-Dragon", "Spirit Beast", "Steam Bot", "Empress", "Raid Event", "Other"]

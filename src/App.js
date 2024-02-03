@@ -5,8 +5,9 @@ import ComicViewer from './ComicViewer/ComicViewer.js';
 import Header from './Home/Header/Header.js';
 import EventBossMusic from './EventBossMusic/EventBossMusic.js';
 import Testing from './Testing/Testing.js';
-
-
+import StoryDisplay from './StoryDisplay/StoryDisplay.js';
+import FaceCustomizer from './FaceCustomizer/FaceCustomizer.js';
+import Animate from './AnimateCommandMaker/Animate.js';
 import './App.css';
 
 function App() {
@@ -32,6 +33,9 @@ function App() {
             <Route path="/comics" element={<ComicViewer />} />
             <Route path="/event-ost" element={<EventBossMusic />} />
             <Route path="/test" element={<Testing />} />
+            <Route path="/story" element={<StoryDisplay />} />
+            <Route path="/face" element={<FaceCustomizer />} />
+            <Route path="/animate" element={<Animate />} />
             <Route path="/centerqoob" element={
             <div class="container">
               <div style={centerStyle}>
