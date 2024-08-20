@@ -74,12 +74,18 @@ const units = require('./characters.json');
 const root = ReactDOM.createRoot(document.getElementById('root'));
 localStorage.setItem('clickedUnit', JSON.stringify(init_unit));
 
+const src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9891270784697044';
+
+const ad = document.createElement('script');
+ad.src = src;
+ad.async = true; // Ensure asynchronous loading
+ad.crossOrigin = 'anonymous'; // Set crossorigin attribute if needed
+document.head.appendChild(ad);
 
 root.render(
   
   <React.StrictMode>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9891270784697044"
-     crossorigin="anonymous"></script>
+
     <StyledEngineProvider injectFirst >
       <div >
         <App />
