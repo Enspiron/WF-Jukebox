@@ -2,6 +2,11 @@ import React from 'react';
 import {useState, useEffect, useRef} from 'react';
 import base from './ruin_girl_3halfanv/ui/story/base_0.png'
 import angry from './ruin_girl_3halfanv/ui/story/menacing.png'
+import { toPng } from 'html-to-image';
+
+import {Button} from '@mui/joy';
+
+import Draggable, {DraggableCore} from 'react-draggable'; // Both at the same time
 
 import Checkbox from '@mui/material/Checkbox';
 
@@ -15,6 +20,8 @@ const devnames = require('./faces.json')
 // console.info(faces.map((face) => face))
 
 function ImagesFromFace(props) {
+
+    
 
     
     function settingImage(id) {
@@ -116,6 +123,7 @@ function ListOfFaces(props) {
     }
 }
 
+
 function Expression(props) {
 
 
@@ -133,7 +141,8 @@ function FaceCustomizer() {
 
     const [savedAssets, setSavedAssets] = useState([])
 
-    
+    const elementRef = useRef(null);
+
 
     function buildUrl(face = selectedFace, img = selectedImage) {
         //https://wfjukebox.b-cdn.net/wfjukebox/character/character_art/dark_psygirl/ui/story/base_0.png
@@ -157,6 +166,7 @@ function FaceCustomizer() {
         return saved
     }
     
+    const imgRef = useRef(null)
 
     const leftO = '15.58%'
     const topO = '26.4%'
@@ -197,6 +207,33 @@ function FaceCustomizer() {
 
     console.log(savedToUrl())
 
+    useEffect(() => {
+        //face changed
+        //reset selected image
+        setSelectedImage(null)
+
+    }, [selectedFace])
+
+    const handleBringToFront = (index) => {
+        // Assuming your Draggable component provides a method to reorder elements
+        // Adjust the syntax based on your Draggable library's API
+        console.log("double clicked", index)
+        console.log(imgRef.current)
+        imgRef.current.style.zIndex = index + 1;
+      };
+
+      const htmlToImageConvert = () => {
+        toPng(elementRef.current, { cacheBust: false })
+          .then((dataUrl) => {
+            const link = document.createElement("a");
+            link.download = "my-image-name.png";
+            link.href = dataUrl;
+            link.click();
+          })
+          .catch((err) => {
+            console.log(err);
+          });
+      };
 
     return (
         
@@ -212,14 +249,22 @@ function FaceCustomizer() {
 
 
 
-            <div id="canvas">
+            <div id="canvas" ref={elementRef}>
             {/* {savedToUrl().map((url) => <img src={url} />)} */}
-            {savedToUrl().map((url) => <img src={url} />)}
+            {savedToUrl().map((url, index) =>
+             <Draggable>
+             <img draggable="false" id={("displayed_", index)} src={url} ref={imgRef} onDoubleClick={()=>{handleBringToFront(index)}}/>
+             </Draggable>
+             
+             )}
                 <div id="face"></div>
+                
             </div>
             </div>
             {savedAssets.map((asset) => <div>{asset}</div>)}
-            
+
+            <input type="text" />
+            <Button onClick={()=>{htmlToImageConvert()}}>Download</Button>
         </div>
     );
 }

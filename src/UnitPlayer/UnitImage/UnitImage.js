@@ -87,6 +87,12 @@ class UnitImage extends Component {
           </ToggleButtonGroup>
           </Sheet>
         </div>
+        <Button
+        onClick={()=>{
+          navigator.clipboard.writeText(gifSource + this.state.clickedUnit + this.state.imgType)
+        }}
+        >Copy GIF Url</Button>
+
         <div className="UnitImage">
             {
                 this.containsGif(this.state.imgType) ? (

@@ -78,7 +78,8 @@ localStorage.setItem('clickedUnit', JSON.stringify(init_unit));
 root.render(
   
   <React.StrictMode>
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9891270784697044"
+     crossorigin="anonymous"></script>
     <StyledEngineProvider injectFirst >
       <div >
         <App />

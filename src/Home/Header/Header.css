@@ -3,13 +3,15 @@
         justify-content: center;
         padding: 10px;
         white-space: nowrap;
-        right: 0;
+        /* right: 0; */
         margin-left: 40%;
         width: fit-content;
         top: 0;
-        right: 0;
+        /* right: 0; */
+        left: 0;
         position: fixed;
         background-color: black;
+        visible: hidden;
 
     }
 

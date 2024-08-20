@@ -1,10 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import Unit from '../../Unit/Unit';
 import FavoriteSongs from '../FavoriteSongs/FavoriteSongs';
 import html2canvas from 'html2canvas';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
+
+import './MP3Player.css';
 
 
 class MP3Player extends React.Component {
@@ -19,6 +21,7 @@ class MP3Player extends React.Component {
             songList: []
         };
     }
+
 
 
     // Add methods here
@@ -59,8 +62,8 @@ class MP3Player extends React.Component {
         try {
             return (
                 <div className="mp3-player">
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', padding: '10px' }}>
-                        <div style={{ backgroundColor: '#f2f2f2', borderRadius: '5px', border: '2px solid #ccc', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                    <div class="song-container" >
+                        <div class="songList" >
                             <h3>Character Songs:</h3>
                             {this.state.songList.map((song) => (
                                 <div key={song} >
@@ -90,7 +93,7 @@ class MP3Player extends React.Component {
             return (
                 <div className="mp3-player">
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', padding: '10px' }}>
-                        <div style={{ backgroundColor: '#f2f2f2', borderRadius: '5px', border: '2px solid #ccc', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                        <div class="songList" >
                             <h3>Character Songs:</h3>
                             No songs supported!
                         </div>

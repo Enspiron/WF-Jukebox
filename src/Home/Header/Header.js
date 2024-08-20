@@ -9,17 +9,26 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar'
 import Menu from '@mui/material/Menu';
-import MenuIcon from '@mui/joy/Menu';
+// import MenuIcon from '@mui/joy/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Container from '@mui/material/Container';
 import ToolTip from '@mui/material/Tooltip';
 import  Typography from "@mui/material/Typography";
 import Button from '@mui/material/Button';
+import Drawer from '@mui/joy/Drawer';
+import Input from '@mui/joy/Input';
+
+import ModalClose from '@mui/joy/ModalClose';
+import IconButton from '@mui/joy/IconButton';
 
 import Clock from '../Clock';
 import Tooltip from '@mui/material/Tooltip';
 import logo from './logo.png';
 import './Header.css';
+
+//import MenuIcon from "@material-ui/icons/Menu";
+
+import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 
 import Eos from './eos.js';
 
@@ -31,6 +40,9 @@ export const Header = () => {
     };
 
     const [type, setType] = React.useState('disc');
+
+    const [open, setOpen] = React.useState(false);
+
 
     const pages = [{name: 'Home', link: '#home'}, 
                   {name: 'Comics', link: '#comics'}, 
@@ -60,6 +72,11 @@ export const Header = () => {
       setAnchorElUser(null);
     };
 
+    const clicked = (page) => {
+      setOpen(false);
+      window.location.href = page;
+    }
+
 
 
     return(
@@ -88,7 +105,7 @@ export const Header = () => {
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
  
-              <MenuIcon />
+              
             <Menu
               id="menu-appbar"
               anchorEl={anchorElNav}
@@ -132,8 +149,61 @@ export const Header = () => {
 
           </Box>
         </Toolbar>
+        
 
       <Eos />
+      {/* check if on mobile by screen with */}
+      {
+        window.innerWidth < 600 ? (
+          <IconButton variant="outlined" color="neutral" onClick={() => setOpen(true)}>
+          <Menu /> <MenuRoundedIcon />
+        </IconButton>
+
+        ) : ( 
+          <div></div>
+
+        )
+      }
+
+      <Drawer open={open} onClose={() => setOpen(false)}>
+        <Box
+          sx={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 0.5,
+            ml: 'auto',
+            mt: 1,
+            mr: 2,
+          }}
+        >
+          <Typography
+            component="label"
+            htmlFor="close-icon"
+            fontSize="sm"
+            fontWeight="lg"
+            sx={{ cursor: 'pointer' }}
+          >
+            Close
+          </Typography>
+          <ModalClose id="close-icon" sx={{ position: 'initial' }} />
+        </Box>
+        <List
+          size="lg"
+          component="nav"
+          sx={{
+            flex: 'none',
+            fontSize: 'xl',
+            '& > div': { justifyContent: 'center' },
+          }}
+        >
+          <ListItemButton sx={{ fontWeight: 'lg' }}
+          onClick={()=>{clicked("#home")}}>Home</ListItemButton>
+          <ListItemButton
+            onClick={()=>{clicked("#comics");}}>Comics</ListItemButton>
+          <ListItemButton
+           onClick={()=>{clicked("#event-ost")}}>Event OST</ListItemButton>
+        </List>
+      </Drawer>
       </Container>
     </AppBar>
         <div style={{ display: 'flex' }}>
